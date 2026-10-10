@@ -1,0 +1,10 @@
+{
+ "idx": 150,
+ "dom": "人体姿态、动作与交互\n文本到动作生成（重建锚定扩散模型）",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 9,
+ "proj": "https://feifeifeiliu.github.io/RAM",
+ "note_code": "文中称代码将发布于项目页（将来时）；Stability、MotionLCM链接为引用",
+ "metrics": "HumanML3D：FID↓ 0.032，R-Precision Top-1/2/3↑ 0.561 / 0.751 / 0.839，MM Dist↓ 2.716，Diversity 9.487，MModality 1.142（表1，p.9）\nKIT-ML：FID↓ 0.172，R-Precision Top-1/2/3↑ 0.464 / 0.684 / 0.803，MM Dist↓ 2.653，Diversity 11.15（表2，p.10）"
+}

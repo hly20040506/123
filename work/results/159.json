@@ -1,0 +1,11 @@
+{
+ "idx": 159,
+ "dom": "人体姿态、动作与交互\n说话人无关的文化感知伴语手势生成（TED4C-L数据集）",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "未说明",
+ "mp": 12,
+ "proj": "https://arielgjaci.com/sicage",
+ "note_code": "文中称项目页提供数据集与源代码",
+ "metrics": "TED4C-L（10次测试均值±标准差，ALaDiT/FI完整方法）：FGD↓ 1.03±0.15，文化一致性 CE F1↑ 44.61%，BAS↑ 22.63%，SRGR↑ 68.09%，Diversity↑ 110.27（表3，p.12）\n注：CE F1不及MDM/FI（47.09%），Diversity不及ALaDiT/ADV（111.75），SRGR不及DSG+/FI（68.46%）\n数据处理：按条件筛选TED视频片段，切分为5秒重叠样本（0.5秒步长）；音频降采样至16kHz；MMPose提取9个上半身3D关键点（15FPS）（p.6）"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 144,
+ "dom": "人体姿态、动作与交互\n骨架动作识别自监督预训练（路径签名JEPA）",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 11,
+ "note_code": "未给出代码链接",
+ "metrics": "线性评估（准确率%）：NTU60 X-Sub↑ 87.6，X-View↑ 92.9；NTU120 X-Sub↑ 81.5，X-Set↑ 81.8；PKU-MMD Phase I↑ 93.4，Phase II↑ 56.7（表1，p.11）\n微调：NTU60 X-Sub↑ 94.4，X-View↑ 98.2；NTU120 X-Sub↑ 90.8，X-Set↑ 91.9（表2，p.12）\n半监督 NTU60 1%标签：X-Sub 72.2，X-View 71.8；迁移到PKU-II（NTU60预训练）72.6（表3，p.13）"
+}

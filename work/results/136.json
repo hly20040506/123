@@ -1,0 +1,9 @@
+{
+ "idx": 136,
+ "dom": "人体姿态、动作与交互\n文本驱动人体动作生成与编辑（多尺度自回归预测）",
+ "proc": "未说明",
+ "gpu": "RTX 4090（推理耗时测试）",
+ "mp": 12,
+ "proj": "https://inwoohwang.me/ScaleMoGen",
+ "metrics": "注：PDF正文方法名为ScaleMoGen（官网题目为MoScale），表中另列引用文献“MoScale [45]”\nHumanML3D：R-Precision Top-1/2/3↑ 0.577 / 0.769 / 0.856，FID↓ 0.030，MM Dist↓ 2.626，MModality↑ 1.105（表1，p.12）\nSnapMoGen：R-Precision Top-1/2/3↑ 0.807 / 0.908 / 0.941，FID↓ 16.35，CLIP Score↑ 0.693，MModality↑ 9.399（表2，p.12）"
+}

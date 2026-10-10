@@ -1,0 +1,9 @@
+{
+ "idx": 153,
+ "dom": "人体姿态、动作与交互\n检索增强掩码文本到动作生成",
+ "proc": "未说明",
+ "gpu": "A800",
+ "mp": 11,
+ "proj": "https://aigeeksgroup.github.io/ReMoMask/",
+ "metrics": "文本到动作生成：HumanML3D R-Precision Top-1/2/3↑ 0.566 / 0.763 / 0.850，FID↓ 0.026，MMDist↓ 2.867，MModality↑ 2.835；KIT-ML Top-1/2/3↑ 0.483 / 0.698 / 0.835，FID↓ 0.131，MMDist↓ 2.882；SnapMoGen Top-1/2/3↑ 0.811 / 0.917 / 0.949，FID↓ 13.509，MMDist↓ 3.459（表4，p.11）\n文本-动作检索（HBM，文本→动作）：HumanML3D R@1↑ 18.49，R@10↑ 46.27，MedR↓ 12.00；KIT-ML R@1↑ 16.75，R@10↑ 52.20，MedR↓ 8.50；SnapMoGen R@1↑ 12.43，MedR↓ 16.50（表3，p.9）\n注：消融表中完整设置数值与主表略有出入（检索R@1 18.34 vs 18.49，表6；拓扑掩码FID 0.025/Top-1 0.567 vs 0.026/0.566，表8）"
+}

@@ -1,0 +1,10 @@
+{
+ "idx": 141,
+ "dom": "人体姿态、动作与交互\n多传感器配置下野外人体动作恢复（掩码流匹配）",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "A40",
+ "mp": 11,
+ "note_code": "文中称代码将开源（将来时），未给出链接",
+ "metrics": "设定1 稀疏观测-上半身关节（Ours-S，单位mm）：AMASS JPE↓ 32.1，Acc↓ 2.7，Con↑ 0.94，Ska↓ 0.031；Nymeria JPE↓ 21.1，Acc↓ 1.39，Con↑ 0.95（表1，p.11）\n设定2 仅头部6D位姿（Ours-S）：AMASS JPE↓ 83.2，PA↓ 73.5；RICH JPE↓ 131.6，PA↓ 111.5；Nymeria JPE↓ 40.7，PA↓ 36.2（表3，p.12；注：头部误差17.1mm劣于EgoAllo 6.2mm）\n设定3 6个IMU+关键点（Ours-S）：AIST++ PA↓ 19.4，JPE↓ 26.0，PVE↓ 32.9；TotalCapture PA↓ 26.5，JPE↓ 36.2；Nymeria PA↓ 14.5，JPE↓ 16.6（表4，p.13）\n数据处理：依据Ego-Exo4D统计的关节可见性概率合成遮挡掩码；片段按30fps采样（p.6，p.9）"
+}

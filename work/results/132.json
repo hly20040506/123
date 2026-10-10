@@ -1,0 +1,10 @@
+{
+ "idx": 132,
+ "dom": "人体姿态、动作与交互\n场景感知文本驱动人体动作生成（可生成互距离表示）",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "A100",
+ "mp": 11,
+ "note_code": "未给出代码链接",
+ "metrics": "HUMANISE（VLM预测锚点裁剪场景）：goal dist.↓ 0.057，contact↑ 95.05%，non-collision↑ 99.81%，pene_mean↓ 0.635，pene_max↓ 1.849，APD↑ 2.235，TMV→ 0.1870（GT 0.1875）（表1，p.11）\nHUMANISE（GT锚点裁剪）：goal dist.↓ 0.055，pene_max↓ 1.872（表2，p.12）\nPROX（未见场景泛化）：goal dist.↓ 0.054，non-collision↑ 99.87%，contact↑ 95.93%，pene_mean↓ 0.270，pene_max↓ 0.654（表5，p.14）\n数据处理：按[40]剔除含空间指代描述的样本（p.10）"
+}

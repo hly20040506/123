@@ -1,0 +1,10 @@
+{
+ "idx": 160,
+ "dom": "人体姿态、动作与交互\n时间对齐的手语生成（时间分辨条件扩散）",
+ "proc": "未说明",
+ "gpu": "RTX 4090",
+ "mp": 11,
+ "proj": "https://taeryunglee.github.io/projects/signer/",
+ "note_code": "项目页链接为PDF超链接（正文仅写“here”）",
+ "metrics": "CSL-Daily（统一评测）：DTW-JPE↓ 身体 0.242 / 手 1.189 / 全部 0.788；回译 WER↓ 55.05，BLEU-4↑ 15.60，ROUGE↑ 39.52（表4，p.11）\nPhoenix-2014T：DTW-JPE↓ 身体 0.229 / 手 1.096 / 全部 0.729；WER↓ 67.16，BLEU-4↑ 11.46，ROUGE↑ 29.39（表4，p.11）"
+}

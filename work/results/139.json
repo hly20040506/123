@@ -1,0 +1,10 @@
+{
+ "idx": 139,
+ "dom": "人体姿态、动作与交互\n音乐驱动舞蹈生成（原子动作规划与补全）",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "未说明",
+ "mp": 12,
+ "url": "https://github.com/oceanflowlab/AtomicDance",
+ "metrics": "AIST++（默认无后处理）：FIDk↓ 25.26，FIDg↓ 9.03，Divk→ 8.01（GT 8.19），Divg→ 6.69（GT 7.45），BAS↑ 0.2470，检索R↑ 26.6（表1，p.12）\n加后处理：FIDk↓ 24.02，FIDg↓ 8.78，BAS↑ 0.2472，R↑ 27.5（表3，p.13）\n数据处理：对AIST++做聚类分段并用LLM语义重标注、再聚类，构建原子动作标注（p.6–7）"
+}

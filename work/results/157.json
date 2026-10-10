@@ -1,0 +1,11 @@
+{
+ "idx": 157,
+ "dom": "人体姿态、动作与交互\n跌倒检测与日常活动识别数据集（含轮椅场景）",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "未说明",
+ "mp": 10,
+ "proj": "https://safer-activities.github.io/",
+ "note_code": "文中称数据与代码发布于项目页；coco-annotator等为引用工具",
+ "metrics": "数据集/基准论文（作者未提出新模型，以下为基准方法宏平均F1%）\n实验室内测试集：最佳 2D MS-G3D 87.2，2D ST-GCN++ 86.9，融合 VideoMAE 85.8（表2，p.10）\n非实验室测试集（分布外）：最佳 2D PoseC3D 79.3，2D MS-G3D 77.7（表2，p.10）\n轮椅测试集：融合 DINOv3 / VideoMAE 78.6，2D MS-G3D 77.5（表3，p.11）\n跨数据集 ImViA 跌倒检测（无微调）：2D PoseC3D Precision 98.9，Recall 94.8，F1 96.8（表6，p.12）\n数据处理：跟踪人体框裁剪并缩放至640×480提取RGB特征（p.7）"
+}

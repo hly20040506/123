@@ -1,0 +1,10 @@
+{
+ "idx": 143,
+ "dom": "人体姿态、动作与交互\n受限视野下部分可见骨架的动作识别（超图）",
+ "proc": "有",
+ "proc_p": 11,
+ "gpu": "未说明",
+ "mp": 12,
+ "url": "https://github.com/yaa1haa1/PartialVisGraph",
+ "metrics": "NTU RGB+D 受限视野（准确率%，头部中心）：Easy X-Sub↑ 90.9 / X-View↑ 95.8，Medium 88.5 / 93.2，Hard 79.2 / 84.5；脊柱基部中心 Hard 71.4 / 76.5（表1，p.12）\nNTU RGB+D 120 受限视野（头部中心）：Easy X-Sub↑ 87.8 / X-Set↑ 89.2，Hard 72.9 / 74.4（表2，p.13）\n完整视野（4流集成）：NTU60 X-Sub↑ 93.8，X-View↑ 97.6；NTU120 X-Sub↑ 91.0，X-Set↑ 92.3（表3，p.13）\n数据处理：以指定关节为中心按窗口裁剪生成易/中/难受限视野测试集；训练用时序CutMix（p.11，p.13）"
+}
