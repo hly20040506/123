@@ -1,0 +1,10 @@
+{
+ "idx": 184,
+ "dom": "人体、头像与动物重建\n单目模型测试时自适应的多视角人体网格恢复",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "未说明",
+ "mp": 11,
+ "note_code": "未给出代码链接",
+ "metrics": "Human3.6M（单位mm，CameraHMR骨干）：免标定 MPJPE↓ 32.7，PA-MPJPE↓ 22.0；带标定 MPJPE↓ 26.9，PA-MPJPE↓ 20.6；HMR2.0骨干带标定 31.6 / 21.5；TokenHMR骨干带标定 32.6 / 23.2（表1，p.11；免标定MPJPE不及U-HMR 31.0）\nMPI-INF-3DHP（CameraHMR）：MPJPE↓ 39.0，PCK↑ 99.9，AUC↑ 83.8（表2，p.12）\n跨相机设置（3DHP相机1/4/5/6）：MPJPE↓ 43.71，PCK↑ 99.44，AUC↑ 80.62（表3，p.12）\n数据处理：测试时用预训练DensePose地标检测器生成2D关键点与解剖地标伪真值（p.8）"
+}

@@ -1,0 +1,10 @@
+{
+ "idx": 177,
+ "dom": "人体、头像与动物重建\n多视角人体网格恢复（扩散生成稠密代理+SMPL-X拟合）",
+ "proc": "有",
+ "proc_p": 2,
+ "gpu": "RTX 5090",
+ "mp": 10,
+ "proj": "https://wrk226.github.io/DiffProxy.html",
+ "metrics": "完整模型（单位mm，PA-MPJPE↓ / MPJPE↓ / PA-MPVPE↓ / MPVPE↓）：3DHP 32.8 / 41.1 / 44.7 / 50.9；RICH 24.2 / 33.7 / 28.9 / 35.1；BEHAVE 22.8 / 32.7 / 31.3 / 39.9；MoYo 28.3 / 32.4 / 35.2 / 38.8；4D-Dress 16.6 / 20.5 / 23.3 / 25.6；4D-Dress-partial 27.6 / 31.6 / 41.3 / 43.1（表1，p.10）\n注：3DHP的PA-MPJPE/PA-MPVPE不及HeatFormer（29.2/34.7，专门训练），BEHAVE的PA-MPJPE/MPJPE不及EasyMoCap（21.8/29.6）\n数据处理：仅使用带像素级标注的大规模合成数据训练（p.2）"
+}

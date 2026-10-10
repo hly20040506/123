@@ -1,0 +1,11 @@
+{
+ "idx": 166,
+ "dom": "人体姿态、动作与交互\n统一上下文学习的动作基础模型多任务生成与编辑",
+ "proc": "有",
+ "proc_p": 5,
+ "gpu": "B200（训练）；A6000（评测）",
+ "mp": 10,
+ "proj": "https://oliver-cong02.github.io/UMO.github.io",
+ "note_code": "文中称代码与模型将公开（将来时）；flux为引用仓库",
+ "metrics": "HumanML3D 文本到动作（MotionStreamer评测器，UMO-Unified）：FID↓ 9.460，R@1/2/3↑ 0.774 / 0.892 / 0.933，MM-D↓ 15.22（表4，p.10）\nHumanML3D 时间补全（MotionLab评测器，UMO-Unified）：预测 MPJPE↓ 10.2，FID↓ 0.056，R@3↑ 0.834；回溯 9.55 / 0.057 / 0.839；中间帧补全 8.55 / 0.050 / 0.827（表5，p.11）\nMotionFix 指令编辑（UMO-Unified）：批内 R@1↑ 98.08%，R@3↑ 100.0%，AvgR↓ 1.02；全集 R@1↑ 61.70%，AvgR↓ 1.75（表6，p.12）\n数据处理：动作重采样至30fps并做零均值单位方差归一化（p.5）"
+}

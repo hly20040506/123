@@ -1,0 +1,10 @@
+{
+ "idx": 163,
+ "dom": "人体姿态、动作与交互\n文本主导、音乐修饰的可编辑舞蹈生成（能量注意力）",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "未说明",
+ "mp": 11,
+ "url": "https://github.com/SeongJong-Yoo/STREAM",
+ "metrics": "AIST++（仅音乐条件）：FIDk↓ 29.58，FIDg↓ 11.54，Distk→ 8.74（GT 10.03），Distg→ 7.63（GT 7.38），BAS↑ 0.2312（表2，p.11）\nMotorica++（文本+音乐）：FIDk↓ 7.32，FIDg↓ 6.87，Distk→ 10.30（GT 10.54），Distg→ 6.55，BAS↑ 0.2528，可编辑性 EDS↑ 0.6539（S_text 1.0，S_music 0.4870）（表2，p.11）\n注：AIST++上FIDk/FIDg不及Bailando（28.16/9.62）\n数据处理：专业舞者为Motorica逐帧标注舞蹈技法与文本；用LBFGS将Motorica对齐到SMPL表示（p.10）"
+}

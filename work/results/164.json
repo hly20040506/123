@@ -1,0 +1,10 @@
+{
+ "idx": 164,
+ "dom": "人体、头像与动物重建\n多人对话式说话人脸生成（交互、实时）",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "RTX 4090",
+ "mp": 10,
+ "note_code": "未给出代码链接；mseitzer（pytorch-fid）为引用工具",
+ "metrics": "HDTF：Sync-C↑ 8.30，Sync-D↓ 6.91，FID↓ 23.07，NIQE↓ 13.29，FVD↓ 178.73（表1，p.10；Sync-D略逊Sonic 6.88）\nViCo（倾听头像）：FD↓ 表情 18.33 / 姿态 0.04，RPCC↓ 0.05 / 0.01，SID↑ 4.85 / 4.07，MSE↓ 0.48 / 0.01（表2，p.12）\n自建InterTalk多人对话集：Sync-C↑ 8.30，FD↓ 22.67，RPCC↓ 0.09，SID↑ 4.28（不及MultiTalk 5.14）（表3，p.13）\n数据处理：视频转25fps、音频重采样16kHz，唇动引导音频分离，FLAME系数转换的3D人脸数据增强（p.9–10）"
+}

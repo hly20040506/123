@@ -1,0 +1,9 @@
+{
+ "idx": 174,
+ "dom": "三维形状、网格与几何处理\nB-rep边界表示理解的大语言模型（CAD描述与分类）",
+ "proc": "未说明",
+ "gpu": "A800",
+ "mp": 11,
+ "proj": "https://user-deng.github.io/BrepLLM/",
+ "metrics": "Brep2Text 三维物体描述：Qwen3-30B评审↑ 61.36，Sentence-BERT↑ 75.42，SimCSE↑ 77.23；人工评价 Correctness↑ 4.63，Hallucination↓ 0.83，Precision↑ 83.62（表1，p.11）\nBrep2Text 生成式分类：指令提示 I↑ 60.5%，补全提示 C↑ 59.5%，平均↑ 60.0%（表2，p.12）"
+}

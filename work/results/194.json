@@ -1,0 +1,10 @@
+{
+ "idx": 194,
+ "dom": "人体、头像与动物重建\n生物力学骨架（SKEL）与体表网格单图恢复（由粗到细）",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "A100（训练）；RTX 3090（数据集转换）",
+ "mp": 11,
+ "proj": "https://pokerman8.github.io/SKEL-CF/",
+ "metrics": "SKEL模型（单位mm）：3DPW MPJPE↓ 61.5，PA-MPJPE↓ 38.7；Human3.6M 39.0 / 31.2；MOYO 85.0 / 51.4；MOYO-HARD 90.0 / 61.5（表1，p.11；MOYO不及两阶段CameraHMR+SKEL拟合 75.5/49.9）\n与SMPL类方法对比：3DPW PVE↓ 73.5；EMDB MPJPE↓ 72.0，PA-MPJPE↓ 44.5，PVE↓ 84.7；SPEC-SYN 69.4 / 37.1 / 83.4（表2，p.11）\n数据处理：将CameraHMR精修的SMPL标注拟合转换为SKEL伪真值，构建HMR-SKEL数据集（p.3，p.7）"
+}

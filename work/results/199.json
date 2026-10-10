@@ -1,0 +1,9 @@
+{
+ "idx": 199,
+ "dom": "三维重建与新视角合成\n动态场景时空几何基础模型（位姿/深度/动态掩码/点图/跟踪）",
+ "proc": "未说明",
+ "gpu": "L20",
+ "mp": 8,
+ "url": "https://github.com/Haonan-Wang-aurora/4D-VGGT",
+ "metrics": "相机位姿（ATE↓ / RTE↓ / RRE↓）：Sintel 0.065 / 0.026 / 0.249；TUM 0.011 / 0.008 / 0.283；Bonn 0.017 / 0.013 / 0.774（表2，p.8）\n深度（Abs Rel↓ / δ<1.25↑）：Sintel 0.197 / 72.9；Bonn 0.038 / 98.2；KITTI 0.035 / 98.2（表3，p.9）\n点图（Acc均值↓ / Comp均值↓ / NC均值↑）：7-Scenes 0.082 / 0.073 / 0.896；NRGBD 0.050 / 0.052 / 0.925；ETH3D 0.172 / 0.187 / 0.879（表4，p.10）\n动态掩码（JM↑ / JR↑）：DAVIS-16 71.0 / 82.2；DAVIS-17 67.1 / 75.0；SegTrackv2 64.5 / 70.6（表5，p.11）\n点跟踪（L-12↑ / L-24↑）：PointOdyssey 36.12 / 34.98；ADT 35.27 / 32.11；PStudio 28.79 / 25.03（表6，p.11）\n注：文中称全面超过专用模型，但Sintel ATE不及LEAP-VO（0.037），Bonn Abs Rel不及DA-3-Giant（0.037），KITTI δ不及π3（98.5），SegTrackv2 JM不及ABR（65.1）"
+}

@@ -1,0 +1,11 @@
+{
+ "idx": 190,
+ "dom": "三维形状、网格与几何处理\n单图铰接物体生成（部件世界模型）",
+ "proc": "有",
+ "proc_p": 1,
+ "gpu": "RTX 4090",
+ "mp": 11,
+ "url": "https://github.com/Wentap123/PWM-ArtGen",
+ "note_code": "文中称将发布代码（将来时）",
+ "metrics": "ACD（无GT图）：RS-dgIoU↓ 0.6822，AS-dgIoU↓ 0.6914，RS-dcDist↓ 0.1480，AS-dCD↓ 0.1385，碰撞 AOR↓ 0.0906，图准确率↑ 39.34%；给定GT图：RS-dgIoU↓ 0.5693，AOR↓ 0.0031（表1，p.11）\nPartNet-Mobility（无GT图）：RS-dgIoU↓ 0.4623，AS-dgIoU↓ 0.4707，RS-dcDist↓ 0.0890，AOR↓ 0.0434，图准确率↑ 82.47%（表2，p.11）\n动力学分支（PM）：PSNR↑ 24.328，SSIM↑ 0.906，LPIPS↓ 0.093（表3，p.12；均不及DragAPart）\n注：文中称ACD上“所有指标明显最优”，但无GT图设定下AOR不及SINGAPO（0.0103），图准确率低于Articulate-Anything（40.00%）\n数据处理：借助基础模型构建1.97万对无运动学标注的真实感部件级图像对（PM-R）用于协同训练（p.1–2）"
+}

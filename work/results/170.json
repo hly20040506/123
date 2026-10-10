@@ -1,0 +1,11 @@
+{
+ "idx": 170,
+ "dom": "机器人操作与具身智能\n基于人类视频学习灵巧手-物体交互的世界模型",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "未说明",
+ "mp": 9,
+ "proj": "https://raktimgg.github.io/dexwm/",
+ "note_code": "文中称代码与数据见项目页",
+ "metrics": "EgoDex 开环预测（EgoDex+DROID训练）：嵌入L2误差↓ 4秒 0.66 / 平均 0.5，PCK@20↑ 4秒 60 / 平均 69（表1，p.9）\nRoboCasa 零样本开环：嵌入L2↓ 0.79 / 0.57，PCK@20↑ 7 / 17（表1，p.9）\n机器人迁移成功率：RoboCasa 仿真 Reach 72%，Place 28%，Grasp 58%；真机抓取 83%（表5，p.14）\n注：EgoDex上嵌入L2不及PEVA*（0.62/0.49，表4，p.12）\n数据处理：DROID平行夹爪以虚拟手指关键点近似为灵巧手动作（p.6）"
+}

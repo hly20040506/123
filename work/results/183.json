@@ -1,0 +1,9 @@
+{
+ "idx": 183,
+ "dom": "三维形状、网格与几何处理\nB-rep CAD自监督表征学习（掩码自编码+层次图Transformer）",
+ "proc": "未说明",
+ "gpu": "A800",
+ "mp": 11,
+ "note_code": "未给出代码链接",
+ "metrics": "加工特征识别（面级，0.1%标注 / 100%标注）：MFInstSeg Acc↑ 88.75 / 99.53%，mIoU↑ 66.38 / 98.47%；MFCAD++ Acc↑ 89.19 / 99.61%，mIoU↑ 67.29 / 99.03%；CADSynth Acc↑ 93.82 / 99.86%，mIoU↑ 79.29 / 99.43%（表1，p.11；部分全监督列不及BRepFormer，如MFInstSeg Acc 99.62）\nFusion 360 Gallery 建模分割：10-shot Acc↑ 72.33%，mIoU↑ 34.63%；全监督 Acc↑ 97.02%，mIoU↑ 86.75%（表2，p.12）\nSolidLetter 零件分类：10-shot 82.51%，20-shot 89.58%，全监督 97.91%（表3，p.13）"
+}

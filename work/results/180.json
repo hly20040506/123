@@ -1,0 +1,11 @@
+{
+ "idx": 180,
+ "dom": "三维传感与测量\n结构光相移图像的次表面散射自监督学习与重光照",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "未说明",
+ "mp": 12,
+ "url": "https://github.com/arjun-majumdar/from-phase-to-phenomenon",
+ "note_code": "正文仅写“GitHub”，链接来自PDF超链接",
+ "metrics": "自采集多视角多物体数据（未见测试物体，MSE×10⁻⁵ / PSNR(dB) / SSIM / LPIPS×10⁻²）：Apple 4.1 / 44.67 / 0.96 / 8.4；Orange 4.9 / 43.84 / 0.94 / 8.6；Crab 3.5 / 47.98 / 0.98 / 6.5；Hand 3.8 / 42.51 / 0.96 / 6.5（表1，p.12）\nkNN表征准确率（PSP专用增强）：Apple 99.6%，Pear 99.99%，Orange 99.99%，Star 99.95%，Shovel 91.43%（表2，p.12）\n数据处理：在SAM掩码内逐点裁剪90×90相移图像块，并采用面向PSP的物理感知数据增强（p.7–8）"
+}

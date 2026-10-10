@@ -1,0 +1,11 @@
+{
+ "idx": 168,
+ "dom": "人体姿态、动作与交互\n统一自回归动作生成与理解（文本/音乐/语音/多人，九类任务）",
+ "proc": "有",
+ "proc_p": 2,
+ "gpu": "未说明",
+ "mp": 11,
+ "url": "https://github.com/ZeyuLing/VersatileMotion",
+ "note_code": "正文写“ZeyuLing/VersatileMotion”，PDF超链接指向GitHub；fairmotion、AnimationGPT、mmengine为引用",
+ "metrics": "文本到动作（作者训练的TMR特征评测）：HumanML3D R-P T1↑ 0.457，T3↑ 0.692，FID↓ 0.062，MM-D↓ 1.039，Div→ 21.74（Real 21.63）；MotionHub T1↑ 0.408，T3↑ 0.612，FID↓ 0.098，MM-D↓ 1.122（表3，p.11）\n动作分词器重建（MotionHub 单人，1D RVQ）：MPJPE↓ 12.34 mm，PA-MPJPE↓ 9.49 mm，MPJRE↓ 3.43°（表2，p.10）\nMotionHub 预测/补全（1帧+文本）：预测 R-P↑ 0.423，FID↓ 0.184，ADE↓ 0.816；补全 R-P↑ 0.453，FID↓ 0.166（表6，p.13）\n注：HumanML3D R-P不及HY-Motion（T1 0.561）\n数据处理：整理约38万片段的MotionHub语料，统一为SMPL表示并补充多模态标注（p.2）"
+}

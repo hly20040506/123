@@ -1,0 +1,11 @@
+{
+ "idx": 186,
+ "dom": "人体、头像与动物重建\n相机坐标系下多人检测、网格恢复与跟踪（Multi-HMR 2）",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "未说明",
+ "mp": 11,
+ "url": "https://github.com/naver/multi-hmr2",
+ "note_code": "PDF正文方法名为Multi-HMR 2（官网题目为MuCHeR）",
+ "metrics": "3DPW（预测相机，2.a / 2.b）：PA-MPJPE↓ 40.5 / 41.8，MPJPE↓ 68.2 / 65.2，PVE↓ 80.1 / 78.1 mm；EMDB（2.a）：PA-MPJPE↓ 48.3，MPJPE↓ 68.5，PVE↓ 78.7（表1，p.11）\nHi4D（2.a预测相机）：MPJPE↓ 61.7，Pair-PA-MPJPE↓ 79.5，F1↑ 100；Harmony4D：MPJPE↓ 131.8，Pair-PA-MPJPE↓ 99.8，Recall↑ 97（表2，p.11）\nCMU-Panoptic（2.a）：平均 N-MPJPE↓ 81.5，N-MRPE↓ 26.9（表3，p.12）\nMSCOCO 重投影（2.b）：AP↑ 50.7，AR↑ 56.2；PoseTrack21 跟踪（2.b）：IDF1↑ 75.2，MOTA↑ 65.5（表5，p.13）\n数据处理：训练时随机宽高比中心裁剪（最长边768像素），并使用合成数据、带伪真值的真实图像及仅2D标注数据（p.6，p.14）"
+}

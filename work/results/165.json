@@ -1,0 +1,9 @@
+{
+ "idx": 165,
+ "dom": "人体姿态、动作与交互\n异构约束下免训练可控动作生成（基于预训练MDM）",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 13,
+ "note_code": "未给出代码链接",
+ "metrics": "开放集约束（依[41]协议）：HSI-2 Skating↓ 0.172，C.Err.↓ 0.009，Pass↑ 0.875；HSI-3 C.Err.↓ 0.004，Pass↑ 0.719；GEO-1 C.Err.↓ 0.008，Pass↑ 0.781；HOI-1 C.Err.↓ 0.004，Pass↑ 0.938（表1，p.13）\nHumanML3D真值约束 HSI-1：C.Err.↓ 0.009，Pass↑ 0.857，FID↓ 0.494，R-prec.(Top3)↑ 0.635，Diversity→ 9.656（表2，p.13）"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 173,
+ "dom": "三维形状、网格与几何处理\nB-rep CAD多任务推理多模态大模型（逆向建模/补全/纠错/问答）",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 10,
+ "note_code": "未给出代码链接",
+ "metrics": "DeepCAD 逆向工程：ACCcmd↑ 89.34%，ACCparam↑ 82.01%，Med. CD↓ 0.464（×10⁻³），无效率 IR↓ 0.86%，VLM评分↑ 4.41（表1，p.10；ACCcmd不及CADCL 90.31%）\n代码补全：ACCcmd↑ 92.69%，ACCparam↑ 87.94%，Med. CD↓ 0.441，IR↓ 0.71%，VLM↑ 4.52（表2a，p.13）\n错误纠正：ACCcmd↑ 99.08%，ACCparam↑ 93.74%，Med. CD↓ 0.335，IR↓ 0.32%，VLM↑ 4.67（表2a，p.13；IR不及ReCAD 0.00）\nCAD-QA：准确率↑ 79%（不及PointLLM 81%）（表2b，p.13）"
+}

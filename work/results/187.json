@@ -1,0 +1,10 @@
+{
+ "idx": 187,
+ "dom": "人体姿态、动作与交互\n体型感知的多模态人体动作生成与估计统一扩散框架",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "未说明",
+ "mp": 10,
+ "proj": "https://dsshim0125.github.io/odoriko.github.io/",
+ "metrics": "HumanML3D 文本到动作：R-Precision Top-1/2/3↑ 0.512 / 0.709 / 0.805，FID↓ 0.103，MMDist↓ 2.930，Diversity→ 9.672（表1，p.10；FID不及MCM 0.053）\nFineDance 音乐到舞蹈：FIDk↓ 37.73，FIDg↓ 25.36，Divk↑ 7.33，Divg↑ 6.49，BAS↑ 0.2496（表2，p.11）\n视频到动作（单位mm）：EMDB PA-MPJPE↓ 41.1，MPJPE↓ 70.2，PVE↓ 82.9，Accel↓ 7.5；3DPW 41.1 / 69.9 / 82.0 / 8.3（表3，p.12；3DPW各项不及GENMO等专用方法）\n体型属性（HumanML3D）：性别准确率↑ 92.0%，β-bin↑ 71.8%，β PVE↓ 4.42，β MAE↓ 0.279（表4，p.13）\n数据处理：音乐与视频特征重采样/插值对齐动作；改用AMASS子集保留真值体型并剔除HumanAct12（p.7，p.9）"
+}
