@@ -6,5 +6,7 @@
  "gpu": "NVIDIA A100（4块）",
  "mp": 11,
  "proj": "https://vips2026.github.io",
- "metrics": "数据集/基准论文：基于V2X-Real构建VIPS车路协同伪仿真基准，并补充地图标注（表1、图2，p.5）\nVIPS伪仿真（CoS-V2X）：S1+S2 EPDMS 50.88；Stage1 EPDMS 78.69、Stage2 EPDMS 73.21（表2，p.11）\n协同感知（CoS-V2X，启用V2I）：NDS 31.30、检测mAP 28.13、地图mAP 34.24（表3，p.12）\nEPDMS与人类标注一致性：Kendall τ-b 0.84、成对准确率0.94（表5，p.13）\n注：Stage1的DAC 90.34低于UniAD 98.60等，Stage2的DDC 85.24低于Uni-V2X 87.16，LK 25.74低于MomAD 30.68（表2，p.11）。\n数据处理：Stage2在专家终点附近采样起点，车端用3DGS+Difix3D+生成新视角、路端用掩码与修补将车辆移到目标位置合成观测（p.2、p.14）。"
+ "metrics": "数据集/基准论文：基于V2X-Real构建VIPS车路协同伪仿真基准，并补充地图标注（表1、图2，p.5）\nVIPS伪仿真（CoS-V2X）：S1+S2 EPDMS 50.88；Stage1 EPDMS 78.69、Stage2 EPDMS 73.21（表2，p.11）\n协同感知（CoS-V2X，启用V2I）：NDS 31.30、检测mAP 28.13、地图mAP 34.24（表3，p.12）\nEPDMS与人类标注一致性：Kendall τ-b 0.84、成对准确率0.94（表5，p.13）\n注：Stage1的DAC 90.34低于UniAD 98.60等，Stage2的DDC 85.24低于Uni-V2X 87.16，LK 25.74低于MomAD 30.68（表2，p.11）。\n数据处理：Stage2在专家终点附近采样起点，车端用3DGS+Difix3D+生成新视角、路端用掩码与修补将车辆移到目标位置合成观测（p.2、p.14）。",
+ "url": "https://github.com/mickeykang16/VIPS",
+ "repo_state": "code"
 }

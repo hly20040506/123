@@ -6,5 +6,7 @@
  "gpu": "未说明",
  "mp": 9,
  "proj": "https://kocasariumut.github.io/FaceAnything/",
- "metrics": "单目深度（×10，图像/视频）：NeRSemble RMSE↓ 0.077 / 0.075，AbsRel↓ 0.040 / 0.038；Ava-256 RMSE↓ 0.067 / 0.065，AbsRel↓ 0.048 / 0.048（表1，p.9）\nNeRSemble 2D对应（含头发，间隔2/8帧）：EPE↓ 1.838 / 2.470，<3px↑ 0.853 / 0.741（表2，p.11）\nVFHQ 循环一致性（间隔5/20帧）：CCE均值↓ 0.398 / 0.774，WPE-SSIM↑ 0.881 / 0.810（表3，p.11）\nNeRSemble 3D对应 EPE↓ 0.005（间隔1–10）；FLAME跟踪 CD-L1↓(×100) 0.195（表4、表6，p.12–13）\n注：效率对比表（表5）按要求未录入\n数据处理：基于NeRSemble多视角重建+FLAME参数化跟踪生成深度与规范坐标伪真值，并在DAViD合成数据上预训练（p.6–7）"
+ "metrics": "单目深度（×10，图像/视频）：NeRSemble RMSE↓ 0.077 / 0.075，AbsRel↓ 0.040 / 0.038；Ava-256 RMSE↓ 0.067 / 0.065，AbsRel↓ 0.048 / 0.048（表1，p.9）\nNeRSemble 2D对应（含头发，间隔2/8帧）：EPE↓ 1.838 / 2.470，<3px↑ 0.853 / 0.741（表2，p.11）\nVFHQ 循环一致性（间隔5/20帧）：CCE均值↓ 0.398 / 0.774，WPE-SSIM↑ 0.881 / 0.810（表3，p.11）\nNeRSemble 3D对应 EPE↓ 0.005（间隔1–10）；FLAME跟踪 CD-L1↓(×100) 0.195（表4、表6，p.12–13）\n注：效率对比表（表5）按要求未录入\n数据处理：基于NeRSemble多视角重建+FLAME参数化跟踪生成深度与规范坐标伪真值，并在DAViD合成数据上预训练（p.6–7）",
+ "url": "https://github.com/kocasariumut/FaceAnything",
+ "repo_state": "code"
 }

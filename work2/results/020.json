@@ -5,5 +5,8 @@
  "proc_p": 9,
  "gpu": "未说明",
  "mp": 10,
- "metrics": "OVOW-3D-Scene-Bench（自建静态合成基准）：Scene-IoU AABB↑ 0.130、Scene-IoU OBB↑ 0.218、Object IoU↑ 0.190、PL↓ 5.70、N-CLIP↓ 1.87（表1，p.10）\nOVOW-4D-Scene-Bench（自建4D合成基准）：Scene-IoU AABB↑ 0.180、OBB↑ 0.440、Object IoU↑ 0.210、PL↓ 2.90、N-CLIP↓ 1.43（表2，p.10）\n验证集超参鲁棒性/阶段可靠性：默认设置 IoU-B 0.78、有效场景率 86.8%、仿真稳定性 82.7%；运动类别准确率 95.4%，刚体/可变形重建成功率 93.1%/88.7%，位姿恢复 92.4%（表3及正文，p.15）\n数据处理：基于资产管线合成静态与4D基准场景，运动物体按程序化6-DoF轨迹驱动，每个场景提供真值实例网格、位姿轨迹与相机参数；输入视频均匀采样关键帧供VLM分解，面积小于200像素的掩码被丢弃（p.5–6、p.9–10）。"
+ "metrics": "OVOW-3D-Scene-Bench（自建静态合成基准）：Scene-IoU AABB↑ 0.130、Scene-IoU OBB↑ 0.218、Object IoU↑ 0.190、PL↓ 5.70、N-CLIP↓ 1.87（表1，p.10）\nOVOW-4D-Scene-Bench（自建4D合成基准）：Scene-IoU AABB↑ 0.180、OBB↑ 0.440、Object IoU↑ 0.210、PL↓ 2.90、N-CLIP↓ 1.43（表2，p.10）\n验证集超参鲁棒性/阶段可靠性：默认设置 IoU-B 0.78、有效场景率 86.8%、仿真稳定性 82.7%；运动类别准确率 95.4%，刚体/可变形重建成功率 93.1%/88.7%，位姿恢复 92.4%（表3及正文，p.15）\n数据处理：基于资产管线合成静态与4D基准场景，运动物体按程序化6-DoF轨迹驱动，每个场景提供真值实例网格、位姿轨迹与相机参数；输入视频均匀采样关键帧供VLM分解，面积小于200像素的掩码被丢弃（p.5–6、p.9–10）。",
+ "proj": "https://OneVideoOneWorld.github.io",
+ "url": "https://github.com/yisuanwang/OVOW",
+ "repo_state": "code"
 }

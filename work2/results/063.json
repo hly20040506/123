@@ -5,5 +5,8 @@
  "proc_p": 6,
  "gpu": "32× NVIDIA H20（训练）；消融实验 8× H20",
  "mp": 11,
- "metrics": "度量深度零样本（AbsRel↓/δ1↑，%）：NYUv2 10.2/93.0、KITTI 7.86/94.9、ETH3D 17.8/74.0、iBims-1 10.4/90.0、DDAD 17.6/74.7、DIODE 17.5/69.7、HAMMER 22.4/69.6，平均 14.8/80.8，平均排名 2.32（最佳）（表2，p.11）\n相对深度（FoundationGeo-Base）：平均 AbsRel 4.87、δ1 96.0，平均排名 2.56（NYUv2 2.97/98.7、KITTI 3.96/98.1、Sintel 12.7/83.3、DDAD 7.73/92.9）（表2，p.11）\n边界锐度F1↑（6000 tokens）：iBims-1 15.7、HAMMER 5.78、Sintel 36.0，平均排名 1.67（表3，p.12）\n数据处理：整理10.2M多领域训练语料并做针对性数据过滤；用Blender数据引擎按多种焦距渲染合成数据（约23K）以补足相机覆盖（p.4、p.6、p.10）。"
+ "metrics": "度量深度零样本（AbsRel↓/δ1↑，%）：NYUv2 10.2/93.0、KITTI 7.86/94.9、ETH3D 17.8/74.0、iBims-1 10.4/90.0、DDAD 17.6/74.7、DIODE 17.5/69.7、HAMMER 22.4/69.6，平均 14.8/80.8，平均排名 2.32（最佳）（表2，p.11）\n相对深度（FoundationGeo-Base）：平均 AbsRel 4.87、δ1 96.0，平均排名 2.56（NYUv2 2.97/98.7、KITTI 3.96/98.1、Sintel 12.7/83.3、DDAD 7.73/92.9）（表2，p.11）\n边界锐度F1↑（6000 tokens）：iBims-1 15.7、HAMMER 5.78、Sintel 36.0，平均排名 1.67（表3，p.12）\n数据处理：整理10.2M多领域训练语料并做针对性数据过滤；用Blender数据引擎按多种焦距渲染合成数据（约23K）以补足相机覆盖（p.4、p.6、p.10）。",
+ "proj": "https://mx-liu6.github.io/FoundationGeo-web/",
+ "url": "https://github.com/mx-liu6/FoundationGeo",
+ "repo_state": "code"
 }

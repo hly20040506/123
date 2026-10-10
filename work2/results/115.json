@@ -6,5 +6,6 @@
  "gpu": "NVIDIA H100（80GB，单卡）",
  "mp": 10,
  "url": "https://github.com/MeggieGuo/FGRA-Reg",
- "metrics": "Learn2Reg（MR→CT）：OursM DSC↑ 76.16±20.93%、HD95↓ 7.12±5.74 mm、%(|Jφ|≤0)↓ 0.03±0.02；OursP 71.26/10.47/0.01（表1，p.10）\nSR-Reg：OursM DSC 79.04±2.37%、HD95 1.97±0.30、%(|Jφ|≤0) 0.06、MSE 0.83%、SSIM 80.00%、PSNR 34.19（表2，p.11）\n跨数据集泛化：OursM DSC 64.83、HD95 3.64；OursP 68.36/3.11（表3，p.14）\n注：SR-Reg上折叠比例0.06高于VoxelMorph/ModeT（0.01），Learn2Reg上OursM折叠比例0.03亦非最低（表1–表2）。\n数据处理：预处理阶段将MR仿射对齐到CT，强度归一化到[0,1]；SR-Reg按150/10/20划分训练/验证/测试（p.10）。"
+ "metrics": "Learn2Reg（MR→CT）：OursM DSC↑ 76.16±20.93%、HD95↓ 7.12±5.74 mm、%(|Jφ|≤0)↓ 0.03±0.02；OursP 71.26/10.47/0.01（表1，p.10）\nSR-Reg：OursM DSC 79.04±2.37%、HD95 1.97±0.30、%(|Jφ|≤0) 0.06、MSE 0.83%、SSIM 80.00%、PSNR 34.19（表2，p.11）\n跨数据集泛化：OursM DSC 64.83、HD95 3.64；OursP 68.36/3.11（表3，p.14）\n注：SR-Reg上折叠比例0.06高于VoxelMorph/ModeT（0.01），Learn2Reg上OursM折叠比例0.03亦非最低（表1–表2）。\n数据处理：预处理阶段将MR仿射对齐到CT，强度归一化到[0,1]；SR-Reg按150/10/20划分训练/验证/测试（p.10）。",
+ "repo_state": "code"
 }

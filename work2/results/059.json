@@ -6,5 +6,6 @@
  "gpu": "4× NVIDIA RTX Pro 6000 Blackwell（训练）",
  "mp": 11,
  "url": "https://github.com/VISION-SJTU/Lapis",
- "metrics": "原生分辨率零样本相对深度（AbsRel↓/δ1↑，%）：NYUv2 3.8/98.2、KITTI 5.1/97.7、ETH3D 3.2/99.2、ScanNet 3.8/98.2、DIODE 4.8/97.9，平均 4.1/98.2（表1，p.11）\n高分辨率（1080P平均）：AbsRel 5.1、δ1 97.1（Middlebury 5.6/96.8、Booster 2.1/99.9、Cityscapes 8.7/92.5、DrivingStereo 5.6/97.0、ETH3D 3.3/99.3）；1440P平均 5.2/96.9（表2，p.12）\n边界锐度F1↑（平均）：480P 20.5、720P 25.4、1080P 27.2、1440P 27.0（表3，p.13）\n注：消融表5采用轻量DiT-Base配置，“Full Model”平均为4.8/97.7，与表1主结果不同（p.14）。\n数据处理：深度取对数后按2%/98%分位数归一化并缩放到单位方差；训练数据约122K，来自Hypersim（53.8K）、TartanAir（28.2K）、VKITTI2（21.3K）、UrbanSyn（7.5K）与MatrixCity五个合成数据集（p.11）。"
+ "metrics": "原生分辨率零样本相对深度（AbsRel↓/δ1↑，%）：NYUv2 3.8/98.2、KITTI 5.1/97.7、ETH3D 3.2/99.2、ScanNet 3.8/98.2、DIODE 4.8/97.9，平均 4.1/98.2（表1，p.11）\n高分辨率（1080P平均）：AbsRel 5.1、δ1 97.1（Middlebury 5.6/96.8、Booster 2.1/99.9、Cityscapes 8.7/92.5、DrivingStereo 5.6/97.0、ETH3D 3.3/99.3）；1440P平均 5.2/96.9（表2，p.12）\n边界锐度F1↑（平均）：480P 20.5、720P 25.4、1080P 27.2、1440P 27.0（表3，p.13）\n注：消融表5采用轻量DiT-Base配置，“Full Model”平均为4.8/97.7，与表1主结果不同（p.14）。\n数据处理：深度取对数后按2%/98%分位数归一化并缩放到单位方差；训练数据约122K，来自Hypersim（53.8K）、TartanAir（28.2K）、VKITTI2（21.3K）、UrbanSyn（7.5K）与MatrixCity五个合成数据集（p.11）。",
+ "repo_state": "code"
 }

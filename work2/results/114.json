@@ -6,5 +6,6 @@
  "gpu": "未说明",
  "mp": 10,
  "url": "https://github.com/OneMore1/FlexiBrain",
- "metrics": "疾病诊断（3个随机种子，ACC%/F1%）：ADHD-200 69.76/69.85；ABIDE 65.45/64.82；ADNI（MCI）79.16/78.82；ADNI（AD）82.34/79.41；PPMI 74.31/70.54（表1，p.10）\n注：ABIDE上F1（64.82）低于BrainMass（65.35）；ADNI（AD）上ACC与F1均低于NeuroSTORM（84.26/83.91）（表1，p.10）。\n消融：去掉预训练或MoE后各任务明显下降，如ABIDE ACC 52.55/59.85（表2，p.12）\n数据处理：组合ABIDE、ADHD-200、ADNI三个公开来源整理混合分辨率预训练数据集；直接使用仅经快速预处理（如层时间校正、头动校正）的原生fMRI而非模板空间标准化数据（p.2、p.10）。"
+ "metrics": "疾病诊断（3个随机种子，ACC%/F1%）：ADHD-200 69.76/69.85；ABIDE 65.45/64.82；ADNI（MCI）79.16/78.82；ADNI（AD）82.34/79.41；PPMI 74.31/70.54（表1，p.10）\n注：ABIDE上F1（64.82）低于BrainMass（65.35）；ADNI（AD）上ACC与F1均低于NeuroSTORM（84.26/83.91）（表1，p.10）。\n消融：去掉预训练或MoE后各任务明显下降，如ABIDE ACC 52.55/59.85（表2，p.12）\n数据处理：组合ABIDE、ADHD-200、ADNI三个公开来源整理混合分辨率预训练数据集；直接使用仅经快速预处理（如层时间校正、头动校正）的原生fMRI而非模板空间标准化数据（p.2、p.10）。",
+ "repo_state": "code"
 }

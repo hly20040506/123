@@ -6,5 +6,7 @@
  "gpu": "NVIDIA RTX 4090",
  "mp": 12,
  "proj": "https://www.shinjeongkim.com/pixvod/",
- "metrics": "Replica office 0–3（128×128）：位姿平移/旋转相对误差、与集中式基线的对比以及深度AbsRel均仅以箱线图/曲线（图4–图6）给出，正文与表格中未给出具体数值（p.12–14）\n数据处理：从Replica生成128×128图像序列，并用ScLERP将帧间间隔上采样10倍以模拟小基线；默认以真值表面法向作为法向先验（p.11–12）。"
+ "metrics": "Replica office 0–3（128×128）：位姿平移/旋转相对误差、与集中式基线的对比以及深度AbsRel均仅以箱线图/曲线（图4–图6）给出，正文与表格中未给出具体数值（p.12–14）\n数据处理：从Replica生成128×128图像序列，并用ScLERP将帧间间隔上采样10倍以模拟小基线；默认以真值表面法向作为法向先验（p.11–12）。",
+ "soon": true,
+ "soon_text": "项目页注明代码即将发布（Code coming soon）"
 }

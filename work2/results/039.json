@@ -5,5 +5,8 @@
  "proc_p": 8,
  "gpu": "未说明",
  "mp": 9,
- "metrics": "新视角合成（LVSM）：Objaverse PSNR↑ 25.09、SSIM↑ 0.900、LPIPS↓ 0.165；RealEstate10k 26.02/0.827/0.080（表2，p.9）\nnuScenes 3D检测与跟踪：PETR+URoPE NDS↑ 37.3、mAP↑ 32.2、AMOTA↑ 0.255；StreamPETR+URoPE 50.6/41.1/0.380（表3，p.10）\n双目深度（UniMatch+URoPE，Abs Rel↓）：RGBD 0.103、Scenes11 0.049、SUN3D 0.112（表4，p.11）\n扩大规模（50×）：PSNR 29.24、SSIM 0.897、LPIPS 0.104（表5，p.12）\n注：RealEstate10k上表2为PSNR 26.02，而表9“仅URoPE”为25.85、表10默认（4锚点head-wise uniform）为26.01，各表数值不完全一致（p.14–15）。\n数据处理：Objaverse渲染图像随机改变相机焦距以增加难度；可用深度实验中用DepthAnythingV3为RealEstate10K上下文视图标注深度（p.8、p.12）。"
+ "metrics": "新视角合成（LVSM）：Objaverse PSNR↑ 25.09、SSIM↑ 0.900、LPIPS↓ 0.165；RealEstate10k 26.02/0.827/0.080（表2，p.9）\nnuScenes 3D检测与跟踪：PETR+URoPE NDS↑ 37.3、mAP↑ 32.2、AMOTA↑ 0.255；StreamPETR+URoPE 50.6/41.1/0.380（表3，p.10）\n双目深度（UniMatch+URoPE，Abs Rel↓）：RGBD 0.103、Scenes11 0.049、SUN3D 0.112（表4，p.11）\n扩大规模（50×）：PSNR 29.24、SSIM 0.897、LPIPS 0.104（表5，p.12）\n注：RealEstate10k上表2为PSNR 26.02，而表9“仅URoPE”为25.85、表10默认（4锚点head-wise uniform）为26.01，各表数值不完全一致（p.14–15）。\n数据处理：Objaverse渲染图像随机改变相机焦距以增加难度；可用深度实验中用DepthAnythingV3为RealEstate10K上下文视图标注深度（p.8、p.12）。",
+ "proj": "https://urope-pe.github.io/",
+ "url": "https://github.com/Applied-Intuition-Open-Source/URoPE",
+ "repo_state": "code"
 }

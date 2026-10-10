@@ -6,5 +6,6 @@
  "gpu": "NVIDIA RTX 5090（推理系统；训练GPU未说明）",
  "mp": 14,
  "url": "https://github.com/WangYuLin-SEU/WAPR",
- "metrics": "BOP-Classic-Core 6D定位（AR）：快速设定WAPR+MUSE 均值80.6（LM-O 75.4、T-LESS 73.1、TUD-L 96.1、IC-BIN 70.9、ITODD 70.5、HB 90.1、YCB-V 88.3）；非受限设定WAPR+Multi-Det 均值84.5（LM-O 78.1、T-LESS 81.7、ITODD 79.8、HB 91、YCB-V 91.5）（表4，p.14）\nBOP-Classic-Core 6D检测（AP）：快速设定WAPR+MUSE 均值78.6；非受限WAPR+Multi-Det 均值85.3（表4，p.14）\nRGB-D精修对比（MUSE检测+12假设）：LM-O 75.5、YCB-V 89.3、均值82.4（表3，p.14）\n注：非受限定位中TUD-L 96.1、YCB-V 91.5低于FreeZeV2（97.5/91.8）；快速设定MUSE检测下YCB-V 88.3低于Co-op的88.6；检测任务YCB-V 89.6低于FreeZeV2的91.1（表4，p.14）。\n数据处理：构建SA6D合成数据集：用KASAL为944个GSO扫描获取旋转对称先验，并经几何与纹理增强扩展为约5万个物体实例、约200万张渲染RGB-D图像（p.3）。"
+ "metrics": "BOP-Classic-Core 6D定位（AR）：快速设定WAPR+MUSE 均值80.6（LM-O 75.4、T-LESS 73.1、TUD-L 96.1、IC-BIN 70.9、ITODD 70.5、HB 90.1、YCB-V 88.3）；非受限设定WAPR+Multi-Det 均值84.5（LM-O 78.1、T-LESS 81.7、ITODD 79.8、HB 91、YCB-V 91.5）（表4，p.14）\nBOP-Classic-Core 6D检测（AP）：快速设定WAPR+MUSE 均值78.6；非受限WAPR+Multi-Det 均值85.3（表4，p.14）\nRGB-D精修对比（MUSE检测+12假设）：LM-O 75.5、YCB-V 89.3、均值82.4（表3，p.14）\n注：非受限定位中TUD-L 96.1、YCB-V 91.5低于FreeZeV2（97.5/91.8）；快速设定MUSE检测下YCB-V 88.3低于Co-op的88.6；检测任务YCB-V 89.6低于FreeZeV2的91.1（表4，p.14）。\n数据处理：构建SA6D合成数据集：用KASAL为944个GSO扫描获取旋转对称先验，并经几何与纹理增强扩展为约5万个物体实例、约200万张渲染RGB-D图像（p.3）。",
+ "repo_state": "code"
 }

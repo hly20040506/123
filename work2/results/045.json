@@ -6,5 +6,6 @@
  "gpu": "NVIDIA A100（40GB，单卡）",
  "mp": 13,
  "url": "https://github.com/wzbos-token/Who-Does-What-and-Where-to-Go",
- "metrics": "Stepwise-ME（自建，31K片段/8M帧）：F1↑ 0.875、CLIP↑ 53.11、Coverage↑ 0.913、FID↓ 43.65、碰撞率CR↓ 7.3、分类Acc↑ 0.96（表2，p.13）\nDataDop：F1 0.416、CLIP 35.12、Coverage 0.602、FID 69.10（表2，p.13）\n消融：去除BEV先验 CR升至19.8、去除身份谱系 F1降至0.718（表3，p.14）\n数据处理：构建含逐步运动标注的多实体交互数据集Stepwise-ME；对无标定内参的数据使用基于分辨率与归一化焦距的伪相机内参，深度裁剪并归一化后反投影生成BEV先验（p.8–9）。"
+ "metrics": "Stepwise-ME（自建，31K片段/8M帧）：F1↑ 0.875、CLIP↑ 53.11、Coverage↑ 0.913、FID↓ 43.65、碰撞率CR↓ 7.3、分类Acc↑ 0.96（表2，p.13）\nDataDop：F1 0.416、CLIP 35.12、Coverage 0.602、FID 69.10（表2，p.13）\n消融：去除BEV先验 CR升至19.8、去除身份谱系 F1降至0.718（表3，p.14）\n数据处理：构建含逐步运动标注的多实体交互数据集Stepwise-ME；对无标定内参的数据使用基于分辨率与归一化焦距的伪相机内参，深度裁剪并归一化后反投影生成BEV先验（p.8–9）。",
+ "repo_state": "readme"
 }

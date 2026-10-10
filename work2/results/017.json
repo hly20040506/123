@@ -1,9 +1,12 @@
 {
-"idx": 17,
-"dom": "三维场景与物体生成\n单图交互式4D世界生成（环境动态）",
-"proc": "有",
-"proc_p": 10,
-"gpu": "RTX 5090（单卡）",
-"mp": 11,
-"metrics": "自建60场景基准（Pexels/Unsplash公开图像，云/水/烟雾/火4类各15个）：VBench Imaging↑ 0.673、Aesthetic↑ 0.639、Motion↑ 0.995、Flicker↑ 0.989；GPT-based PhysReal↑ 0.655（4D场景类方法中最佳，PhysReal全表最高）（表1，p.11）\n2AFC人类偏好胜率：对Veo 3.1 Imaging 58%、Aesthetic 66%、Motion 72%、Flicker 75%；对PerpetualWonder 82%/87%/85%/92%（表2，p.11）\n几何感知对齐模块：MCA↑ 0.0742、FMV↓ 0.29、Cosine↑ 0.91、Mag. Ratio↑ 0.84（表3，p.13）\n数据处理：从Pexels与Unsplash收集公开图像构建60场景评测基准，按4类环境动态各15个场景划分（p.10）。"
+ "idx": 17,
+ "dom": "三维场景与物体生成\n单图交互式4D世界生成（环境动态）",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "RTX 5090（单卡）",
+ "mp": 11,
+ "metrics": "自建60场景基准（Pexels/Unsplash公开图像，云/水/烟雾/火4类各15个）：VBench Imaging↑ 0.673、Aesthetic↑ 0.639、Motion↑ 0.995、Flicker↑ 0.989；GPT-based PhysReal↑ 0.655（4D场景类方法中最佳，PhysReal全表最高）（表1，p.11）\n2AFC人类偏好胜率：对Veo 3.1 Imaging 58%、Aesthetic 66%、Motion 72%、Flicker 75%；对PerpetualWonder 82%/87%/85%/92%（表2，p.11）\n几何感知对齐模块：MCA↑ 0.0742、FMV↓ 0.29、Cosine↑ 0.91、Mag. Ratio↑ 0.84（表3，p.13）\n数据处理：从Pexels与Unsplash收集公开图像构建60场景评测基准，按4类环境动态各15个场景划分（p.10）。",
+ "proj": "https://paper.pnu-cvsp.com/LivingWorld/",
+ "url": "https://github.com/cvsp-lab/LivingWorld",
+ "repo_state": "code"
 }

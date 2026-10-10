@@ -6,5 +6,8 @@
  "gpu": "未说明",
  "mp": 11,
  "note_code": "未给出代码链接；Qwen3链接为被测模型",
- "metrics": "数据集/基准论文（评测现有VLM，作者未提出新模型）\nDreamHouse（26,543个结构，每格1,200个任务）结构通过率↑（骨架/外立面）：GPT-5 Planner-Atomic 0.792 / 0.637；Gemini 3 Flash Planner-Managed 0.785 / 0.737；Claude Opus 4.5 Planner-Atomic 0.716 / 0.779（表1，p.11）\n结构+视觉联合通过率↑最高仅 0.071 / 0.064（Claude Planner-Atomic，表1，p.11）\n视觉反馈迭代：Claude 平均视觉分 0.408→0.441（最佳0.461），Gemini 0.433→0.443（最佳0.471）（表2，p.11）\n开源模型：Qwen3.5-397B-A17B（思考模式，Planner-Atomic）结构通过率 0.231；其余开源模型均为0（表3，p.13）\n数据处理：程序化生成结构并经10项结构校验过滤，Blender Cycles五视角渲染（p.5）"
+ "metrics": "数据集/基准论文（评测现有VLM，作者未提出新模型）\nDreamHouse（26,543个结构，每格1,200个任务）结构通过率↑（骨架/外立面）：GPT-5 Planner-Atomic 0.792 / 0.637；Gemini 3 Flash Planner-Managed 0.785 / 0.737；Claude Opus 4.5 Planner-Atomic 0.716 / 0.779（表1，p.11）\n结构+视觉联合通过率↑最高仅 0.071 / 0.064（Claude Planner-Atomic，表1，p.11）\n视觉反馈迭代：Claude 平均视觉分 0.408→0.441（最佳0.461），Gemini 0.433→0.443（最佳0.471）（表2，p.11）\n开源模型：Qwen3.5-397B-A17B（思考模式，Planner-Atomic）结构通过率 0.231；其余开源模型均为0（表3，p.13）\n数据处理：程序化生成结构并经10项结构校验过滤，Blender Cycles五视角渲染（p.5）",
+ "proj": "https://luluyuyuyang.github.io/dreamhouse/",
+ "url": "https://github.com/SalesforceAIResearch/DreamHouse",
+ "repo_state": "code"
 }

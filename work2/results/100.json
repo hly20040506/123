@@ -6,5 +6,6 @@
  "gpu": "未说明",
  "mp": 10,
  "url": "https://github.com/vLAR-group/NeoMap",
- "metrics": "Tanks-and-Temples：PSNR↑ 15.250、SSIM↑ 0.596、LPIPS↓ 0.486、FID-192↓ 3.712、FID-2048↓ 83.341、CLIP-S↑ 0.935、ATE↓ 0.008、RPE-T↓ 0.002、RPE-R↓ 0.003（表1，p.10）\nLLFF：PSNR 13.385、SSIM 0.360、LPIPS 0.432、FID-192 3.586、FID-2048 80.888、CLIP-S 0.953、ATE 0.551、RPE-T 0.476、RPE-R 0.031（表1，p.10）\nDAVIS动态单目视频新视角：FID-192 1.544、FID-2048 68.864、FVD 234.634、ATE 0.534、RPE-T 0.067、RPE-R 0.011（表2，p.12）\n注：TNT上SSIM（0.596）与ATE（0.008）不及FlexWorld（0.601/0.005）；LLFF上SSIM与RPE-T亦非最优（表1，p.10）。\n数据处理：从TNT测试集14个场景随机采样视频片段，筛选出49个相机轨迹合理的有效场景（p.9）。"
+ "metrics": "Tanks-and-Temples：PSNR↑ 15.250、SSIM↑ 0.596、LPIPS↓ 0.486、FID-192↓ 3.712、FID-2048↓ 83.341、CLIP-S↑ 0.935、ATE↓ 0.008、RPE-T↓ 0.002、RPE-R↓ 0.003（表1，p.10）\nLLFF：PSNR 13.385、SSIM 0.360、LPIPS 0.432、FID-192 3.586、FID-2048 80.888、CLIP-S 0.953、ATE 0.551、RPE-T 0.476、RPE-R 0.031（表1，p.10）\nDAVIS动态单目视频新视角：FID-192 1.544、FID-2048 68.864、FVD 234.634、ATE 0.534、RPE-T 0.067、RPE-R 0.011（表2，p.12）\n注：TNT上SSIM（0.596）与ATE（0.008）不及FlexWorld（0.601/0.005）；LLFF上SSIM与RPE-T亦非最优（表1，p.10）。\n数据处理：从TNT测试集14个场景随机采样视频片段，筛选出49个相机轨迹合理的有效场景（p.9）。",
+ "repo_state": "code"
 }

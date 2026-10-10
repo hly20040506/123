@@ -6,5 +6,7 @@
  "gpu": "未说明",
  "mp": 12,
  "proj": "https://pixelpilotvla.github.io/",
- "metrics": "nuScenes开环规划：L2 1s/2s/3s/平均 0.13/0.26/0.51/0.30 m；碰撞率平均0.25%；越界率平均1.77%（表3，p.12）\nBench2Drive闭环：驾驶分79.14、成功率58.87%、效率153.26、舒适度38.01（表4，p.12）\nnuScenes 2D检测mAP 54.2（表1，p.11）\nWaymo轨迹预测L2平均0.40（表8，p.14）\n注：nuScenes平均碰撞率0.25%高于OpenDriveVLA的0.10%；Waymo L2 0.40高于EMMA（0.34）；Bench2Drive舒适度38.01低于AutoVLA的39.33（表3、表4、表8，p.12–14）。\n数据处理：多视角输入图像按自车中心一致性方式拼接（ego-centric consistency预处理），并将感知框与轨迹标注投影到2D图像空间（p.7–9）。"
+ "metrics": "nuScenes开环规划：L2 1s/2s/3s/平均 0.13/0.26/0.51/0.30 m；碰撞率平均0.25%；越界率平均1.77%（表3，p.12）\nBench2Drive闭环：驾驶分79.14、成功率58.87%、效率153.26、舒适度38.01（表4，p.12）\nnuScenes 2D检测mAP 54.2（表1，p.11）\nWaymo轨迹预测L2平均0.40（表8，p.14）\n注：nuScenes平均碰撞率0.25%高于OpenDriveVLA的0.10%；Waymo L2 0.40高于EMMA（0.34）；Bench2Drive舒适度38.01低于AutoVLA的39.33（表3、表4、表8，p.12–14）。\n数据处理：多视角输入图像按自车中心一致性方式拼接（ego-centric consistency预处理），并将感知框与轨迹标注投影到2D图像空间（p.7–9）。",
+ "soon": true,
+ "soon_text": "项目页注明代码即将发布（Code Coming Soon）"
 }

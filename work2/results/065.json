@@ -6,5 +6,6 @@
  "gpu": "未说明",
  "mp": 12,
  "url": "https://github.com/Suchisrit/DEX",
- "metrics": "ScanNet++真实鱼眼（零样本）：UniDepthV2+DEX RMSE↓ 0.200、δ1↑ 0.872；DepthAnything+DEX 0.414/0.708；MiDaS+DEX 0.397/0.702（表1，p.12）\nKITTI-360：UniDepthV2+DEX RMSE 1.663、δ1 0.842；DepthAnything+DEX 2.022/0.745（表1，p.12）\nWoodScape开放词汇分割：LSeg+DEX mIoU↑ 0.362、weighted IoU↑ 0.838；SED+DEX 0.449/0.832（表2，p.12）\nPanopticDepth+DEX：深度 RMSE 3.583、δ1 0.354；分割 mIoU 0.282、wIoU 0.833（表3，p.13）\n注：表3标题称在WoodScape上评测深度与分割，而正文称深度在KITTI-360、分割在WoodScape上评测，两处表述不一致（p.13）。\n数据处理：仅用标定透视图像，通过鱼眼变换合成对应鱼眼图像，并以逆几何变换将输出对齐回透视参考进行自监督训练（p.3、p.8）。"
+ "metrics": "ScanNet++真实鱼眼（零样本）：UniDepthV2+DEX RMSE↓ 0.200、δ1↑ 0.872；DepthAnything+DEX 0.414/0.708；MiDaS+DEX 0.397/0.702（表1，p.12）\nKITTI-360：UniDepthV2+DEX RMSE 1.663、δ1 0.842；DepthAnything+DEX 2.022/0.745（表1，p.12）\nWoodScape开放词汇分割：LSeg+DEX mIoU↑ 0.362、weighted IoU↑ 0.838；SED+DEX 0.449/0.832（表2，p.12）\nPanopticDepth+DEX：深度 RMSE 3.583、δ1 0.354；分割 mIoU 0.282、wIoU 0.833（表3，p.13）\n注：表3标题称在WoodScape上评测深度与分割，而正文称深度在KITTI-360、分割在WoodScape上评测，两处表述不一致（p.13）。\n数据处理：仅用标定透视图像，通过鱼眼变换合成对应鱼眼图像，并以逆几何变换将输出对齐回透视参考进行自监督训练（p.3、p.8）。",
+ "repo_state": "readme"
 }

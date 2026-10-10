@@ -6,5 +6,6 @@
  "gpu": "NVIDIA 4090（效率测试）",
  "mp": 10,
  "url": "https://github.com/yuyi1005/AtlasSegFM",
- "metrics": "危及器官/骨骼分割（nnInteractive为基础，单个支持样例，Dice↑/NSD↑ %）：HaN-Seg 63.71/77.80、SegRap 69.19/87.39、Pengwin 95.50/96.96（MedSAM2为基础：52.61/65.74、49.45/69.19、94.86/96.74）（表1，p.10）\nBrainRT：全脑结构 Dice 91.24、NSD 63.08、HD↓ 6.78；危及器官 77.07/77.55/5.17（表2，p.12）\n血管分割（vesselFM为基础，Dice/clDice/HD）：AVT 81.34/72.04/30.84、Fe-MRA 84.42/82.99/3.00（表3，p.12）\n注：AVT上Dice（81.34）低于nnInteractive 5次点击（83.38）；HaN-Seg、SegRap仍明显低于nnUNet全监督上界（75.10、80.20）（表1、表3）。"
+ "metrics": "危及器官/骨骼分割（nnInteractive为基础，单个支持样例，Dice↑/NSD↑ %）：HaN-Seg 63.71/77.80、SegRap 69.19/87.39、Pengwin 95.50/96.96（MedSAM2为基础：52.61/65.74、49.45/69.19、94.86/96.74）（表1，p.10）\nBrainRT：全脑结构 Dice 91.24、NSD 63.08、HD↓ 6.78；危及器官 77.07/77.55/5.17（表2，p.12）\n血管分割（vesselFM为基础，Dice/clDice/HD）：AVT 81.34/72.04/30.84、Fe-MRA 84.42/82.99/3.00（表3，p.12）\n注：AVT上Dice（81.34）低于nnInteractive 5次点击（83.38）；HaN-Seg、SegRap仍明显低于nnUNet全监督上界（75.10、80.20）（表1、表3）。",
+ "repo_state": "code"
 }

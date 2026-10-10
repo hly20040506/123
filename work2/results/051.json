@@ -6,5 +6,6 @@
  "gpu": "未说明训练GPU（训练使用4块NPU）；效率测试用单张NVIDIA RTX P40",
  "mp": 11,
  "url": "https://github.com/zhiyuandaily/Any2Full",
- "metrics": "零样本深度补全（Any2Full DA-L，平均排名 2.3）：全部数据平均 Hole AbsREL↓ 0.010、RMSE↓ 0.459；Range 0.046/2.184；Sparse 0.026/0.829（表1，p.11）\nNYU-Depth V2：Hole 0.008/0.067、Range 0.035/0.259、Sparse 0.017/0.138；iBims-1：Hole 0.007/0.110、Range 0.030/0.334、Sparse 0.013/0.161（表1，p.11）\n稀疏度鲁棒性（AbsREL/RMSE）：VOID-1500 0.030/0.561、VOID-150 0.045/0.620、KITTI-64线 0.017/1.356、KITTI-4线 0.035/2.380，平均 0.031/1.203（表4，p.14）\n数据处理：在Hypersim（60K）、VKITTI2（10K）等Depth Anything v2合成子集上训练，采用随机采样等两种深度采样策略模拟不同稀疏模式；输入稀疏深度先归一化去除全局尺度与偏置（p.5、p.9）。"
+ "metrics": "零样本深度补全（Any2Full DA-L，平均排名 2.3）：全部数据平均 Hole AbsREL↓ 0.010、RMSE↓ 0.459；Range 0.046/2.184；Sparse 0.026/0.829（表1，p.11）\nNYU-Depth V2：Hole 0.008/0.067、Range 0.035/0.259、Sparse 0.017/0.138；iBims-1：Hole 0.007/0.110、Range 0.030/0.334、Sparse 0.013/0.161（表1，p.11）\n稀疏度鲁棒性（AbsREL/RMSE）：VOID-1500 0.030/0.561、VOID-150 0.045/0.620、KITTI-64线 0.017/1.356、KITTI-4线 0.035/2.380，平均 0.031/1.203（表4，p.14）\n数据处理：在Hypersim（60K）、VKITTI2（10K）等Depth Anything v2合成子集上训练，采用随机采样等两种深度采样策略模拟不同稀疏模式；输入稀疏深度先归一化去除全局尺度与偏置（p.5、p.9）。",
+ "repo_state": "code"
 }

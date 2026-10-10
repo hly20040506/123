@@ -6,5 +6,7 @@
  "gpu": "64× NVIDIA H200（训练）",
  "mp": 11,
  "proj": "https://tri-ml.github.io/AnyView",
- "metrics": "AnyViewBench分布内极端动态新视角（8个数据集平均）：PSNR↑ 17.78、SSIM↑ 0.533、LPIPS↓ 0.399、FVD↓ 1239（表3，p.11；表5，p.14）\nAnyViewBench零样本（5个数据集平均）：PSNR 12.13、SSIM 0.350、LPIPS 0.591（表5，p.14）\n相机位姿一致性：分布内 平移误差↓ 0.217、旋转误差↓ 0.654°、AUC15↑ 43.38；零样本 0.608/1.781°/16.52（表4，p.14）\n窄视角DyCheck iPhone（零样本）：PSNR 13.47、SSIM 0.295、LPIPS 0.550（表2，p.9）\n注：DyCheck上PSNR低于使用测试时优化的ShapeOfMotion（16.72）与CogNVS（16.94）（表2，p.9）。\n数据处理：按数据集设定归一化常数缩放相机平移以使Plücker值落在[−1,1]；DyCheck相机位姿用MoSca重新校正；各测试集上限64条并均匀子采样，分布内数据约10%划作验证（p.7–9）。"
+ "metrics": "AnyViewBench分布内极端动态新视角（8个数据集平均）：PSNR↑ 17.78、SSIM↑ 0.533、LPIPS↓ 0.399、FVD↓ 1239（表3，p.11；表5，p.14）\nAnyViewBench零样本（5个数据集平均）：PSNR 12.13、SSIM 0.350、LPIPS 0.591（表5，p.14）\n相机位姿一致性：分布内 平移误差↓ 0.217、旋转误差↓ 0.654°、AUC15↑ 43.38；零样本 0.608/1.781°/16.52（表4，p.14）\n窄视角DyCheck iPhone（零样本）：PSNR 13.47、SSIM 0.295、LPIPS 0.550（表2，p.9）\n注：DyCheck上PSNR低于使用测试时优化的ShapeOfMotion（16.72）与CogNVS（16.94）（表2，p.9）。\n数据处理：按数据集设定归一化常数缩放相机平移以使Plücker值落在[−1,1]；DyCheck相机位姿用MoSca重新校正；各测试集上限64条并均匀子采样，分布内数据约10%划作验证（p.7–9）。",
+ "url": "https://github.com/TRI-ML/AnyView-DVS",
+ "repo_state": "code"
 }

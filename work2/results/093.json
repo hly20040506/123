@@ -6,5 +6,6 @@
  "gpu": "4× L40（48GB，训练）",
  "mp": 10,
  "url": "https://github.com/princeton-vl/FOSSA",
- "metrics": "ZEDD测试集（零样本）：ViT-B δ1.05↑ 0.505、δ1.25↑ 0.918、AbsRel↓ 0.089、MAE↓ 0.371、MSE↓ 0.988、RMSE↓ 0.543；ViT-S 0.451/0.884/0.098/0.370/0.661/0.534（DepthPro AbsRel 0.201）（表2，p.10）\nInfinigen Defocus：ViT-S δ1.05 0.520、δ1.25 0.940、AbsRel 0.085（表2，p.10）\n真实RGBD合成焦栈（ViT-B，δ1.25/AbsRel）：iBims 0.963/0.070、DIODE 0.779/0.160、HAMMER 0.999/0.017（表3，p.12）\nDDFF：零样本ViT-B MSE 12.9×10⁻⁴、AbsRel 0.21；微调后ViT-B MSE 2.8×10⁻⁴、RMSE 0.0148、AbsRel 0.11、δ1 0.932（表4，p.13）\n数据处理：用4K单反在多光圈下采集100个场景的焦栈并以Ouster激光雷达获取深度真值，通过遥控镜头电机标定对焦距离、用开源焦点堆栈工具将各对焦图像对齐到规范空间；训练用现有RGBD数据合成焦栈并随机化对焦距离、光圈与PSF形状（p.2–3、p.8）。"
+ "metrics": "ZEDD测试集（零样本）：ViT-B δ1.05↑ 0.505、δ1.25↑ 0.918、AbsRel↓ 0.089、MAE↓ 0.371、MSE↓ 0.988、RMSE↓ 0.543；ViT-S 0.451/0.884/0.098/0.370/0.661/0.534（DepthPro AbsRel 0.201）（表2，p.10）\nInfinigen Defocus：ViT-S δ1.05 0.520、δ1.25 0.940、AbsRel 0.085（表2，p.10）\n真实RGBD合成焦栈（ViT-B，δ1.25/AbsRel）：iBims 0.963/0.070、DIODE 0.779/0.160、HAMMER 0.999/0.017（表3，p.12）\nDDFF：零样本ViT-B MSE 12.9×10⁻⁴、AbsRel 0.21；微调后ViT-B MSE 2.8×10⁻⁴、RMSE 0.0148、AbsRel 0.11、δ1 0.932（表4，p.13）\n数据处理：用4K单反在多光圈下采集100个场景的焦栈并以Ouster激光雷达获取深度真值，通过遥控镜头电机标定对焦距离、用开源焦点堆栈工具将各对焦图像对齐到规范空间；训练用现有RGBD数据合成焦栈并随机化对焦距离、光圈与PSF形状（p.2–3、p.8）。",
+ "repo_state": "code"
 }

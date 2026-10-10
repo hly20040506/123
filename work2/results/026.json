@@ -5,5 +5,8 @@
  "proc_p": 8,
  "gpu": "未说明",
  "mp": 11,
- "metrics": "Aria Synthetic Environments（自建多房间测试集）：3D IoU↑ 94.3、Chamfer↓ 0.12 m、Wall Recall↑ 89.0、Room Recall↑ 79.0、Depth↓ 0.09 m、Normal↑ 98.2（表1，p.11）\nScanNet++ v2（自建测试集）：IoU 87.4、Chamfer 0.20 m、Wall 69.3、Room 36.3、Depth 0.16 m、Normal 91.6（表1，p.11）\n2D-3D-Semantics（长方体空间）：IoU 90.0、Chamfer 0.15 m、Wall 92.2、Room 80.6、Depth 0.10 m、Normal 96.4（表1，p.11）\nASE上使用π3预测位姿：IoU 89.4、Chamfer 0.21 m（表3，p.14）；ScanNet++长方体房间对比点云拟合：Efeat+Eedge IoU 92.4、Chamfer 0.15 m（表4，p.15）\n数据处理：为ASE与ScanNet++ v2补充多房间布局标注构建两个新基准；训练集在391个ScanNet++长方体房间基础上新增107个人工标注的曼哈顿房间布局（p.2、p.8）。"
+ "metrics": "Aria Synthetic Environments（自建多房间测试集）：3D IoU↑ 94.3、Chamfer↓ 0.12 m、Wall Recall↑ 89.0、Room Recall↑ 79.0、Depth↓ 0.09 m、Normal↑ 98.2（表1，p.11）\nScanNet++ v2（自建测试集）：IoU 87.4、Chamfer 0.20 m、Wall 69.3、Room 36.3、Depth 0.16 m、Normal 91.6（表1，p.11）\n2D-3D-Semantics（长方体空间）：IoU 90.0、Chamfer 0.15 m、Wall 92.2、Room 80.6、Depth 0.10 m、Normal 96.4（表1，p.11）\nASE上使用π3预测位姿：IoU 89.4、Chamfer 0.21 m（表3，p.14）；ScanNet++长方体房间对比点云拟合：Efeat+Eedge IoU 92.4、Chamfer 0.15 m（表4，p.15）\n数据处理：为ASE与ScanNet++ v2补充多房间布局标注构建两个新基准；训练集在391个ScanNet++长方体房间基础上新增107个人工标注的曼哈顿房间布局（p.2、p.8）。",
+ "proj": "https://ghanning.github.io/PolyLayout",
+ "url": "https://github.com/ghanning/PolyLayout",
+ "repo_state": "code"
 }

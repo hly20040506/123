@@ -6,5 +6,6 @@
  "gpu": "NVIDIA A800（单卡）",
  "mp": 11,
  "url": "https://github.com/Heey731/GeoEdit",
- "metrics": "GeoEditBench（50对分层子集）：CLIP↑ 0.952、PSNR↑ 23.499、DINO↑ 0.961、LPIPS↓ 0.114、DreamSim↓ 0.027、PoseMap IoU↑ 94.9%、Object IoU↑ 57.9%；偏好评分 AI 4.125、人工 4.810（表1，p.11）\n注：CLIP得分（0.952）低于NanoBanana（0.976）（表1，p.11）。\n数据处理：构建GeoEditBench，从多样真实场景收集200对图像，剔除几何歧义、渲染伪影严重或光照不一致的样本（p.9）。"
+ "metrics": "GeoEditBench（50对分层子集）：CLIP↑ 0.952、PSNR↑ 23.499、DINO↑ 0.961、LPIPS↓ 0.114、DreamSim↓ 0.027、PoseMap IoU↑ 94.9%、Object IoU↑ 57.9%；偏好评分 AI 4.125、人工 4.810（表1，p.11）\n注：CLIP得分（0.952）低于NanoBanana（0.976）（表1，p.11）。\n数据处理：构建GeoEditBench，从多样真实场景收集200对图像，剔除几何歧义、渲染伪影严重或光照不一致的样本（p.9）。",
+ "repo_state": "code"
 }

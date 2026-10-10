@@ -6,5 +6,6 @@
  "gpu": "NVIDIA H200（速度与显存测试；训练GPU未说明）",
  "mp": 12,
  "url": "https://github.com/Parskatt/RoMaV2",
- "metrics": "MegaDepth-1500（AUC@5/10/20）：62.8/77.0/86.6；ScanNet-1500：33.6/56.2/73.8（表4，p.12）\n视觉定位：Map-free Prec. 73.3、AUC 89.6；InLoc DUC1 67.7/84.3/94.4、DUC2 73.3/86.3/90.8（表5，p.12）\n稠密匹配EPE：TA-WB 13.82、MegaDepth 1.47、ScanNet++ v2 4.00、FlyingThings3D 0.93、AerialMegaDepth 4.12、MapFree 2.03（表6–表7，p.12–13）\nWxBS mAA@10px 55.4、SatAst AUC@10px 37.0、RUBIK成功率57.3%（表11，p.14）\n注：ScanNet-1500上AUC（33.6/56.2/73.8）低于Reloc3r（34.8/58.4/75.6）；WxBS 55.4低于RoMa的60.8（表4、表11，p.12–14）。\n数据处理：训练采用10个宽/窄基线数据集的加权混合（共5069个场景）；另由39对EarthMatch图像人工标注对应并加入90°旋转构建SatAst（156对）（表3，p.10；p.13）。"
+ "metrics": "MegaDepth-1500（AUC@5/10/20）：62.8/77.0/86.6；ScanNet-1500：33.6/56.2/73.8（表4，p.12）\n视觉定位：Map-free Prec. 73.3、AUC 89.6；InLoc DUC1 67.7/84.3/94.4、DUC2 73.3/86.3/90.8（表5，p.12）\n稠密匹配EPE：TA-WB 13.82、MegaDepth 1.47、ScanNet++ v2 4.00、FlyingThings3D 0.93、AerialMegaDepth 4.12、MapFree 2.03（表6–表7，p.12–13）\nWxBS mAA@10px 55.4、SatAst AUC@10px 37.0、RUBIK成功率57.3%（表11，p.14）\n注：ScanNet-1500上AUC（33.6/56.2/73.8）低于Reloc3r（34.8/58.4/75.6）；WxBS 55.4低于RoMa的60.8（表4、表11，p.12–14）。\n数据处理：训练采用10个宽/窄基线数据集的加权混合（共5069个场景）；另由39对EarthMatch图像人工标注对应并加入90°旋转构建SatAst（156对）（表3，p.10；p.13）。",
+ "repo_state": "code"
 }

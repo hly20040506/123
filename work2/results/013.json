@@ -7,5 +7,7 @@
  "mp": 10,
  "proj": "https://yukangcao.github.io/HSImul3R/",
  "note_code": "GMR为引用的第三方运动重定向工具",
- "metrics": "自采人-场景交互数据（4视角）：交互稳定率 Stability-HSI↑ Easy 53.68%，Medium 30.56%，Hard 13.92%；场景穿透 SP-3D↓ 22.9%；仿真后人体动作 W-MPJPE↓ 4.09，PA-MPJPE↓ 2.17（表1，p.10）\n图像到3D生成：重力稳定率 SG↑ 91.50%，CD↓ 0.173，F-Score↑ 88.25（表2，p.10）\n数据处理：以多视角2DGS重建与SMPL估计生成物体几何与人体动作伪真值用于评估（p.9）"
+ "metrics": "自采人-场景交互数据（4视角）：交互稳定率 Stability-HSI↑ Easy 53.68%，Medium 30.56%，Hard 13.92%；场景穿透 SP-3D↓ 22.9%；仿真后人体动作 W-MPJPE↓ 4.09，PA-MPJPE↓ 2.17（表1，p.10）\n图像到3D生成：重力稳定率 SG↑ 91.50%，CD↓ 0.173，F-Score↑ 88.25（表2，p.10）\n数据处理：以多视角2DGS重建与SMPL估计生成物体几何与人体动作伪真值用于评估（p.9）",
+ "url": "https://github.com/yukangcao/HSImul3R",
+ "repo_state": "readme"
 }

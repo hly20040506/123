@@ -5,5 +5,8 @@
  "proc_p": 5,
  "gpu": "未说明",
  "mp": 10,
- "metrics": "自建多模态可穿戴数据集（14名受试者、7小时）：\n未见受试者：MPJPE↓ All 56.7、HMD 107.4；MRE↓ 54.6；PA-MPJPE↓ 46.5；N-MPJPE↓ Ins 151.7、W+P 83.0、Avg 77.9（表2，p.10）\n未见动作：MPJPE All 60.0、HMD 106.6；MRE 37.5；PA-MPJPE 55.7；N-MPJPE Ins 121.8、W+P 99.5、Avg 87.0（表2，p.10）\n与既有方法对比（N-MPJPE，mm）：仅IMU All 61.7、头显单独 104.6、头显+2手表 68.7、全部传感器 52.6（表3，p.11）\nNymeria（N-MPJPE，mm）：VR+手腕+骨盆+接触 Full 68.7、Upper 63.8、Lower 76.3（表4，p.12）\n数据处理：各设备采样率不同，统一下采样到30 Hz并与动捕系统对齐；各设备坐标系标定与时间同步，每段按动作类别标注（p.5–6）。"
+ "metrics": "自建多模态可穿戴数据集（14名受试者、7小时）：\n未见受试者：MPJPE↓ All 56.7、HMD 107.4；MRE↓ 54.6；PA-MPJPE↓ 46.5；N-MPJPE↓ Ins 151.7、W+P 83.0、Avg 77.9（表2，p.10）\n未见动作：MPJPE All 60.0、HMD 106.6；MRE 37.5；PA-MPJPE 55.7；N-MPJPE Ins 121.8、W+P 99.5、Avg 87.0（表2，p.10）\n与既有方法对比（N-MPJPE，mm）：仅IMU All 61.7、头显单独 104.6、头显+2手表 68.7、全部传感器 52.6（表3，p.11）\nNymeria（N-MPJPE，mm）：VR+手腕+骨盆+接触 Full 68.7、Upper 63.8、Lower 76.3（表4，p.12）\n数据处理：各设备采样率不同，统一下采样到30 Hz并与动捕系统对齐；各设备坐标系标定与时间同步，每段按动作类别标注（p.5–6）。",
+ "proj": "https://vcai.mpi-inf.mpg.de/projects/WHIP",
+ "url": "https://github.com/abcamiletto/whip",
+ "repo_state": "code"
 }

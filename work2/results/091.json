@@ -6,5 +6,6 @@
  "gpu": "NVIDIA L40（效率测试）",
  "mp": 9,
  "url": "https://github.com/princeton-vl/WAFT-Stereo",
- "metrics": "ETH3D测试集（零样本，DAv2L）：BP-0.5-noc↓ 0.89、BP-1-noc↓ 0.28、BP-2-noc↓ 0.07；BP-0.5-all↓ 0.97、BP-1-all↓ 0.31、BP-2-all↓ 0.07（表1，p.9）\nKITTI测试集（微调）：KITTI-2012 BP-2-noc 1.18、BP-2-all 1.47；KITTI-2015 D1-bg-noc 0.98、D1-noc 1.21、D1-bg-all 1.05、D1-all 1.28；零样本KITTI-2015 D1-noc 2.79、D1-all 2.88（表2，p.11）\nMiddlebury测试集：BP-2-noc 2.53、BP-2-all 4.39、BP-4-noc 1.05、BP-4-all 2.15、RMSE-noc 5.61、RMSE-all 7.02（表3，p.12）\n注：ETH3D上BP-1-noc（0.28）不及非零样本的S2M2-XL（0.22）；Middlebury上BP-2平均不及S2M2-XL等方法，作者解释主要受Classroom2E场景影响（p.9、p.11–12）。"
+ "metrics": "ETH3D测试集（零样本，DAv2L）：BP-0.5-noc↓ 0.89、BP-1-noc↓ 0.28、BP-2-noc↓ 0.07；BP-0.5-all↓ 0.97、BP-1-all↓ 0.31、BP-2-all↓ 0.07（表1，p.9）\nKITTI测试集（微调）：KITTI-2012 BP-2-noc 1.18、BP-2-all 1.47；KITTI-2015 D1-bg-noc 0.98、D1-noc 1.21、D1-bg-all 1.05、D1-all 1.28；零样本KITTI-2015 D1-noc 2.79、D1-all 2.88（表2，p.11）\nMiddlebury测试集：BP-2-noc 2.53、BP-2-all 4.39、BP-4-noc 1.05、BP-4-all 2.15、RMSE-noc 5.61、RMSE-all 7.02（表3，p.12）\n注：ETH3D上BP-1-noc（0.28）不及非零样本的S2M2-XL（0.22）；Middlebury上BP-2平均不及S2M2-XL等方法，作者解释主要受Classroom2E场景影响（p.9、p.11–12）。",
+ "repo_state": "code"
 }

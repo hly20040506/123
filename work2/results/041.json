@@ -6,5 +6,6 @@
  "gpu": "未说明",
  "mp": 10,
  "url": "https://github.com/SimonSun0810/VGGT-World",
- "metrics": "KITTI深度预测（数据集平均）：AbsRel↓ 短期 0.065、中期 0.098；δ1↑ 94.0、89.4（表1，p.10）\nCityscapes深度预测：AbsRel↓ 0.078/0.126；δ1↑ 93.8/87.3（表2，p.11）\nTartanAir点图预测（无文本/位姿条件）：Acc↓ 1.1604、Comp↓ 4.5297、CD↓ 2.8451（表3，p.12）\nTartanAir短期前瞻：Acc 0.8764、Comp 1.0646、CD 0.9705（表4，p.13）\n注：表3中VGGT-World在1-view与2-views设置下数值完全相同（p.12）。"
+ "metrics": "KITTI深度预测（数据集平均）：AbsRel↓ 短期 0.065、中期 0.098；δ1↑ 94.0、89.4（表1，p.10）\nCityscapes深度预测：AbsRel↓ 0.078/0.126；δ1↑ 93.8/87.3（表2，p.11）\nTartanAir点图预测（无文本/位姿条件）：Acc↓ 1.1604、Comp↓ 4.5297、CD↓ 2.8451（表3，p.12）\nTartanAir短期前瞻：Acc 0.8764、Comp 1.0646、CD 0.9705（表4，p.13）\n注：表3中VGGT-World在1-view与2-views设置下数值完全相同（p.12）。",
+ "repo_state": "code"
 }

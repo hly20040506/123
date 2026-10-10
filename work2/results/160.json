@@ -6,5 +6,6 @@
  "gpu": "未说明",
  "mp": 14,
  "url": "https://github.com/Rowing0914/Self-Calibration-Varying-Intrinsics",
- "metrics": "代数复杂度（最小解数）：如ff000-f 1–2、fguv0-fguv 14、ffuvs-fuvs 25–27（表1，p.10）\nInFlux真实序列（序列级均值±标准差）：ff000-none Δfg 0.604±0.162；ffuv0-uv（Kruppa）Δfg 0.790±0.104、Δuv 0.312±0.086；fguv0-uv Δfg 0.748±0.105、Δuv 0.464±0.133（表2，p.14）\n模拟电子防抖裁剪：ffuv0-uv Δuv 0.395±0.475、fguv0-uv Δuv 0.665±0.106（表3，p.15）\n注：模拟EIS裁剪设置下本文ffuv0-uv/fguv0-uv的焦距误差Δfg（0.857/0.890）劣于COLMAP-guess的0.692，仅主点误差更优（表3，p.15）。\n数据处理：将InFlux序列每帧裁剪为右下角固定1400×800窗口模拟电子防抖，并按裁剪偏移更新真值主点（p.14）。"
+ "metrics": "代数复杂度（最小解数）：如ff000-f 1–2、fguv0-fguv 14、ffuvs-fuvs 25–27（表1，p.10）\nInFlux真实序列（序列级均值±标准差）：ff000-none Δfg 0.604±0.162；ffuv0-uv（Kruppa）Δfg 0.790±0.104、Δuv 0.312±0.086；fguv0-uv Δfg 0.748±0.105、Δuv 0.464±0.133（表2，p.14）\n模拟电子防抖裁剪：ffuv0-uv Δuv 0.395±0.475、fguv0-uv Δuv 0.665±0.106（表3，p.15）\n注：模拟EIS裁剪设置下本文ffuv0-uv/fguv0-uv的焦距误差Δfg（0.857/0.890）劣于COLMAP-guess的0.692，仅主点误差更优（表3，p.15）。\n数据处理：将InFlux序列每帧裁剪为右下角固定1400×800窗口模拟电子防抖，并按裁剪偏移更新真值主点（p.14）。",
+ "repo_state": "code"
 }

@@ -6,5 +6,6 @@
  "gpu": "64× NVIDIA H200（训练）",
  "mp": 11,
  "url": "https://github.com/Go2Heart/OmniStream",
- "metrics": "在线视频深度（表3，p.11）：Sintel Abs Rel↓ 0.314、δ<1.25↑ 0.583；BONN 0.072/0.967；KITTI 0.136/0.818\n在线相机位姿（表4，p.11）：Sintel ATE↓ 0.227、RPE-T↓ 0.051、RPE-R↓ 0.695；TUM-dynamics 0.049/0.012/0.601；ScanNet 0.076/0.017/0.659\n冻结特征探测（表2，p.10）：ImageNet分类 84.7、ADE20K分割 49.1、NYUv2单目深度 0.377、SSv2动作 68.5、K400 85.7、DAVIS'17 VOS 71.6\nVSI-Bench（OmniStream-7B）：Avg 70.6（表5，p.12）\nCALVIN ABC-D（冻结视觉）：平均长度 3.885（表6，p.13）；SimplerEnv-Bridge 平均 45.8（表7，p.14）\n注：表2中CALVIN记为3.89（表6为3.885，四舍五入差异）；表8消融中“Ours”为另一训练设置（SSv2 69.3、VSI-Bench 57.3、CALVIN 3.80），与表2/表5主结果不同（p.14）。"
+ "metrics": "在线视频深度（表3，p.11）：Sintel Abs Rel↓ 0.314、δ<1.25↑ 0.583；BONN 0.072/0.967；KITTI 0.136/0.818\n在线相机位姿（表4，p.11）：Sintel ATE↓ 0.227、RPE-T↓ 0.051、RPE-R↓ 0.695；TUM-dynamics 0.049/0.012/0.601；ScanNet 0.076/0.017/0.659\n冻结特征探测（表2，p.10）：ImageNet分类 84.7、ADE20K分割 49.1、NYUv2单目深度 0.377、SSv2动作 68.5、K400 85.7、DAVIS'17 VOS 71.6\nVSI-Bench（OmniStream-7B）：Avg 70.6（表5，p.12）\nCALVIN ABC-D（冻结视觉）：平均长度 3.885（表6，p.13）；SimplerEnv-Bridge 平均 45.8（表7，p.14）\n注：表2中CALVIN记为3.89（表6为3.885，四舍五入差异）；表8消融中“Ours”为另一训练设置（SSv2 69.3、VSI-Bench 57.3、CALVIN 3.80），与表2/表5主结果不同（p.14）。",
+ "repo_state": "code"
 }

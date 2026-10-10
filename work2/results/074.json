@@ -6,5 +6,6 @@
  "gpu": "未说明",
  "mp": 12,
  "url": "https://github.com/Xiaohao-Xu/Ambiguity-in-Space",
- "metrics": "分析/基准论文（自建稀疏有序基准MD-3k），本文提出的拉普拉斯视觉提示（LVP）结果：\n多层空间关系准确率ML-SRA（DAv2-L+LVP）：Overall 75.5%、Reverse 52.2%、Same 93.6%；基于预测透明掩码插值 75.8/55.2/91.6；GT掩码（oracle）82.5/69.2/92.7（表3，p.12）\n现有模型ML-SRA（RGB+LVP对，Overall/Reverse/Same）：DPT 70.2/46.4/88.7、ZoeDepth 68.8/45.4/86.8、Depth Pro 66.3/31.1/93.5（表2，p.12）\n单层SRA示例（MD-3k Overall，RGB输入）：DAv1-L SRA(1) 56.6、SRA(2) 96.0；Depth Pro 84.9/69.6（表1，p.10）\n数据处理：在歧义（透明）区域每张图采样一对稀疏点，人工标注前景透明层与背景层的有序关系，构建MD-3k（p.3、p.6）。"
+ "metrics": "分析/基准论文（自建稀疏有序基准MD-3k），本文提出的拉普拉斯视觉提示（LVP）结果：\n多层空间关系准确率ML-SRA（DAv2-L+LVP）：Overall 75.5%、Reverse 52.2%、Same 93.6%；基于预测透明掩码插值 75.8/55.2/91.6；GT掩码（oracle）82.5/69.2/92.7（表3，p.12）\n现有模型ML-SRA（RGB+LVP对，Overall/Reverse/Same）：DPT 70.2/46.4/88.7、ZoeDepth 68.8/45.4/86.8、Depth Pro 66.3/31.1/93.5（表2，p.12）\n单层SRA示例（MD-3k Overall，RGB输入）：DAv1-L SRA(1) 56.6、SRA(2) 96.0；Depth Pro 84.9/69.6（表1，p.10）\n数据处理：在歧义（透明）区域每张图采样一对稀疏点，人工标注前景透明层与背景层的有序关系，构建MD-3k（p.3、p.6）。",
+ "repo_state": "code"
 }

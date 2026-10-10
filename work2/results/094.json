@@ -5,5 +5,8 @@
  "proc_p": 10,
  "gpu": "2× NVIDIA RTX 3090（训练）",
  "mp": 11,
- "metrics": "零样本相对深度（AbsRel↓/δ1↑，%；6.1M参数、3.0 GMACs）：NYUv2 8.4/93.3、KITTI 12.3/86.4、ETH3D 10.0/92.2、ScanNet 8.8/92.1、DIODE 22.6/73.9（表2，p.11）\n边界：UnrealStereo4K上SI-BF1 0.120（双线性上采样0.088）（表5，p.14）\n数据规模消融：1%数据（约0.1M）NYUv2 12.2/84.9 → 100%（约14.1M）8.4/93.3（表4，p.13）\n注：KITTI上AbsRel 12.3不及同类轻量模型Lite-Mono†的10.9（表2，p.11）。\n数据处理：以DA-V2-Large为教师，在约14.1M张、17个领域的多源图像上做大规模知识蒸馏；训练时缩放图像并保持原始宽高比（p.3、p.10）。"
+ "metrics": "零样本相对深度（AbsRel↓/δ1↑，%；6.1M参数、3.0 GMACs）：NYUv2 8.4/93.3、KITTI 12.3/86.4、ETH3D 10.0/92.2、ScanNet 8.8/92.1、DIODE 22.6/73.9（表2，p.11）\n边界：UnrealStereo4K上SI-BF1 0.120（双线性上采样0.088）（表5，p.14）\n数据规模消融：1%数据（约0.1M）NYUv2 12.2/84.9 → 100%（约14.1M）8.4/93.3（表4，p.13）\n注：KITTI上AbsRel 12.3不及同类轻量模型Lite-Mono†的10.9（表2，p.11）。\n数据处理：以DA-V2-Large为教师，在约14.1M张、17个领域的多源图像上做大规模知识蒸馏；训练时缩放图像并保持原始宽高比（p.3、p.10）。",
+ "proj": "https://zipdepth.github.io/",
+ "url": "https://github.com/fabiotosi92/ZipDepth",
+ "repo_state": "code"
 }

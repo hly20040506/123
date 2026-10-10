@@ -5,6 +5,6 @@
  "proc_p": 10,
  "gpu": "未说明",
  "mp": 12,
- "proj": "https://graphics-research-group.github.io/Gaussian-Volumetric-",
+ "proj": "https://graphics-research-group.github.io/Gaussian-Volumetric-Representation/",
  "metrics": "各数据集（PSNR/SSIM/MS-SSIM，压缩比）：Brain 32.10/0.943/0.991（9.34:1）、Liver 43.16/0.981/0.996（9.45:1）、Heart 32.19/0.958/0.990（10.09:1）、Lungs 34.93/0.952/0.989（4.73:1）、BraTS 40.88/0.988/0.998（11.31:1）、Mouse Neonatal 33.48/0.956/0.987（9.94:1）（表1，p.12）\n与基线对比：重建PSNR 34.81、MSE 0.000398、SSIM 0.956、MS-SSIM 0.993；渲染PSNR 54.87、SSIM 0.995、MS-SSIM 0.993（表2，p.13）\n注：显存28 GB高于除Transformer/UNet外的多数基线（如Voxel MLP 15 GB）（表2，p.13）。\n数据处理：以梯度幅值与随机混合策略从稠密体素中采样稀疏监督集（60%高梯度区域、40%随机），控制高斯表示内存不超过原体数据的25%（p.10）。"
 }

@@ -6,5 +6,6 @@
  "gpu": "NVIDIA A100",
  "mp": 9,
  "url": "https://github.com/palmdong/RobSelf",
- "metrics": "合成未对齐RGB引导深度超分（RMSE↓）：×4 RobSelf-De 1.43、RobSelf-Re 1.52；×8 2.49/2.57（表1，p.9）\n真实未对齐RGB引导深度超分：×2 RMSE 2.18（De）/2.23（Re）；×4 DSS↑ 8.6/8.4（表2，p.10）\n真实未对齐RGB引导NIR超分：×2 RMSE 3.12（De）/3.09（Re）；×4 NIQE↓ 7.60/7.63（表3，p.11）\n注：表3中×4 NIQE最优为P2P加预对齐的5.32，本文非最优（p.11）。\n数据处理：自行采集含跨传感器错位、随机视角变化与物体运动的真实RGB-深度与RGB-NIR数据；另合成未对齐的RGB引导深度超分数据（p.2、p.7）。"
+ "metrics": "合成未对齐RGB引导深度超分（RMSE↓）：×4 RobSelf-De 1.43、RobSelf-Re 1.52；×8 2.49/2.57（表1，p.9）\n真实未对齐RGB引导深度超分：×2 RMSE 2.18（De）/2.23（Re）；×4 DSS↑ 8.6/8.4（表2，p.10）\n真实未对齐RGB引导NIR超分：×2 RMSE 3.12（De）/3.09（Re）；×4 NIQE↓ 7.60/7.63（表3，p.11）\n注：表3中×4 NIQE最优为P2P加预对齐的5.32，本文非最优（p.11）。\n数据处理：自行采集含跨传感器错位、随机视角变化与物体运动的真实RGB-深度与RGB-NIR数据；另合成未对齐的RGB引导深度超分数据（p.2、p.7）。",
+ "repo_state": "code"
 }

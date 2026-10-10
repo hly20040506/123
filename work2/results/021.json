@@ -5,5 +5,8 @@
  "proc_p": 8,
  "gpu": "8× NVIDIA H800（训练）；单张H800（采样）",
  "mp": 12,
- "metrics": "全视频4D重建深度（表3，p.12）：Sintel Abs Rel↓ 0.273、δ<1.25↑ 70.4；Bonn Abs Rel↓ 0.092、δ<1.25↑ 93.7\n相机轨迹（表4，p.13）：Sintel ATE↓ 0.213、RPE-T↓ 0.057、RPE-R↓ 0.818；TUM-dynamics ATE↓ 0.129、RPE-T↓ 0.022、RPE-R↓ 1.447\n稀疏帧到4D（表5，p.13）：稀疏率0.10时 Sintel 0.453/64.0、Bonn 0.099/92.9\n4D生成：用户研究偏好率对4DNeX 4D项 90.0%、对Free4D 96.7%、对GenXD 93.6%（表1，p.11）；VBench Dynamic↑ 55.7%、I2V一致性↑ 97.8%、Aesthetic↑ 63.8%（表2，p.11）\n数据处理：混合OmniWorld-Game、BEDLAM、PointOdyssey、TartanAir等合成4D数据，并用Geo4D为SpatialVID真实视频标注伪几何（p.8）。"
+ "metrics": "全视频4D重建深度（表3，p.12）：Sintel Abs Rel↓ 0.273、δ<1.25↑ 70.4；Bonn Abs Rel↓ 0.092、δ<1.25↑ 93.7\n相机轨迹（表4，p.13）：Sintel ATE↓ 0.213、RPE-T↓ 0.057、RPE-R↓ 0.818；TUM-dynamics ATE↓ 0.129、RPE-T↓ 0.022、RPE-R↓ 1.447\n稀疏帧到4D（表5，p.13）：稀疏率0.10时 Sintel 0.453/64.0、Bonn 0.099/92.9\n4D生成：用户研究偏好率对4DNeX 4D项 90.0%、对Free4D 96.7%、对GenXD 93.6%（表1，p.11）；VBench Dynamic↑ 55.7%、I2V一致性↑ 97.8%、Aesthetic↑ 63.8%（表2，p.11）\n数据处理：混合OmniWorld-Game、BEDLAM、PointOdyssey、TartanAir等合成4D数据，并用Geo4D为SpatialVID真实视频标注伪几何（p.8）。",
+ "proj": "https://mizhenxing.github.io/One4D",
+ "url": "https://github.com/MiZhenxing/One4D",
+ "repo_state": "readme"
 }

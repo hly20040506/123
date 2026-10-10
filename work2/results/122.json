@@ -6,5 +6,6 @@
  "gpu": "NVIDIA V100（32G；训练用两块V100，复杂度分析用单块）",
  "mp": 11,
  "url": "https://github.com/ccarliu/CTRG",
- "metrics": "CT-RATE：Precision 0.467、Recall 0.429、F1 0.415、BLEU-1 0.535、BLEU-4 0.305、METEOR 0.481、ROUGE-L 0.396（表1，p.11）\nCT-RATE：RaTEScore 0.679、GREEN 0.433（表3，p.14）\nCTRG-Chest-548K：Precision 0.457、Recall 0.420、F1 0.399、BLEU-1 0.532、BLEU-4 0.335、METEOR 0.512、ROUGE-L 0.504（表1，p.11）\n注：两套数据上BLEU-1（0.535/0.532）均低于Liu et al.（0.540/0.545），该项非最优（表1，p.11）。\n数据处理：CT-RATE所有体积重采样到0.75×0.75×1.5 mm³体素间距，并中心裁剪或零填充到480×480×240体素（p.10）。"
+ "metrics": "CT-RATE：Precision 0.467、Recall 0.429、F1 0.415、BLEU-1 0.535、BLEU-4 0.305、METEOR 0.481、ROUGE-L 0.396（表1，p.11）\nCT-RATE：RaTEScore 0.679、GREEN 0.433（表3，p.14）\nCTRG-Chest-548K：Precision 0.457、Recall 0.420、F1 0.399、BLEU-1 0.532、BLEU-4 0.335、METEOR 0.512、ROUGE-L 0.504（表1，p.11）\n注：两套数据上BLEU-1（0.535/0.532）均低于Liu et al.（0.540/0.545），该项非最优（表1，p.11）。\n数据处理：CT-RATE所有体积重采样到0.75×0.75×1.5 mm³体素间距，并中心裁剪或零填充到480×480×240体素（p.10）。",
+ "repo_state": "code"
 }
