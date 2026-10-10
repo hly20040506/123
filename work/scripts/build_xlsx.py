@@ -51,7 +51,7 @@ rows.sort(key=lambda r: (-cnt[r['major']], r['major'], r['ds'].lower(), r['i']))
 wb = openpyxl.Workbook()
 ws = wb.active
 ws.title = '论文汇总'
-HDR = ['论文题目', '所属领域', '数据特殊处理\n（有/无/未说明）', '是否开源（GitHub）', '显卡型号', '能否复现\n（按提供代码）', '数据集与核心指标（作者方法）']
+HDR = ['论文题目', '所属领域', '数据特殊处理\n（有/无）', '是否开源（GitHub）', '显卡型号', '能否复现\n（按提供代码）', '数据集与核心指标（作者方法）']
 fh = Font(name='Microsoft YaHei', size=11, bold=True, color='FF000000')
 fd = Font(name='Microsoft YaHei', size=11, color='FF000000')
 ah = Alignment(horizontal='center', vertical='center', wrap_text=True)
@@ -76,7 +76,7 @@ for r_i, r in enumerate(rows, 2):
     x, d = r['x'], r['d']
     pdf = x['pdf']
     D, F, u = code_cells(d)
-    vals = [x['title'], r['major'] + '\n' + r['minor'], d['proc'], D, d['gpu'], F, d['metrics']]
+    vals = [x['title'], r['major'] + '\n' + r['minor'], '无' if d['proc'] == '未说明' else d['proc'], D, d['gpu'], F, d['metrics']]
     links = [pdf, None,
              f"{pdf}#page={d['proc_p']}" if d.get('proc_p') else None,
              u, None, u, f"{pdf}#page={d['mp']}" if d.get('mp') else pdf]

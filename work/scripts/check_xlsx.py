@@ -39,7 +39,7 @@ for row in ws.iter_rows(min_row=1, max_row=201, max_col=7):
 chk(fills == 0, f'no fills ({fills})')
 chk(colors == 0, f'all black font ({colors})')
 C = Counter(ws.cell(r, 3).value for r in range(2, 202))
-chk(set(C) <= {'有', '无', '未说明'}, f'proc values {dict(C)}')
+chk(set(C) <= {'有', '无'}, f'proc values {dict(C)}')
 D = Counter(ws.cell(r, 4).value for r in range(2, 202))
 chk(set(D) <= {'是（公开代码）', '仅仓库页面，未确认代码', '未找到公开代码', '代码链接暂无法确认'}, f'open-source values {dict(D)}')
 for r in range(2, 202):
