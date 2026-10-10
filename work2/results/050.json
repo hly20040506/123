@@ -5,5 +5,7 @@
  "proc_p": 2,
  "gpu": "未说明",
  "mp": 11,
- "metrics": "AerialMetric（自建，52K真实+16K合成图像-深度对），MoGe2-Aerial（无GT内参，AbsRel↓/δ1↑，%）：Oblique City 10.3/89.3、Natural 16.8/73.6、Rural 14.2/81.2；Decoupled Building 11.9/87.6、Factory 11.4/90.2、Farm 22.8/54.2、Lawn 9.8/94.0（表3，p.11）\n含GT内参：City 8.8/93.8、Natural 14.3/78.5、Rural 11.8/85.3（表3，p.11）\nAerialMetric-Wild（0–400 m）：AbsRel 由零样本MoGe2的55.26降至21.34，δ1由9.5升至53.7（表4及正文，p.13）\n地面数据集（无GT内参）：NYUv2 7.1/96.2、KITTI 16.3/68.7、iBims 14.7/85.4（表5，p.13）\n微调策略：LoRA（r=96）Oblique 12.45/84.40、Decoupled 13.19/83.90、Ground 16.30/79.59（表6，p.14）\n数据处理：从公开真实倾斜航拍摄影测量数据中处理并筛选出具可靠度量真值的图像-深度对（47K），另用Unreal Engine与Google Earth渲染16K合成对，并按俯仰角/高度/视场解耦采集受控子集（p.2）。"
+ "metrics": "AerialMetric（自建，52K真实+16K合成图像-深度对），MoGe2-Aerial（无GT内参，AbsRel↓/δ1↑，%）：Oblique City 10.3/89.3、Natural 16.8/73.6、Rural 14.2/81.2；Decoupled Building 11.9/87.6、Factory 11.4/90.2、Farm 22.8/54.2、Lawn 9.8/94.0（表3，p.11）\n含GT内参：City 8.8/93.8、Natural 14.3/78.5、Rural 11.8/85.3（表3，p.11）\nAerialMetric-Wild（0–400 m）：AbsRel 由零样本MoGe2的55.26降至21.34，δ1由9.5升至53.7（表4及正文，p.13）\n地面数据集（无GT内参）：NYUv2 7.1/96.2、KITTI 16.3/68.7、iBims 14.7/85.4（表5，p.13）\n微调策略：LoRA（r=96）Oblique 12.45/84.40、Decoupled 13.19/83.90、Ground 16.30/79.59（表6，p.14）\n数据处理：从公开真实倾斜航拍摄影测量数据中处理并筛选出具可靠度量真值的图像-深度对（47K），另用Unreal Engine与Google Earth渲染16K合成对，并按俯仰角/高度/视场解耦采集受控子集（p.2）。",
+ "url": "https://github.com/kuieless/AerialMetric",
+ "repo_state": "code"
 }

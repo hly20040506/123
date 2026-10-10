@@ -6,5 +6,8 @@
  "gpu": "未说明",
  "mp": 13,
  "metrics": "数据集论文，指标为用Syn4D训练/共训后的下游模型结果：\n几何感知新视角合成（自建280对视频评测基准，Syn4D训练）：CLIP-V↑ 0.740、FVD↓ 452、ATE↓ 0.070、RPE-trans↓ 0.021、RPE-rot↓ 0.272、CLIP-V-P↑ 0.816、FVD-P↓ 139（表2，p.12）\n3D跟踪（4RC+Syn4D）：ADT APD↑ 89.44、EPE↓ 0.1258；PStudio 88.10/0.1276；Soviet 74.46/1.8934；Warehouse 88.79/0.1915（表3，p.13）\n相机位姿/多视图重建（4RC+Syn4D）：Sintel ATE 0.076、RPEt 0.040、RPEr 0.302；7-Scenes Acc 0.031、Comp 0.043、NC 0.791；NRGBD 0.029/0.032/0.924（表4，p.13）\n视频深度（尺度对齐）：Sintel Rel↓ 0.211、δ<1.25↑ 74.6；Bonn 0.048/97.3；KITTI 0.071/95.7（表5，p.14）\n人体姿态（MA-HMR+Syn4D，mm）：3DPW MPJPE 62.5、PA-MPJPE 39.6、PVE 72.9；Hi4D 57.7/43.0/72.2；CHI3D 46.1/31.1/54.9（表6，p.15）\n数据处理：将SMPL-X标注经优化重拟合转换为SMPL；用分割掩码过滤人体严重遮挡的帧；稠密跟踪评测每序列采样24帧片段（p.13、p.15）。",
- "proj": "https://jzr99.github.io/syn4d/"
+ "proj": "https://jzr99.github.io/syn4d/",
+ "url": "https://github.com/jzr99/Syn4D",
+ "repo_state": "code",
+ "repo_note": "仓库含数据集与可视化代码（数据集论文）"
 }

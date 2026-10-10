@@ -5,5 +5,7 @@
  "proc_p": 9,
  "gpu": "NVIDIA A100（单卡）",
  "mp": 9,
- "metrics": "真实恶劣天气零样本（AbsRel↓/δ1↑）：NuScenes-night 0.194/0.737、RobotCar-night 0.239/0.513、DS-rain 0.123/0.842、DS-cloud 0.151/0.795、DS-fog 0.101/0.896（表1，p.9）\nKITTI-C合成损坏：Dark 0.126/0.837、Snow 0.107/0.884、Fog 0.093/0.910、Motion 0.125/0.841（表2，p.9）\n干净场景：KITTI 0.080/0.937、NYU-D 0.051/0.973、Sintel 0.232/0.716、ETH3D 0.064/0.968、DIODE 0.071/0.942（表3，p.11）\n混合天气（RoboDepth，KITTI）：雾+雨+雪+夜 δ1 0.630、AbsRel 0.236（表4，p.12）\n注：作者说明在DS-cloud、DS-fog上未达最优，RobotCar-night上DepthAnything v3与DepthPro明显更好（p.11）。\n数据处理：整理约15K张真实恶劣天气图像（雾/雨/雪/低光）与约200K张干净图像；Stage I从干净数据均匀子采样20K张，并按RobustSAM配方为每张生成合成天气退化，构成干净-合成配对（p.9–10）。"
+ "metrics": "真实恶劣天气零样本（AbsRel↓/δ1↑）：NuScenes-night 0.194/0.737、RobotCar-night 0.239/0.513、DS-rain 0.123/0.842、DS-cloud 0.151/0.795、DS-fog 0.101/0.896（表1，p.9）\nKITTI-C合成损坏：Dark 0.126/0.837、Snow 0.107/0.884、Fog 0.093/0.910、Motion 0.125/0.841（表2，p.9）\n干净场景：KITTI 0.080/0.937、NYU-D 0.051/0.973、Sintel 0.232/0.716、ETH3D 0.064/0.968、DIODE 0.071/0.942（表3，p.11）\n混合天气（RoboDepth，KITTI）：雾+雨+雪+夜 δ1 0.630、AbsRel 0.236（表4，p.12）\n注：作者说明在DS-cloud、DS-fog上未达最优，RobotCar-night上DepthAnything v3与DepthPro明显更好（p.11）。\n数据处理：整理约15K张真实恶劣天气图像（雾/雨/雪/低光）与约200K张干净图像；Stage I从干净数据均匀子采样20K张，并按RobustSAM配方为每张生成合成天气退化，构成干净-合成配对（p.9–10）。",
+ "url": "https://github.com/taco-group/DA-W",
+ "repo_state": "code"
 }

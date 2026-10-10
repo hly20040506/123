@@ -5,5 +5,7 @@
  "proc_p": 9,
  "gpu": "NVIDIA RTX A6000（48GB）",
  "mp": 10,
- "metrics": "相机控制（UltraVideo 1000个视频）：测量一致性 PSNR↑ 29.35、LPIPS↓ 0.0485、SSIM↑ 0.8827；源一致性 DINO↓ 0.0359、FVD↓ 99.73；VBench总分↑ 0.8977（表1，p.10）\n文本引导视频修复编辑：FVD↓ 1422.72、Overall Consistency↑ 0.2289、VLM↑ 0.6510、CLIP Score↑ 24.98、PickScore↑ 20.56（表2，p.12）\nVAE重建掩码策略：本文Pω PSNR 27.97、LPIPS 0.0515、SSIM 0.8772（表3，p.13）\n注：表1中SSIM（0.8827）与FVD（99.73）并非最优（TrajCrafter SSIM 0.8942、NVS-Solver FVD 96.90）（p.10）。\n数据处理：从UltraVideo取1000个视频及描述，为每个视频从6条目标相机轨迹中采样一条（p.9）。"
+ "metrics": "相机控制（UltraVideo 1000个视频）：测量一致性 PSNR↑ 29.35、LPIPS↓ 0.0485、SSIM↑ 0.8827；源一致性 DINO↓ 0.0359、FVD↓ 99.73；VBench总分↑ 0.8977（表1，p.10）\n文本引导视频修复编辑：FVD↓ 1422.72、Overall Consistency↑ 0.2289、VLM↑ 0.6510、CLIP Score↑ 24.98、PickScore↑ 20.56（表2，p.12）\nVAE重建掩码策略：本文Pω PSNR 27.97、LPIPS 0.0515、SSIM 0.8772（表3，p.13）\n注：表1中SSIM（0.8827）与FVD（99.73）并非最优（TrajCrafter SSIM 0.8942、NVS-Solver FVD 96.90）（p.10）。\n数据处理：从UltraVideo取1000个视频及描述，为每个视频从6条目标相机轨迹中采样一条（p.9）。",
+ "url": "https://github.com/yeobinhong/InverseCrafter",
+ "repo_state": "readme"
 }

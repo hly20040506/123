@@ -6,5 +6,7 @@
  "gpu": "未说明",
  "mp": 13,
  "metrics": "主文无数值型结果表格：以未恢复像素比例η（作为误差概率的代理指标，并在图9中验证其与相对主动DFF参考深度的RMSE强相关）评估DFF性能，结果以曲线和深度图形式给出（图9–图13，p.13–15）\n主要结论（图10–图12，p.13–14）：加10 nm窄带滤光片后，η显著低于无滤光片；即使欠曝约3档（曝光增加4倍而非32倍）性能已提升；像素自适应聚合下滤光片可在更小聚合窗口恢复更精细深度。\n注：项目网站称提供代码与数据（p.2、p.12）。",
- "proj": "https://imaging.cs.cmu.edu/second-order-texture"
+ "proj": "https://imaging.cs.cmu.edu/second-order-texture",
+ "soon": true,
+ "soon_text": "项目页注明代码即将发布（code will be available soon）"
 }
