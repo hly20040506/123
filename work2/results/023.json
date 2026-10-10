@@ -1,0 +1,10 @@
+{
+ "idx": 23,
+ "dom": "三维重建与新视角合成\n全景对齐的单目视频4D场景重建（4DGS+生成先验）",
+ "proc": "有",
+ "proc_p": 5,
+ "gpu": "未说明",
+ "mp": 11,
+ "url": "https://github.com/LogosRoboticsGroup/PASTEL",
+ "metrics": "DyCheck iPhone：PSNR↑ 18.54、SSIM↑ 0.582、LPIPS↓ 0.335；mPSNR↑ 19.75、mSSIM↑ 0.739、mLPIPS↓ 0.247（表1，p.11）\nKubric-4D（大相机位移）：PSNR↑ 22.75、SSIM↑ 0.733、LPIPS↓ 0.212；mPSNR↑ 24.25、mSSIM↑ 0.781、mLPIPS↓ 0.149（表2，p.12）\n注：NSFF数据集结果仅在补充材料中给出（p.11）。\n数据处理：计算全景球心前进行深度百分位过滤，去除深度最小的30%点以抑制前景动态物体影响；预处理包括深度提取、稠密光流与位姿估计（p.5、p.11）。"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 37,
+ "dom": "三维场景与物体生成\n事件-RGB融合的未来4D动态场景生成（驾驶场景）",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "2× A100（训练）",
+ "mp": 11,
+ "metrics": "E-VKitti2（合成事件版VKitti2）：生成 FID↓ 39.1、FVD↓ 223.6；深度 AbsRel↓ 0.27、δ1↑ 67.1、δ2↑ 87.8、δ3↑ 92.7、RMSE↓ 54.7；光流 EPE↓ 3.0、AE↓ 21.0、1PE↓ 58.1、2PE↓ 38.5、3PE↓ 27.7（表1，p.11）\n运动模糊条件：FID 53.6、FVD 272.8、AbsRel 0.265、δ1 68.1、EPE 2.86（表2，p.13）\n零样本真实数据（表3，p.14）：DSEC FID 50.9、FVD 224.0、AbsRel 0.30、δ1 47.9、EPE 6.8；MVSEC FVD 427.0、AbsRel 0.21；M3ED FID 68.5、FVD 508.3、AbsRel 0.22\n数据处理：用v2e从VKitti2合成事件流构建E-VKitti2；事件按固定时间窗划分为15个时间bin；输入裁剪缩放至192×640（E-VKitti2）或320×384（DSEC/MVSEC/M3ED）（p.10）。"
+}

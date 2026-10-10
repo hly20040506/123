@@ -1,0 +1,10 @@
+{
+ "idx": 9,
+ "dom": "三维重建与新视角合成\n重力对齐的可仿真场景分解重建（刚体网格+背景点云/3DGS）",
+ "proc": "有",
+ "proc_p": 11,
+ "gpu": "H20（训练）；RTX A6000（效率测试）",
+ "mp": 11,
+ "proj": "https://sunjiahaovo.github.io/garden/",
+ "metrics": "物体级材质恢复（LiteReality基准，仿真后协议）：点云背景 RMSE↓ 0.1887，SSIM↑ 0.4240，LPIPS↓ 0.4444；3DGS背景 0.1880 / 0.4181 / 0.5035；静态协议点云 0.1736 / 0.4656 / 0.3680（表1，p.11；仿真后SSIM不及LiteReality 0.4353）\n整场景渲染（仿真后，点云背景）：RMSE↓ 0.1616，SSIM↑ 0.5735，LPIPS↓ 0.4081（表2，p.12；SSIM不及LiteReality 0.5818）\n重力估计角误差（°）：Hypersim 均值↓ 1.40，P90↓ 1.90，Fail@10↓ 0.0；TartanAir 1.56 / 3.48 / 0.0（表3，p.13）\n注：推理时延对比（表5）按要求未录入\n数据处理：重力对齐模块在TartanAir/Hypersim/vKitti上训练，背景点分类在预处理后的InternScenes上训练（p.11）"
+}

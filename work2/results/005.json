@@ -1,0 +1,10 @@
+{
+ "idx": 5,
+ "dom": "遥感与林业三维估计\n无人机影像单木树高与树种联合估计（DINOvTree）",
+ "proc": "有",
+ "proc_p": 4,
+ "gpu": "未说明",
+ "mp": 11,
+ "proj": "https://RolnickLab.github.io/DINOvTree",
+ "metrics": "Quebec Trees（DINOvTree-B，5种子均值）：δ1.25↑ 88.29%，MSLE↓(10⁻²) 1.85，MAE↓ 1.17 m，RMSE↓ 1.54 m；分类 F1↑ 86.89%，Acc↑ 85.03%（表1，p.11；分类不及DINOv3-B 87.46/85.10）\nBCI（DINOvTree-L）：δ1.25↑ 94.14%，MSLE↓ 1.68，MAE↓ 2.75 m，RMSE↓ 3.75 m，F1↑ 54.39%，Acc↑ 55.58%（表2，p.12）\nQuebec Plantations（DINOvTree-L）：δ1.25↑ 85.09%，MAE↓ 0.37 m，RMSE↓ 0.58 m，F1↑ 87.80%，Acc↑ 87.63%（表3，p.12；树高指标不及DINOv3-L/PECore-L）\n数据处理：以人工标注树冠分割为预处理，剔除超类与“Other”及样本过少类别（p.4–6）"
+}

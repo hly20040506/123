@@ -1,0 +1,9 @@
+{
+ "idx": 42,
+ "dom": "三维场景与物体生成\n交错多模态推理的逆图形智能体（程序化3D/4D场景重建）",
+ "proc": "未说明",
+ "proc_p": null,
+ "gpu": "未说明",
+ "mp": 13,
+ "metrics": "BlenderBench（自建，GPT-4o，best-of-4）：任务1相机调整 PL↓ 5.47、N-CLIP↓ 6.10、VLM↑ 3.25；任务2固定视角编辑 2.94/3.50/3.83；任务3探索式编辑 12.62/22.84/1.61；相对BlenderAlchemy综合提升 159.19%（表2，p.13）\nBlenderBench（Qwen3-VL-8B，best-of-1）：任务1 10.54/17.27/1.31；任务2 3.85/3.34/3.33；任务3 11.35/6.86/2.25（表2，p.13）\nBlenderGym（GPT-4o，bo4，PL/NC↓）：Shape 5.45/13.08、Place 9.76/17.48、Geom 7.38/7.36、Light 0.70/1.01、Mat 3.04/7.63（表3，p.14）\nSlideBench：GPT-4o Exec 0.95、Quality 61.4、Overall 58.3；Claude-3.5 0.90/69.2/62.2；Gemini-2.5 0.69/70.9/48.9（表4，p.14）\n注：正文称SlideBench评测了Claude-Sonnet-4，而表4中列为Claude-3.5（p.14）。"
+}

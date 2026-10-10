@@ -1,0 +1,11 @@
+{
+ "idx": 25,
+ "dom": "人体、头像与动物重建\n单图回归NPHM神经参数化人头重建",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "单张A100-80GB（训练）；编码器预训练用2× A6000",
+ "mp": 9,
+ "soon": true,
+ "soon_text": "论文表2标注本方法“即将公开”",
+ "metrics": "NeRSemble单视图人脸重建（SVFR）：Neutral L1↓ 1.54、L2↓ 1.04、NC↑ 0.897；Posed L1↓ 1.37、L2↓ 0.92、NC↑ 0.897（含推理时优化）；仅前馈：Neutral 1.57/1.06/0.896，Posed 1.55/1.05/0.894（表2，p.9）\nNoW误差：Median 0.81、Mean 1.01、Std 0.85（仅前馈 0.83/1.03/0.88）（表2，p.9）\nAffectNet情绪识别：8类准确率 0.711；Arousal CCC 0.621、Valence CCC 0.739（表3，p.12）\n注：表4消融中NoW一列“Ours”为0.988、“ffwd. NPHM”为1.016，与表2的NoW Mean（1.01/1.03）不一致（p.12）。\n数据处理：整理NPHM、FaceScape、DAViD、MimicMe、LYHM等3D数据并统一配准为NPHM格式（共102K个3D形状），2D视频用Pixel3DMM追踪相机，并基于参数范数直方图阈值做离群值过滤（p.3、p.8）。"
+}

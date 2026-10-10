@@ -1,0 +1,10 @@
+{
+ "idx": 44,
+ "dom": "视觉基础模型与理论\n探测VGGT中的共视性表征（Co-VGGT）",
+ "proc": "未说明",
+ "proc_p": null,
+ "gpu": "H100（效率测试）",
+ "mp": 9,
+ "url": "https://github.com/filippoziliotto/covisibility-probing",
+ "metrics": "Co-VisiON基准成对共视预测：Gibson IoU*↑ 0.85、AUC↑ 0.78；HM3D 0.84/0.78（零样本 Gibson 0.50/0.31）（表1，p.9）\n多视图共视预测：Gibson IoU* 0.74、AUC 0.73（高于人工标注0.72）；HM3D 0.76/0.74（表2，p.10）\n难度分层（成对，Graph IoU）：Easy 1.00、Med. 0.93、Hard 0.84（表3，p.11）\n校准（Gibson val，成对）：ECE 0.030、Brier 0.043（p.11）\n跨域迁移：Gibson→HM3D 成对 0.81/0.75；HM3D→Gibson 0.83/0.76（表5，p.14）"
+}

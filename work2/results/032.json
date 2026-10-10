@@ -1,0 +1,10 @@
+{
+ "idx": 32,
+ "dom": "视觉定位与相机标定\n基于仿射对应的卷帘快门相对位姿估计",
+ "proc": "未说明",
+ "proc_p": null,
+ "gpu": "未说明",
+ "mp": 14,
+ "url": "https://github.com/danini/rolling_shutter_made_practical",
+ "metrics": "TUM-RS（AffNet稀疏仿射对应，stride=10）：位姿AUC@5°↑ 0.502、@10° 0.609、@20° 0.687；角速度误差ϵω↓ 0.047 rad、平移速度误差ϵv↓ 0.056 m；stride=20：0.476/0.573/0.645（表1，p.14）\nTUM-RS（RoMa稠密对应，stride=10）：AUC@5° 0.897、@10° 0.948、@20° 0.973；ϵω 0.043、ϵv 0.051（表1，p.14）\nEuRoC MAV（全局快门，stride=10）：AUC@5° 0.512、@10° 0.701、@20° 0.816；ϵω 0.016、ϵv 0.035（表2，p.15）"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 8,
+ "dom": "三维重建与新视角合成\n以场景流统一的4D重建与三维点跟踪",
+ "proc": "未说明",
+ "gpu": "A100/H100（训练）；RTX PRO 6000（效率测试）",
+ "mp": 11,
+ "proj": "https://shenhanqian.github.io/flow4r",
+ "metrics": "世界坐标3D点跟踪 APD3D↑：全部点 ADT 78.6，Dynamic Replica 78.5，Point Odyssey 71.1，Panoptic Studio 64.3；动态点 ADT 70.9，DR 77.2，PO 72.9（表1，p.11；PS全部点与ADT动态点不及St4RTrack 69.7/75.3等）\n世界坐标3D重建：Point Odyssey APD↑ 81.00，EPE↓ 0.182；TUM-Dynamics APD↑ 79.87，EPE↓ 0.202（表2，p.12；TUM不及St4RTrack 83.42/0.185）"
+}

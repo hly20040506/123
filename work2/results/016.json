@@ -1,0 +1,10 @@
+{
+ "idx": 16,
+ "dom": "自动驾驶感知\n航拍视角跨视图监督的在线高精地图构建",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "L40S",
+ "mp": 9,
+ "url": "https://github.com/DriverlessMobility/CrossViewSupervision",
+ "metrics": "AID4AD（仅相机推理，StreamMapNet+CVS）：60×30m区域 AP_ped↑ 40.1，AP_div↑ 30.3，AP_bound↑ 43.5，mAP↑ 38.0%（基线34.1）；100×50m区域 40.3 / 25.8 / 30.7，mAP↑ 32.3%（基线22.4）（表1，p.9）\n数据处理：使用AID4AD对齐的与自车对齐航拍裁剪作为教师输入，特征逐通道归一化；航拍教师训练时做6个固定旋转的偏航增强（p.6–7，p.11）"
+}

@@ -1,0 +1,10 @@
+{
+ "idx": 1,
+ "dom": "三维仿真与物理建模\n文本条件三维物理属性生成（多部件体素场）",
+ "proc": "有",
+ "proc_p": 3,
+ "gpu": "RTX A800",
+ "mp": 11,
+ "proj": "https://hb-pencil-zero.github.io/AutoPhyX",
+ "metrics": "Text2PhyX（OpenCLIP版）：PSNR↑(dB) 26.012，SSIM↑ 0.921，LPIPS↓ 0.089，平均物理误差↓ 0.059，log E误差↓ 0.042，ν误差↓ 0.051，log ρ误差↓ 0.083（CLIP版 PSNR 25.105，平均物理误差 0.069）（表1，p.11）\nABO-500：ALDE↓ 0.652，ADE↓ 9.433，ARE↓ 0.901，MnRE↑ 0.582（表2，p.13）\n数据处理：构建Text2PhyX（1,700个资产×8组物理参数/文本），借助Gemini做部件分割与物理属性检索标注（p.3，p.11）"
+}
