@@ -1,0 +1,10 @@
+{
+ "idx": 64,
+ "dom": "机器人操作与具身智能\n时空推理与因果记忆的机器人VLM",
+ "proc": "有",
+ "proc_p": 12,
+ "gpu": "未说明",
+ "mp": 11,
+ "proj": "https://robostream123.github.io/",
+ "metrics": "SIMPLER Google Robot（RoboStream-8B）：VA Pick Coke↑(%) 94.2，Move Near↑ 79.8；VM Pick Coke↑ 95.7，Move Near↑ 95.8（表1，p.11）\nSIMPLER WidowX+Bridge（零样本）：Spoon 62.5，Carrot 71.9，Stack 77.1，Egg 87.5，Avg↑(%) 74.8（表1，p.11）\nRLBench自建8个长时程任务（零样本，每任务25回合）：平均成功率↑(%) 8B 58.0，32B 82.5，235B 90.5（表2，p.12）\n6-DoF SpatialBench：RoboStream-32B Total↑ 48.9；Open6DOR V2：32B 6-DoF↑ 52.2（表3/表4，p.13）"
+}

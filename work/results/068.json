@@ -1,0 +1,10 @@
+{
+ "idx": 68,
+ "dom": "机器人操作与具身智能\nVLM度量级三维空间轨迹推理（RoboTracer）",
+ "proc": "有",
+ "proc_p": 3,
+ "gpu": "未说明",
+ "mp": 11,
+ "proj": "https://zhoues.github.io/RoboTracer",
+ "metrics": "TraceSpatial-Bench（100张真实图像，多步度量推理）：RoboTracer-RFT（RGB+内参+深度）2D Start/End SR↑(%) 69/53，3D Start/End 78/61，Overall↑ 45（表5，p.11）\n空间理解（RoboTracer-8B-SFT）：CV-Bench 2D-Rel 97.08，3D-Dep 97.17，3D-Dist 93.50；RoboSpatial↑ 83.74，EmbSpatial↑ 81.75（表1，p.9）\n空间度量（8B-SFT）：Q-Spatial Plus↑ 73.27，ScanNet↑ 78.82，MSMU S.E.↑ 83.01，R.E.↑ 70.00（表2，p.9）\nRoboTwin 2.0 hard（19任务，RoboTracer-2B零样本）：总平均成功率↑(%) 64.0（已见75.4，未见44.4）（表7，p.12）\n注：消融表9默认配置H的Q-Spatial为69.61，与表2中2B-SFT的68.32不一致（表9，p.14）"
+}

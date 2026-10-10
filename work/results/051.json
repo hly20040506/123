@@ -1,0 +1,11 @@
+{
+ "idx": 51,
+ "dom": "机器人操作与具身智能\n免逆动力学模型的具身世界模型运动学评测基准",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "A100",
+ "mp": 12,
+ "url": "https://github.com/minecraft-zzz/KineBench",
+ "hf": "https://huggingface.co/datasets/Zorkzak/KineBenchDatasets",
+ "metrics": "基准论文：作者流程用微调YOLO分割末端执行器+微调MoGeV2深度+FoundationPose提取6D位姿，替代逆动力学模型；被测世界模型闭环成功率↑(%)：Suite 0 Wan2.2-5B 56.32，Suite 1 CogVideoX-2B 57.78，Suite 2 Seen/Unseen Wan2.2-5B 58.00/55.50，Suite 3 Wan2.1-1.3B（15k步）73.33（表1，p.12）\nKineBench与IDM位姿恢复误差对比：主文仅以图示给出（图4，p.10），未报告表格数值"
+}

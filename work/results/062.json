@@ -1,0 +1,11 @@
+{
+ "idx": 62,
+ "dom": "三维场景图与空间理解\n空间智能数据生成引擎与300万样本数据集",
+ "proc": "有",
+ "proc_p": 12,
+ "gpu": "未说明",
+ "mp": 13,
+ "url": "https://github.com/VINHYU/OpenSpatial",
+ "hf": "https://huggingface.co/datasets/JoyAI-Image-OpenSpatial",
+ "metrics": "OpenSpatial-3M训练（Qwen2.5-VL-7B）：3D-Avg↑ 59.7，BLINK↑ 65.9，AllAngles↑ 58.4，ERQA↑ 41.8，VSI(16帧)↑ 56.7，3DSR↑ 54.3，MMSI↑ 39.6，CV-3D↑ 92.5，RealWorldQA↑ 68.3（表7，p.13）\n不同规模：3B 3D-Avg↑ 56.1；32B 3D-Avg↑ 61.3（表7，p.13）\n同规模500k子集对比（Qwen2.5-VL训练）：BLINK↑ 64.2，AllAngles↑ 53.9，MAD 2.5（最小）（表2，p.11）\n数据处理：以3D框为中心生成QA并做质量过滤（ScanNet提升后精度80.2%）；从野外视频进行3D提升生成标注（p.12）"
+}

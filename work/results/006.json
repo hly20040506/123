@@ -1,0 +1,10 @@
+{
+ "idx": 6,
+ "dom": "自动驾驶数据集与规划\n多天气多模态驾驶数据集与端到端规划",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "未说明",
+ "mp": 12,
+ "note_code": "数据集经Google Drive申请表获取，非代码仓库",
+ "metrics": "DiverseAD（全部大气条件；作者VLM端到端方法）：L2↓(m) 1s/2s/3s/Avg 0.53/1.21/1.99/1.24，VQA Acc↑(%) 72.68（表2，p.12）\nDiverseAD（分天气，例）：Bright Avg L2↓(m) 1.23，Dark 1.30，Dusty 1.04（表3，p.13）\nnuScenes（开环规划，ST-P3计算口径）：L2↓(m) Avg 0.39，碰撞率↓(%) Avg 0.16（表4，p.14）\n数据处理：原始多模态数据经系统清洗与筛选（p.6）"
+}

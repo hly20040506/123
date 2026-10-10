@@ -1,0 +1,10 @@
+{
+ "idx": 57,
+ "dom": "三维场景图与空间理解\n层次化能力建模的多视角空间推理数据集与MLLM",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "未说明",
+ "mp": 10,
+ "proj": "https://co1dspring.github.io/MV-STRIDE/",
+ "metrics": "最终模型MV-STRIDE-RL（Stage 3，Qwen2.5-VL-7B基座；准确率↑(%)）：MMSI-Bench Avg 37.50，CV-Bench 85.94，ViewSpatial-Bench 49.30，3DSR-Bench 59.43（表1，p.10）\n对照变体（不同训练设置，分开列示）：MV-STRIDE-SFT(Full) MMSI 38.90，CV 86.73，VS 48.35，3DSR 64.51；SFT(Stage 1) MMSI 37.20，3DSR 65.52（表1，p.10）\n数据处理：由600+合成（Infinigen）与真实（ScanNet++）室内场景三维标注自动生成层级QA与CoT标注（p.6，p.14）"
+}

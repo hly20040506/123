@@ -1,0 +1,10 @@
+{
+ "idx": 36,
+ "dom": "视觉语言导航\n智能体式VLN（技能调用与空间推理）",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "A100（训练）；Jetson Orin NX（部署）",
+ "mp": 10,
+ "url": "https://github.com/Allenxinn/AgentVLN",
+ "metrics": "R2R-CE Val-Unseen（AgentVLN-3B，单目RGB+深度）：NE↓(m) 3.88，OS↑(%) 73.5，SR↑(%) 67.2，SPL↑(%) 64.7（表1，p.10）\nRxR-CE Val-Unseen：NE↓(m) 3.92，SR↑(%) 69.5，SPL↑(%) 61.3，nDTW↑ 74.6（表2，p.11）\n数据处理：在Habitat中基于R2R/RxR构建AgentVLN-Instruct指令微调数据（p.8）"
+}

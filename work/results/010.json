@@ -1,0 +1,8 @@
+{
+ "idx": 10,
+ "dom": "自动驾驶规划\n分层扩散与度量解耦强化学习端到端驾驶",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 11,
+ "metrics": "NAVSIM v1 navtest：HAD（相机+LiDAR）PDMS↑ 90.2，EP↑ 87.4，TTC↑ 97.5；HAD-L（仅相机）PDMS↑ 89.9（表1，p.11）\nNAVSIM v2：HAD EPDMS↑ 88.6；HAD-L EPDMS↑ 88.5（表2，p.11）\nHUGSIM（闭环；公开集；HAD-L）：Overall RC↑ 47.5，HD-Score↑ 30.8（表3，p.12）"
+}

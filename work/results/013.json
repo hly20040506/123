@@ -1,0 +1,10 @@
+{
+ "idx": 13,
+ "dom": "视频生成与理解\n多视角共享世界的上下文视频生成",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "H20 (95GB)",
+ "mp": 8,
+ "url": "https://github.com/wufan-cse/IC-World",
+ "metrics": "DL3DV-10K（静态场景+动态相机；采样1K训练/1K测试，Qwen2.5-VL生成描述；N=2）：M-FID↓ 98.8324，CLIP↑ 0.6170，VLM↑ 0.7822，Geometry0.1/0.5/0.7↑ 0.6980/0.7217/0.6994（表1，p.8）\nMultiCamVideo（UE5渲染，动态场景+静态相机；采样1K/1K）：M-FID↓ 157.6099，CLIP↑ 0.6400，VLM↑ 0.7958，Motion10/20/30↑ 0.8360/0.8466/0.8500（表2，p.8）\nVBench（I2V）：Weighted Average↑(%) 81.15，Dynamic Degree↑ 72.36（表3，p.9）"
+}

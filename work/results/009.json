@@ -1,0 +1,10 @@
+{
+ "idx": 9,
+ "dom": "人体、头像与动物重建\n着装人体扫描的SMPL-X表达式拟合",
+ "proc": "有",
+ "proc_p": 11,
+ "gpu": "未说明",
+ "mp": 11,
+ "proj": "https://xiaobenli00.github.io/ETCH-X",
+ "metrics": "CAPE（分布内；完整扫描）：CD↓ 1.015，V2V-All↓(cm) 1.484，MPJPE-All↓(cm) 1.764（表1，p.11）\n4D-Dress（分布内；完整扫描）：CD↓ 1.060，V2V-All↓(cm) 1.897，MPJPE-All↓(cm) 2.317（表1，p.11）\nBEDLAM2.0（OOD；均在4D-Dress训练）：CD↓ 1.265，V2V↓(cm) 3.429，MPJPE↓(cm) 4.033（表2，p.11）\n4D-Dress单视角部分输入（训练含部分扫描增广；单向CD）：CD↓ 0.978，V2V↓ 3.808，MPJPE↓ 5.273（表3，p.11）\n数据处理：组合式合成数据训练，并用Embree光线求交模拟单视角部分扫描（p.11）"
+}

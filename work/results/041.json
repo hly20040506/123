@@ -1,0 +1,10 @@
+{
+ "idx": 41,
+ "dom": "自动驾驶规划\n端到端驾驶中的目标持久性（遮挡目标推理）",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "未说明",
+ "mp": 11,
+ "proj": "https://beyondsight-eccv.github.io",
+ "metrics": "nuScenes val（开环规划）：L2avg↓(m) 0.54，CRavg↓(%) 0.07（表1，p.11）\nnuScenes val（感知/跟踪/预测）：mAP↑ 0.427，NDS↑ 0.536，AMOTA↑ 0.401，minADE↓ 0.610，EPA↑ 0.502（表2，p.11）\nnuScenes-Permanence val（自建不可观测目标标注）：mAPall↑ 0.413，mAPunobs↑ 0.249，NDSunobs↑ 0.306，minADEunobs↓ 0.479（表3，p.12）\n数据处理：重建遮挡区间缺失状态，扩展nuScenes不可观测目标标注（p.8）"
+}

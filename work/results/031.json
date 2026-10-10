@@ -1,0 +1,10 @@
+{
+ "idx": 31,
+ "dom": "视觉基础模型与理论\n模型合并超参选择代理指标（含LiDAR分割模型合并）",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "未说明",
+ "mp": 9,
+ "note_code": "文中GitHub链接为引用的open_clip，非本文代码",
+ "metrics": "CLIP图像分类合并基准（TAP用每任务128张无标签图像选超参；平均准确率↑(%)）：Iso-CTS w/TAP 86.8（w/Eval 86.9），TSV w/TAP 85.1（w/Eval 85.2）（表1，p.9）\nLiDAR语义分割模型合并（TAP选参；mIoU↑(%)）：AdaMerging w/TAP nuScenes 73.1，SemanticKITTI 64.4，Panda64 46.6，PandaGT 46.1，归一化性能↑ 0.985（表2，p.10）\nDUNE异构视觉模型合并：AdaMerging w/TAP ADE20k mIoU↑ 49.3，NYUd RMSE↓ 0.300，Bedlam PA-PVE↓ 62.9，MapFree AUC↑ 95.2，归一化性能↑ 0.971（表3，p.11）"
+}

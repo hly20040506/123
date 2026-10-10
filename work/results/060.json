@@ -1,0 +1,9 @@
+{
+ "idx": 60,
+ "dom": "三维占据预测\n语言引导的4D占据空间行为与交互生成",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "未说明",
+ "mp": 12,
+ "metrics": "自建OccInteract-85k（UniOcc真实日志+CarlaSC仿真+TTSG安全关键场景，VLM自动生成标注并过滤）；单帧质量（带历史前缀控制）：IS↑ 3.40，FID↓ 62，KID↓ 0.05，Precision↑ 0.33，Recall↑ 0.23（表3，p.12）\n视频质量与指令对齐（带历史前缀控制）：FVD↓ 275，Precision↑ 0.58，Recall↑ 0.12，VLM评分Mean↑(1–5) 3.73（表4，p.12）\n注：消融表5中“STSA+Token Refiner（无历史控制）”为FVD 354/Precision 0.58，而表4同设置Precision为0.48，原文数值不一致（表5，p.14）"
+}

@@ -1,0 +1,8 @@
+{
+ "idx": 59,
+ "dom": "自动驾驶规划\n多视角驾驶VLM的动态视觉token剪枝加速",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 9,
+ "metrics": "DriveLMM-o1（DriveLMM-o1模型；Overall Reasoning↑）：保留64 token/图(剪75%) 73.79（上界74.37的99.2%）；保留25 token/图(剪90%) 72.91（98.0%）（表1，p.9）\nDriveLM（DriveMM模型；Average↑）：剪75% 58.7（99.3%），剪90% 58.2（98.5%）（表2，p.10）\nMAPLM（DriveMM；Average↑）：剪75% 70.31（97.3%），剪90% 68.30（94.5%）（表3，p.11）\nSTSnu（DriveMM；Average↑）：剪75% 44.25（100%），剪90% 43.00（97.3%）（表4，p.11）"
+}

@@ -1,0 +1,8 @@
+{
+ "idx": 37,
+ "dom": "具身导航\n异步多模块协同的开放词汇/多模态导航",
+ "proc": "未说明",
+ "gpu": "A100（训练）；A6000（时延测试）",
+ "mp": 12,
+ "metrics": "HM3D-OVON（开放词汇目标导航）：Val Seen SR↑(%) 60.0/SPL↑ 15.6，Val Seen Synonyms 60.0/20.9，Val Unseen 53.3/14.8（表1，p.12）\nSG3D-Nav（任务序列导航）：s-SR↑(%) 24.5，t-SR↑(%) 8.3，SPL↑ 11.3（表2，p.12）\nGOAT-Bench（多模态终身导航）：Val Seen SR↑ 55.2/SPL↑ 25.5，Val Seen Synonyms 48.8/21.8，Val Unseen 47.2/21.5（表3，p.13）"
+}

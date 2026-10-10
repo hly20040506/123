@@ -1,0 +1,9 @@
+{
+ "idx": 46,
+ "dom": "机器人操作与具身智能\n情景三维空间记忆的长时程移动操作",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "RTX 4090",
+ "mp": 11,
+ "metrics": "ALFRED Test Seen（仅高层目标）：SR↑(%) 61.24，GC↑ 68.74，PLWSR↑ 46.89，PLWGC↑ 53.22；Test Unseen：SR↑ 56.04，GC↑ 64.79，PLWSR↑ 41.82，PLWGC↑ 48.04（表1，p.11）\nALFRED（使用逐步指令）：Test Seen SR↑(%) 65.09，Test Unseen SR↑ 60.79（表1，p.11）\n语义分割：地图mIoU↑ Seen 0.758/Unseen 0.654，图像mIoU↑ 0.869/0.779（表3，p.13）\n数据处理：按ALFRED流程由专家规划器逐帧标注可操作目标，生成332,432张训练图像（p.10）"
+}

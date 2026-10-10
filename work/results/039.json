@@ -1,0 +1,9 @@
+{
+ "idx": 39,
+ "dom": "三维场景图与空间理解\n视频VLM的三维感知表示与双记忆空间推理",
+ "proc": "未说明",
+ "gpu": "H200",
+ "mp": 9,
+ "proj": "https://sairlab.org/vlm2",
+ "metrics": "VSI-Bench（VLM2-7B）：Avg↑(%) 68.8，Obj.Cnt 72.5，Abs.Dist 59.6，Route Plan 52.6（表1，p.9）\nVSTI-Bench：Avg↑(%) 65.3（表2，p.10）\nScanQA val：CIDEr↑ 105.5，BLEU-4↑ 17.7，METEOR↑ 20.5，ROUGE↑ 50.3，EM-1↑ 30.7；SQA3D test EM-1↑ 60.4（表3，p.11）\n零样本：CV-Bench Avg↑ 79.4，SPAR-Bench Avg↑ 66.8，BLINK↑ 67.2（表4，p.12）\n注：按视频时长分组表5给出VSI-Bench Avg 69.4、VSTI-Bench Avg 69.5，与表1（68.8）/表2（65.3）不一致，原文未解释（表5，p.13）"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 40,
+ "dom": "自动驾驶规划\n向BEV表示蒸馏LLM语义知识",
+ "proc": "未说明",
+ "gpu": "A100 80GB",
+ "mp": 10,
+ "proj": "https://sites.google.com/view/secure-safe-ai/bevlm",
+ "metrics": "DriveLM-nuScenes（目标存在二分类VQA；InternVL3-8B+BEV(UniAD)）：Acc↑(%) 95.3，Prec↑ 95.2，Recall↑ 97.7，F1↑ 96.4（表2，p.7）\nEgo3D跨视角推理（InternVL3-1B+BEV）：MCQ Avg Acc↑(%) 61.34，距离L1↓(m) 7.05（表3，p.7）\nnuScenes开环/NeuroNCAP闭环（蒸馏BEV编码器）：UniAD Distilled BEV8B Avg L2↓(m) 1.00，NeuroNCAP Score↑ 3.05，CR↓ 0.47；VAD Distilled BEV8B Avg L2↓ 0.74，Score↑ 3.42，CR↓ 0.34（表4，p.10）"
+}

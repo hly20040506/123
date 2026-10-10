@@ -1,0 +1,9 @@
+{
+ "idx": 66,
+ "dom": "视觉基础模型与理论\n语言引导空间推理增强视觉编码器表示",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "未说明",
+ "mp": 7,
+ "metrics": "NYUd/KITTI单目深度（冻结编码器；DINOv3+SpatialBoost）：NYUd RMSE↓ lin. 0.25/DPT 0.21；KITTI RMSE↓ lin. 2.20/DPT 1.84（表1，p.7）\nADE20K/Pascal VOC分割（DINOv3+SpatialBoost）：ADE20K mIoU↑ lin. 59.7/+ms 63.1；VOC 88.5/90.9（表2，p.7）\nScanNet三维任务（DINOv3+SpatialBoost）：ScanQA BLEU-1↑ 43.3，SQA3D↑ 54.9，ScanRefer Acc↑(%) 61.1，RR@0.05m↑(%) 97.5，RTE↓(m) 0.06，3D SU mIoU↑ 70.6（表3，p.8）\nCortexBench机器人模仿学习（DINOv3+SpatialBoost）：Avg↑ 80.8（表4，p.9）\n数据处理：从SA1B随机采样100K单视图图像、筛选200K多视图样本，构建多轮空间推理VQA数据（p.9）"
+}

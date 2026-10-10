@@ -1,0 +1,10 @@
+{
+ "idx": 42,
+ "dom": "视频生成与理解\n几何感知蒸馏的指代视频目标分割",
+ "proc": "有",
+ "proc_p": 5,
+ "gpu": "A100 80GB",
+ "mp": 10,
+ "url": "https://github.com/Tony1882880/GeoLaV",
+ "metrics": "Ref-YouTube-VOS（202M参数）：J&F↑(%) 70.5，J↑ 69.1，F↑ 71.8（表1，p.10）\nRef-DAVIS17：J&F↑(%) 72.5，J↑ 69.9，F↑ 75.2（表1，p.10）\nMeViS：J&F↑(%) 50.0，J↑ 47.4，F↑ 52.9（表1，p.10）\n零样本（仅RefCOCO/+/g图像训练）：Ref-YouTube-VOS J&F↑ 47.0，MeViS J&F↑ 31.6（表2，p.13）\n数据处理：由单张图像深度扭曲合成多视角伪视频用于几何预训练（p.5）"
+}

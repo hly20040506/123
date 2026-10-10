@@ -1,0 +1,9 @@
+{
+ "idx": 34,
+ "dom": "三维场景与物体生成\n单阶段相机-LiDAR多模态驾驶世界模型",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "未说明",
+ "mp": 8,
+ "metrics": "nuScenes验证集（多模态生成）：相机 FID↓ 2.81，FVD↓ 11.44；LiDAR MMD↓ 0.27，JSD↓ 0.039（表1，p.8）\nnuScenes LiDAR序列重建（LiDAR VAE）：Chamfer Distance↓ 0.154，F-Score↑ 0.900（表2，p.12）\n生成数据增广三维检测：mAP↑(%) 67.18（原始66.38），NDS↑ 70.53（表3，p.12）\n数据处理：按既有工作预处理nuScenes得到12Hz标注；相机432×768、LiDAR距离图32×1024（p.8）"
+}

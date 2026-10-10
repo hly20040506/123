@@ -1,0 +1,10 @@
+{
+ "idx": 65,
+ "dom": "三维物体属性估计\n单张图像物理属性（质量/密度/杨氏模量）推理",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "未说明",
+ "mp": 10,
+ "url": "https://github.com/DominoAI-Lab/SiPhy-ECCV-2026",
+ "metrics": "ABO-500（单视图质量预测）：ADE↓ 7.78，ALDE↓ 0.74，APE↓ 1.00，MnRE↑ 0.58（表1，p.10）\nPhysXNet-100（随机采样100场景，单视图）：密度MAE↓(kg/m³) 1315，杨氏模量MAE↓(GPa) 52；材质分割mIoU↑ 0.14，M-mIoU↑ 0.31（表2/表3，p.11）\nMVImgNet-100（随机100物体正视图）：材质分割mIoU↑ 0.19，M-mIoU↑ 0.25（表2，p.11）\nHO3D/ARCTIC（真实手物交互，单帧）：质量MnRE↑ 0.67/0.57；密度ME↓(kg/m³) 1192（HO3D），杨氏模量ME↓(GPa) 62（ARCTIC）（表6/表7，p.14）"
+}

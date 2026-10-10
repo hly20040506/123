@@ -1,0 +1,11 @@
+{
+ "idx": 61,
+ "dom": "三维场景图与空间理解\n全景图全局多步空间推理基准与模型",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "未说明",
+ "mp": 14,
+ "url": "https://github.com/Chenfei-Liao/OmniCoT",
+ "hf": "https://huggingface.co/datasets/Eustia1/OmniCoT/",
+ "metrics": "OmniCoT-B（6.7K合成全景评测；作者模型OmniCoT-R1，Qwen2.5-VL-7B经SFT+GRPO）：准确率↑(%) See 67.97，Locate 51.82，Move 61.34，Overall 59.54；CoT F1↑ 51.14，VC↑ 59.20，SES↑ 66.64，RF↑ 63.21（表7，p.14）\n仅SFT版本（不同训练设置）：Overall↑ 49.31（表7，p.14）\nOmniCoT-Real（200张真实全景，1,073条人工QA）：主文仅评测现有模型，最佳Gemini3-Flash Overall↑(%) 30.10，未报告OmniCoT-R1数值（表5，p.12）\n数据处理：自动生成+专家审核构建QA与CoT标注；真实子集人工标注（p.7，p.12）"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 56,
+ "dom": "视频生成与理解\n4D几何先验驱动的长时多视角视频生成",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "未说明",
+ "mp": 12,
+ "metrics": "短序列（2视角×81帧，对比SynCamMaster教师）：FID↓ 167.90，FVD↓ 1468.84，RotErr↓ 3.64，TransErr↓ 8.26，Mat.Pix↑(K) 251.13，CLIP-V↑ 91.81（表1，p.11）\n长序列真实数据（3视角×162帧）：FID↓ 153.27，FVD↓ 1309.68，RotErr↓ 3.88，TransErr↓ 8.78，Mat.Pix↑(K) 239.37，FVD-V↓ 1554.23，CLIP-V↑ 90.83（表2，p.12）\n长序列合成数据SynCamVideo（留出100场景）：FID↓ 186.73，FVD↓ 1560.54，RotErr↓ 3.72，CLIP-V↑ 89.88（表2，p.12）"
+}

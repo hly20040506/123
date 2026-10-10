@@ -1,0 +1,10 @@
+{
+ "idx": 50,
+ "dom": "自动驾驶感知\n地图几何先验自回归生成式车道拓扑推理",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "H20",
+ "mp": 12,
+ "proj": "https://buaa-colalab.github.io/topogpt_page",
+ "metrics": "OpenLane-V2 subset_A：M-P↑ 45.6，M-R↑ 42.6，M-T↑ 24.4，G-IoU↑ 54.4，G-F1↑ 60.3，T-F1↑ 47.4，APLS↑ 28.7（表1，p.12）\nOpenLane-V2 subset_B：M-P↑ 43.1，M-R↑ 39.2，M-T↑ 23.4，G-F1↑ 58.9，APLS↑ 29.5（表1，p.12）\n数据处理：从nuPlan/WOMD等高精地图按距离阈值子采样自车位姿、裁剪局部地图并序列化/栅格化用于预训练（p.6）"
+}

@@ -1,0 +1,10 @@
+{
+ "idx": 24,
+ "dom": "三维目标检测\n全量化多智能体协同感知系统",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "未说明",
+ "mp": 10,
+ "url": "https://github.com/ucla-mobility/QuantV2X",
+ "metrics": "DAIR-V2X（LP+CR，Pyramid Fusion；AP30/AP50↑(%)）：全精度 75.1/68.2，W8A8 74.6/67.8，W4A8 74.2/66.7（表1，p.10）\nDAIR-V2X（INT4/8，完整QuantV2X）：LP+CR 74.2/66.7，LP+LS 80.2/75.5（表2，p.10）\nV2X-Real（系统级，含时延与传输压缩）：mAP30/50↑(%) 52.6/42.2（上界53.8/43.5）（表3，p.12）\n数据处理：从训练集采样0.5%并随机采样智能体组合构建PTQ校准集（p.6，p.10）"
+}

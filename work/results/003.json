@@ -1,0 +1,10 @@
+{
+ "idx": 3,
+ "dom": "三维异常检测\n少样本RGB-三维多模态异常检测",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "RTX 5090 (32GB)",
+ "mp": 11,
+ "url": "https://github.com/Junhaocai27/CMDS-AD",
+ "metrics": "MVTec 3D-AD（1/2/4-shot；仅正常样本训练，LoRA扩散合成RGB-法线配对增广；I-AUROC↑(%) / AUPRO@30%↑(%)，10类均值）：1-shot 79.6/94.2，2-shot 83.0/94.8，4-shot 87.1/95.8（表1，p.11）\nEyeCandies（同上设置；10类均值）：1-shot 77.2/85.5，2-shot 80.2/85.8，4-shot 82.7/87.7（表2，p.11）"
+}

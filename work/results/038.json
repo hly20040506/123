@@ -1,0 +1,9 @@
+{
+ "idx": 38,
+ "dom": "视频生成与理解\n检索局部三维记忆的世界一致长视频生成",
+ "proc": "未说明",
+ "gpu": "RTX PRO 6000（效率测试）",
+ "mp": 10,
+ "proj": "https://zunwang1.github.io/AnchorWeave",
+ "metrics": "RealEstate10K与DL3DV（部分重访评测，表中为合并结果；Wan2.2-5B版，K=4）：Quality Total↑ 65.10，PSNR↑(dB) 21.04，SSIM↑ 0.6739（表1，p.10）\n同设置CogVideoX-5B版：Quality Total↑ 63.61，PSNR↑ 20.96，SSIM↑ 0.6727（表1，p.10）\n注：表2中SSIM以×100尺度（67.27）报告，与表1的0–1尺度不同（表2，p.11）"
+}

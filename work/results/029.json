@@ -1,0 +1,10 @@
+{
+ "idx": 29,
+ "dom": "机器人操作与具身智能\n结构图引导的视觉域偏移鲁棒模仿学习",
+ "proc": "有",
+ "proc_p": 14,
+ "gpu": "未说明",
+ "mp": 9,
+ "proj": "https://structpolicy.github.io/StructPolicy-Homepage/",
+ "metrics": "MetaWorld（选取15任务；成功率↑(%)）：DP+StructPolicy 77.5，DP3+StructPolicy 79.2，Lift3D+StructPolicy 90.5（表1，p.9）\nCALVIN D→D（Avg. Len.↑）：FLOWER+StructPolicy 4.42，MDT-V+StructPolicy 3.86（表1，p.9）\nCALVIN ABCD→D（Avg. Len.↑）：FLOWER+StructPolicy 4.70，MDT-V+StructPolicy 4.60（表1，p.9）\n结构图构建精度（CALVIN，无视觉变化）：CD↓(×10⁻³) 8.66，EMD↓(×10⁻²) 4.56，F-Score↑(%) 61.6（表2，p.12）\n真实机器人（点云采样至1024点；成功率↑(%)）：Lift3D+Ours 83.3，域偏移下 光照65.8/背景69.1/视角60.0（表8/表9，p.15）"
+}

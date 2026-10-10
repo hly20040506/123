@@ -1,0 +1,10 @@
+{
+ "idx": 58,
+ "dom": "三维目标检测\n视觉几何基础模型辅助的多视角行人检测",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "A100 80GB（推理速度测试）",
+ "mp": 10,
+ "proj": "https://mv2gf.github.io",
+ "metrics": "跨相机配置泛化（均在GMVD-D训练）：GMVD-D测试 MODA↑(%) 84.8，MODP↑ 83.1，Prec↑ 96.8，Rec↑ 87.7；MVPerception MODA↑ 86.5，MODP↑ 80.6；Wildtrack MODA↑ 87.9，MODP↑ 79.6（表1，p.10）\n同相机配置（各数据集自身训练集训练）：GMVD-S MODA↑ 91.3，MVPerception MODA↑ 96.5，Wildtrack MODA↑ 94.7（表2，p.11）\n数据处理：自定义GMVD-D/GMVD-S划分；输入图像缩放为720×1280（TGF）与280×504（DA3）（p.10）"
+}

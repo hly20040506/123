@@ -1,0 +1,9 @@
+{
+ "idx": 52,
+ "dom": "三维场景图与空间理解\n几何感知VLM的几何掩码与门控融合空间推理",
+ "proc": "未说明",
+ "gpu": "H200 (141GB)",
+ "mp": 11,
+ "proj": "https://suhzhang.github.io/GeoSR/",
+ "metrics": "VSI-Bench（静态空间推理，5k+ QA）：Avg↑(%) 51.9，Obj.Cnt 68.3，Abs.Dist 38.7，Room Size 62.3，Route Plan 35.6（表1，p.11）\nDSR-Bench（动态空间推理，1484 QA）：Avg↑(%) 66.1，Abs.Dist 88.0，Abs.Dir 84.4，Non-Temp 52.9（表2，p.12）"
+}

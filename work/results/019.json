@@ -1,0 +1,8 @@
+{
+ "idx": 19,
+ "dom": "机器人操作与具身智能\n单步流匹配视觉运动策略（2D/点云）",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 11,
+ "metrics": "2D图像操作（Adroit/DexArt 7任务，3个种子；成功率↑(%)）：OFP（NFE=1）平均 68.3±2.1（表1，p.11）\n3D点云操作（Adroit 3/DexArt 4/MetaWorld 49，共56任务，3个种子；成功率↑(%)）：OFP（NFE=1）Adroit 85.0，DexArt 64.3，MetaWorld Easy 87.9/Medium 52.4/Hard 43.3/Very Hard 49.2，总平均 71.6±4.1（表2，p.11）\n少步采样（DexArt等4任务；成功率↑(%)）：OFP NFE=1 平均 64.5，NFE=4 平均 66.2（表3，p.12）"
+}

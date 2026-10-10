@@ -1,0 +1,10 @@
+{
+ "idx": 23,
+ "dom": "自动驾驶规划\n即插即用三维交通要素感知增强端到端驾驶",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "A100（nuScenes/Bench2Drive）；RTX 3090（NAVSIM）",
+ "mp": 9,
+ "proj": "https://zzongzheng0918.github.io/TE-Aware-E2E-AD/",
+ "metrics": "nuScenes（开环；VAD+Ours）：L2 Avg↓(m) 0.60，碰撞率 Avg↓(%) 0.17（表1，p.8）\nNAVSIM-v1 navtest（仅相机；PDMS↑）：LTF+Ours 85.2，DiffusionDrive+Ours 87.7，DrivoR+Ours 94.4（表2，p.9）\nNAVSIM-v2 navhard两阶段（EPDMS↑）：LTF+Ours 28.9，DiffusionDrive+Ours 32.7，DrivoR+Ours 51.8，DrivoR(+SimScale)+Ours 57.9（表3，p.10）\nBench2Drive（闭环）：VAD+Ours DS↑ 56.4，SR↑(%) 21.30；DriveTransformer-Large+Ours DS↑ 68.29，SR↑(%) 39.61（表4，p.11）\n数据处理：为nuScenes/NAVSIM生成三维交通要素标注，NAVSIM用YOLO检测器伪标签+深度-LiDAR融合（p.6）"
+}

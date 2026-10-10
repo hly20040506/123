@@ -1,0 +1,10 @@
+{
+ "idx": 12,
+ "dom": "视觉语言导航\n地图引导与路点推理的连续VLN",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "未说明",
+ "mp": 10,
+ "proj": "https://hiway-page.github.io/",
+ "metrics": "VLN-CE R2R Val-Unseen（不使用ITM模块；官方训练集10,819样本）：Hi-VLN NE↓(m) 4.47，OS↑(%) 51.3，SR↑(%) 47.2，SPL↑(%) 43.1（表1，p.10）\n注：消融表2完整模型为NE 4.32，SR 47.3，SPL 42.5，与表1数值不一致，原文未解释（表2，p.11）\nGazebo（90个Matterport3D场景，每难度20次）：Overall SR↑(%) 80.0，NE↓(m) 0.65（表3，p.12）\n真实机器人（每设置20次）：可见1目标 SR↑ 95.0/NE↓ 0.49；不可见1目标 SR 85.0/NE 0.42（表4，p.13）\n数据处理：基于深度三维地面分割采样路点候选，自建VLN-Waypoint标注（p.8）"
+}
