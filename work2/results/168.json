@@ -1,0 +1,10 @@
+{
+ "idx": 168,
+ "dom": "视觉定位与相机标定\n公开正射影像锚定的无人机连续6-DoF轨迹估计",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "NVIDIA L40S（单卡）",
+ "mp": 11,
+ "proj": "https://orthotrack.ethz.ch",
+ "metrics": "UAVScenes：ATE 1.51 m、TE 1.38 m、RE 0.49°、R@1 20.6%、R@2 88.0%（表2，p.11）\nMovingDrone（自建）：ATE 0.67 m、TE 0.33 m、RE 0.06°、R@1 90.9%、R@2 97.9%（表2，p.11）\n注：UAVScenes上TE 1.38、R@1 20.6、R@2 88.0劣于逐帧定位OrthoLoC（1.26/23.5/93.8）及本文仅定位版本；MovingDrone上R@1 90.9低于仅定位版本95.8与DROID-SLAM(pw) 93.7（表2，p.11）。\n数据处理：构建MovingDrone基准（21个地点、343k帧、30 fps，配DOP/DSM/LiDAR/网格/LoD），关键帧按上一位姿做可见性感知的DOP与DSM裁剪（表1，p.4；p.5、p.9）。"
+}

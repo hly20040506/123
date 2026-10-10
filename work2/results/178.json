@@ -1,0 +1,8 @@
+{
+ "idx": 178,
+ "dom": "视频生成与理解\n可渲染4D试穿代理的相机可控视频虚拟试穿",
+ "proc": "未说明",
+ "gpu": "NVIDIA A100（80GB，16块）",
+ "mp": 12,
+ "metrics": "ViViD（配对/非配对）：VFID-I3D 9.6085/10.7563、VFID-ResNeXt 0.1817/0.2088、SSIM 0.8675、LPIPS 0.0567（表1，p.12）\nCaM-VVTBench：Overall Score 75.47、Subject Consis. 92.71、Imaging Quality 74.28、Background Consis. 92.05、Aesthetic 51.44、Motion Smooth. 98.32、Temporal Flicker. 94.90、Overall Consis. 9.61（表3，p.12）\n注：ViViD上SSIM 0.8675低于Magic-Tryon的0.8841；CaM-VVTBench上Motion Smooth.（98.32）与Temporal Flicker.（94.90）低于TryOnCrafter†+ReCaMaster（98.45/95.54）；消融中w/o fgar的配对VFID-I3D（9.1740）与LPIPS（0.0562）反而优于完整模型（表1–表3，p.12）。"
+}

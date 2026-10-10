@@ -1,0 +1,9 @@
+{
+ "idx": 177,
+ "dom": "人体姿态、动作与交互\n空间-频率状态空间模型的文本到动作生成",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "NVIDIA A800（80 GB）",
+ "mp": 10,
+ "metrics": "HumanML3D：R-Precision Top1/2/3 0.561/0.749/0.845、FID 0.066、Diversity 9.610、MM-Dist 2.758、Multimodality 1.923（表1，p.10）\nKIT-ML：Top1/2/3 0.453/0.680/0.798、FID 0.228、Diversity 11.140、MM-Dist 2.548、Multimodality 1.852（表1，p.10）\nHumanML3D-LS长序列（>190帧）：Top1/2/3 0.510/0.704/0.801、FID 0.190（表3，p.12）\n注：HumanML3D与KIT-ML上FID（0.066/0.228）均高于MoMask（0.045/0.204）；Multimodality低于MLD等方法（表1，p.10）；长序列FID 0.190高于MoMask的0.125（表3，p.12）。\n数据处理：遵循官方划分与先前工作[18]的标准动作预处理（p.9）。"
+}

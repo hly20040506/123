@@ -1,0 +1,10 @@
+{
+ "idx": 183,
+ "dom": "视觉定位与相机标定\n编解码感知的视觉里程计",
+ "proc": "有",
+ "proc_p": 11,
+ "gpu": "未说明",
+ "mp": 10,
+ "proj": "https://tum-vision.github.io/voca",
+ "metrics": "EuRoC（ATE cm/RTE cm）：如EV102 8.30/1.549、EV103 38.30/4.085、EV202 9.60/1.446（表1，p.10）\nTUM-VI room：ATE平均9.64、中位7.40 cm；RTE平均0.815、中位0.874 cm（表2，p.11）\nMSD：ATE平均4.46、中位78.30 cm、成功率46.9%；RTE平均0.755、中位5.212 cm、成功率53.1%（表3，p.13）\n注：EuRoC多个序列ATE劣于ORB-SLAM3（如EMH01 17.50 vs 3.80）；TUM-VI平均ATE 9.64劣于ORB-SLAM3的8.72；消融中TUM-VI的RTE中位数0.874略高于不加I帧桥接的(C) 0.872（表1、表2、表4，p.10–15）。\n数据处理：用ffmpeg以最高500 kbps码率对每个相机分别压缩视频作为输入（p.11）。"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 174,
+ "dom": "视觉定位与相机标定\n卷帘快门相机自标定",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 14,
+ "url": "https://github.com/Yongcong-Zhang/RSSC",
+ "metrics": "WHU-RSVI（中位绝对误差）：RSSC-DPQ fx 0.03、fy 0.44、cx 0.19、cy 0.65、读出时间比γ 0.0483、MATE 0.0101；RSSC-TE fy 0.31、cx 0.23、cy 0.60（表3，p.14）\nTUM-RSVI：RSSC-DPQ fx 3.10、cy 1.16、MATE 0.0055；RSSC-TE fy 1.48、γ 0.1144；RSSC-CEQ γ 0.0609（表3，p.14）\n注：五个变体互有胜负，无单一变体在所有指标上最优（如TUM上cx最优为RSSC-CEH的1.40）（表3，p.14）。"
+}

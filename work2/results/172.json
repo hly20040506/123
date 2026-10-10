@@ -1,0 +1,10 @@
+{
+ "idx": 172,
+ "dom": "视觉定位与相机标定\n校正嵌入流学习的航空多视角地理定位",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "未说明",
+ "mp": 11,
+ "url": "https://github.com/rhao-hur/REFL",
+ "metrics": "Aerial MVGL基准（10个子任务平均）：R@1 44.83%、R@10 65.85%（表2，p.11）\n子任务：UAV→卫星 University1652 R@1 78.64、SUES-200 R@1 89.08；卫星→UAV University1652 R@1 84.88、SUES-200 R@1 93.75（表2，p.11）\n零样本（ERA/RSICD/RSITMD/DenseUAV平均，w/o ER）：R@1 19.74、R@10 59.87（表5，p.12）\n注：SUES-200 UAV→卫星R@1 89.08低于XVLM的91.10；SUES-200卫星→UAV R@10 97.50低于VLM2Vec v2的98.75（表2，p.11）。\n数据处理：整合GeoText-1652、FIT-RSFG、VRSBench、SUES-200、University-1652构建统一的Aerial MVGL基准，并为每类任务配置文本指令（表1，p.10；p.9）。"
+}
