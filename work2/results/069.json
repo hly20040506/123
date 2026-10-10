@@ -1,0 +1,9 @@
+{
+ "idx": 69,
+ "dom": "深度估计与立体匹配\n多光照场景下稳定的单目深度估计",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "NVIDIA RTX 4090（单卡）",
+ "mp": 10,
+ "metrics": "零样本多光照/夜间（LumiDepth 1-step）：ReMID 平均深度变化MeanDV↓ 0.030、最大像素不稳定MaxPIV↓ 0.055、AbsRel↓ 0.085、δ1↑ 0.914；NuScenes-N 0.223/0.636；RobotCar-N 0.217/0.676；平均排名 2.0（表1，p.10）\n通用零样本基准（AbsRel↓）：NYUv2 0.052、KITTI 0.079、ETH3D 0.059、DIODE 0.230（表3，p.12）\nRoboDepth 18类损坏平均：MeanDV 0.038、MaxPIV 0.072、AbsRel 0.115、δ1 0.853（表5，p.13）\n数据处理：自建真实多光照RGB-D评测集ReMID（100个场景、1000个样本，日光/室内灯/手电等光照），数据集通过Google Drive公开；训练时利用多光照RGB图像的模型自身深度假设构建经分歧校准的概率伪标签（p.2、p.7、p.9）。"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 71,
+ "dom": "深度估计与立体匹配\n利用含噪异构数据扩展度量深度预训练",
+ "proc": "有",
+ "proc_p": 3,
+ "gpu": "144× H200（预训练）；微调 80× H200",
+ "mp": 10,
+ "metrics": "零样本深度超分/补全（AbsRel%↓，Ours-Pretrain，平均排名 1.50）：NYUv2 8× 1.53、16× 1.86、LiDAR 1.70、Extreme 2.08；ETH3D 1.46/2.03/0.87/0.84；KITTI 2.34/3.53/3.53/3.36（表1，p.10）\nnuScenes雷达-相机深度（微调，mm）：0–50m MAE 651.4、RMSE 2084.4；0–80m 934.5/3057.5（表2，p.11）\n单目深度δ1（Student-DepthMap，%）：ETH3D 79.9、Booster 59.5、NuScenes 88.1、SunRGBD 97.7、Sintel 27.7、Middlebury 65.8，平均排名 1.50（表3，p.11）\n无内参几何（Student-PointMap，AbsRel/δ1）：KITTI 3.22/97.7、ETH3D 10.8/90.2、iBims-1 11.3/86.6、DIODE 13.9/79.8（表4，p.12）\n相机标定平均误差 3.12°（中值2.55°）（表6）；LIBERO平均成功率 87.7%（表7，p.12）；VSI-Bench平均 58.3（表8，p.13）；MapAnything+本方法平均AbsRel 12.44、δ1 86.68（表10，p.13）\n数据处理：汇集SfM/SLAM/MVS重建、LiDAR/ToF/RGB-D采集与渲染三类异构度量数据，原始点云按已知标定投影得到逐像素深度（p.3）。"
+}

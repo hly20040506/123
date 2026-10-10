@@ -1,0 +1,9 @@
+{
+ "idx": 54,
+ "dom": "深度估计与立体匹配\n桥接标定光度立体到通用光度立体（光照适配器）",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "4× NVIDIA A100（训练）",
+ "mp": 8,
+ "metrics": "DiLiGenT（法向MAE↓，°）：平均 4.3（Ball 2.0、Bear 2.5、Buddha 5.2、Cat 3.0、Cow 3.2、Goblet 6.2、Harvest 6.5、Pot1 4.7、Pot2 4.0、Reading 5.2）；K=16时 4.5，K=4时 6.0（表1，p.8）\nLUCES近场光照（14个数据集）：平均MAE 7.11°（LC25为9.43°）（表3，p.11）\n下游PS范式消融：接入Norm-PSN为4.3/7.1，CNN-PS 5.4/9.7，Woodham 9.2/14.1（DiLiGenT/LUCES）（表4，p.14）\n数据处理：在训练集中额外加入约10,000个PS-Sculpture与PS-Blobby点光源样本（约占10%）；每批随机采样6–24张输入图像（p.7–8）。"
+}

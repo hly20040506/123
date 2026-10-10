@@ -1,0 +1,9 @@
+{
+ "idx": 88,
+ "dom": "视频生成与理解\n不相交数据训练的统一视频稠密预测（8项任务）",
+ "proc": "未说明",
+ "proc_p": null,
+ "gpu": "A100（效率测试）",
+ "mp": 11,
+ "metrics": "深度（UniD统一模型Gφ，AbsRel↓/δ1↑）：NYUv2 0.059/96.3、KITTI 0.110/89.5、ETH3D 0.073/95.5、ScanNet 0.063/96.2、DIODE 0.301/77.3（表2，p.11）\n表面法向（Mean↓/11.25°↑）：NYUv2 16.2/59.9、ScanNet 14.6/65.1、iBims-1 16.6/67.4、Sintel 33.0/21.4（表3，p.11）\n本征分解与边界：Hypersim反照率PSNR 17.6、IIW WHDR 0.207；明暗PSNR 20.2、SAW P@0.7/AP 94.6/92.6；实例边界odsF COCO 80.8、Mapillary 57.2（表4，p.12）\n分割（mIoU/fwIoU，Gφ+投影器微调）：Cityscapes 58.4/83.3、VIPSeg 47.0/67.0、ADE20K 44.8/68.9；材质DMS 47.3/73.6；人体部件DensePose 66.1/92.9（表5，p.12）\n时序一致性：ScanNet视频深度 AbsRel 0.103、δ1 91.0；InteriorNet法向mVC-4/16 84.7/75.8（表6，p.13）\n注：未微调时统一模型语义分割明显低于专家模型（如Cityscapes mIoU 37.8 vs 64.1），作者在表5中如实列出（p.12）。"
+}

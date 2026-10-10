@@ -1,0 +1,9 @@
+{
+ "idx": 46,
+ "dom": "视频生成与理解\n带显式状态标注的动作条件世界模型数据集（游戏）",
+ "proc": "有",
+ "proc_p": 5,
+ "gpu": "未说明（仅称8块GPU）",
+ "mp": 13,
+ "metrics": "数据集论文（WildWorld，1.08亿帧、450+动作），在WildBench上评测基于该数据训练的交互视频生成变体：\nStateCtrl：运动平滑 MS 97.45、动态度 DD 99.00、美学 AQ 50.86、成像 IQ 67.78、ATE↓ 0.94、RPE↓ 0.07、Action Following 85.66、State Alignment 16.06（表1，p.13）\nSkelCtrl：Action Following最高 92.81、State Alignment 22.03（表1，p.13）\n指标可靠性：Action Following与人工判断一致率85%；State Alignment相对骨架真值坐标准确率43.23%（p.13）\n数据处理：录制时逐帧同步并做时间戳对齐，过滤异常帧、过短片段、镜头切换与卡顿样本；深度流用HEVC编码；人工评测中丢弃标注者意见不一致的片段（约5%）（p.5–7、p.13）。"
+}

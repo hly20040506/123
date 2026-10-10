@@ -1,0 +1,9 @@
+{
+ "idx": 56,
+ "dom": "二维图像与图形处理\n可控生成参考与可靠性门控的双目图像压缩",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "NVIDIA A100（效率测试）",
+ "mp": 12,
+ "metrics": "相对BPG的BD-rate（越负越好）：InStereo2K PSNR −67.64%、MS-SSIM −65.22%；Cityscapes PSNR −65.90%、MS-SSIM −74.53%（表1，p.12）\n语义条件码流开销：平均约0.00065 bpp（p.12）\n消融（BD-PSNR，相对完整模型）：去掉生成参考 −1.31/−1.23 dB、去掉语义控制 −0.76/−0.83 dB、去掉可靠性门控 −1.07/−0.91 dB（InStereo2K/Cityscapes）（表3，p.13）\n数据处理：按既有协议对InStereo2K与Cityscapes做边界裁剪；训练时压缩网络随机裁剪256×256、生成模块裁剪512×512（p.10）。"
+}

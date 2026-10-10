@@ -1,0 +1,10 @@
+{
+ "idx": 86,
+ "dom": "深度估计与立体匹配\n面向鲁棒驾驶感知的可伸缩自监督单目深度估计家族",
+ "proc": "未说明",
+ "proc_p": null,
+ "gpu": "RTX 4090 与 RTX 2080 Ti（训练）",
+ "mp": 10,
+ "url": "https://github.com/startnew/flexdepth",
+ "metrics": "KITTI（Eigen划分，640×192）：Flex-X-Large AbsRel↓ 0.093、SqRel↓ 0.605、RMSE↓ 4.114、RMSElog↓ 0.167、δ<1.25↑ 0.910、δ<1.25²↑ 0.969、δ<1.25³↑ 0.985；Flex-Large 0.095/0.642/4.199/0.171/0.906；Flex-Nano 0.110/0.794/4.678（表1，p.10）\nCityscapes（416×128）：Flex-Large AbsRel 0.087、SqRel 0.911、RMSE 5.310、δ1 0.924；Flex-Medium 0.089/0.885/5.358/0.917（表1，p.10）\nMake3D：Flex-X-Large AbsRel 0.279、SqRel 2.799、RMSE 6.599、RMSElog 0.144（表3，p.14）\nCityscapes动态区域：AbsRel 0.091、δ1 0.935；静态区域 0.085/0.925（表5，p.14）\nKITTI（LS对齐+改进GT）：Flex-X-Large AbsRel 0.063、δ1 0.952（DA2 ViT-L为0.070/0.956）（表6，p.15）"
+}

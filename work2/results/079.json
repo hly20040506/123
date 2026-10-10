@@ -1,0 +1,10 @@
+{
+ "idx": 79,
+ "dom": "深度估计与立体匹配\n伪立体输入解决自监督立体匹配遮挡问题",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "2× RTX 4090（训练）",
+ "mp": 10,
+ "url": "https://github.com/qrzyang/Pseudo-Stereo",
+ "metrics": "KITTI在线测试（Pseudo-Stereo-MonSter）：KITTI 2012 3-noc↓ 3.08%、3-all↓ 3.62%、EPE-noc 0.7、EPE-all 0.8；KITTI 2015 D1-bg↓ 2.93%、D1-fg↓ 11.67%、D1-all↓ 4.39%、D1-noc↓ 4.22%（表1，p.10）\nPseudo-Stereo-PSMNet：KITTI 2012 3-noc 3.46%、3-all 4.08%；KITTI 2015 D1-all 4.68%（表1，p.10）\n不同骨干（w/ Pseudo-Stereo，EPE/3-px）：SceneFlow MonSter 2.32/7.86%、PSMNet 3.10/9.80%；Spring MonSter 1.77/4.65%（表2，p.13）\n遮挡区域（消融）：D1-occ 由20.82%降至9.05%（表4，p.14）\n数据处理：由立体对生成伪第三视图作为输入，小空洞用相邻非空像素均值填补，右侧大面积缺失采用更宽生成策略后再裁剪（p.10）。"
+}

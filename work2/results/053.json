@@ -1,0 +1,9 @@
+{
+ "idx": 53,
+ "dom": "三维目标检测\n单目深度线索增强的RGB-only 6D物体位姿估计",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "RTX 3090（效率测试）",
+ "mp": 8,
+ "metrics": "BOP 7数据集（unseen赛道，RGB-only，平均召回AR↑%）：LM-O 66.8、T-LESS 65.2、TUD-L 75.2、IC-BIN 54.8、ITODD 48.2、HB 84.2、YCB-V 74.1，平均 66.9（单假设）（表1，p.8）\n消融（SRM+IGDR，LM-O）：AR 66.8、VSD 61.6、MSSD 62.8、MSPD 76.0（表2，p.9）\n与RGB-D设置对比：RGB 平均 66.9；RGB-D（Oracle）75.3（表5，p.14）\n注：正文称LM-O“62.8% VSD、61.6% MSSD”，与表2（VSD 61.6、MSSD 62.8）互换；表3中MoGe-2一行为YCB-V 66.8、LM-O 74.1，与表1（LM-O 66.8、YCB-V 74.1）数据集对应相反；正文称SCFlow(init)经本方法提升至LM-O 62.5%、YCB-V 61.2%，而表4为66.8/74.1（p.9–13）。\n数据处理：按初始位姿裁剪目标并缩放至256×256；训练时依GT位姿渲染物体得到光流与深度监督信号（推理不使用真实深度）；在ShapeNet-Objects、GSO、Objaverse合成数据上训练（p.8）。"
+}
