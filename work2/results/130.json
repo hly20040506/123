@@ -1,0 +1,10 @@
+{
+ "idx": 130,
+ "dom": "视频生成与理解\n自监督伪标签与特征蒸馏的开放词汇多目标跟踪",
+ "proc": "有",
+ "proc_p": 11,
+ "gpu": "NVIDIA RTX 3090（训练4块）",
+ "mp": 12,
+ "url": "https://github.com/zekunqian/SOVTrack",
+ "metrics": "TAO验证集：Novel TETA 35.7、LocA 59.0、AssocA 42.4、ClsA 5.6；Base TETA 40.1、LocA 58.1、AssocA 42.3、ClsA 19.8（表1，p.12）\nTAO测试集：Novel TETA 28.9、LocA 50.5、AssocA 33.0、ClsA 3.2；Base TETA 39.2、LocA 57.3、AssocA 43.1、ClsA 17.1（表1，p.12）\n注：Base ClsA在验证集（19.8）与测试集（17.1）均低于TRACT（21.5/17.2）（表1，p.12）。\n数据处理：在原始视频片段上用检测引导的SAM2双向跟踪生成伪标签，并以循环一致性过滤不可靠轨迹，仅用10K视频帧训练（p.11）。"
+}

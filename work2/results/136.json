@@ -1,0 +1,8 @@
+{
+ "idx": 136,
+ "dom": "机器人操作与具身智能\n几何基础模型（VGGT）对VLA模型影响的实证分析",
+ "proc": "未说明",
+ "gpu": "NVIDIA A100集群（320 GB显存）",
+ "mp": 11,
+ "metrics": "线性探测深度（RMSE m/δ1）：Early Fusion 0.44/0.88、Late Fusion 0.45/0.87、VGGT 0.41/0.89，GR00T VLM 0.73/0.63（表1，p.8）\nRoboCasa 8任务平均成功率（%）：Early Fusion 69.7、Late Fusion 71.0、Spatial Forcing 68.3、Early Fusion（mid-trained）75.2，GR00T-N1.5基线71.7（表2，p.11）\nUnitree G1真机（Approach/Grasp/Lift/Placement/Overall %）：Early Fusion 84.44/60.53/89.13/65.85/27.78；Late Fusion 57.78/59.62/93.55/79.31/25.56（表3，p.11）\nRoboCasa单相机：Early Fusion 21.5（p=0.030）vs 基线17.2（表4，p.13）\n注：未经mid-training时几何VLA平均成功率不高于GR00T-N1.5基线（69.7/71.0 vs 71.7），且差异不显著；正文写基线为71.2%，与表2中71.7不一致（表2，p.11）。"
+}

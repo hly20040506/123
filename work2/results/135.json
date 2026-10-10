@@ -1,0 +1,10 @@
+{
+ "idx": 135,
+ "dom": "三维物体属性估计\n多物体材质与光照的生成式逆渲染",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "NVIDIA A100（单卡，用于速度对比；训练GPU未说明）",
+ "mp": 10,
+ "proj": "https://vision.ist.i.kyoto-u.ac.jp/research/onesun/",
+ "metrics": "合成测试集光照估计：logRMSE 1.28、PSNR 13.54、SSIM 0.42、LPIPS 0.56；反射率logRMSE 1.81（表1，p.10）\n合成测试集纹理估计：RMSE 0.081、PSNR 29.99、SSIM 0.97、LPIPS 0.031（表2，p.11）\n多物体整合（PCA空间）：异质反射率All 对数似然171.9、Mahalanobis距离16.98；异质掩码All 61.5/24.18（表3，p.13）\nStanford-ORB真实数据：正文仅有定性结果，定量结果在补充材料（p.13）\n注：光照LPIPS 0.56与DPI持平，消融中w/o Coordinate Scheduling的LPIPS 0.54反而更低（表1，p.10）。\n数据处理：以路径追踪渲染合成3D多物体场景训练，物体纹理由MV-Adapter生成，反射参数随机采样（金属度限定0/1，50%物体粗糙度>0.4），光照取自Laval Indoor与Poly Haven共2000张环境图（p.9）。"
+}

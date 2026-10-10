@@ -1,0 +1,10 @@
+{
+ "idx": 133,
+ "dom": "机器人操作与具身智能\n闭环VLM智能体的文本引导6D物体位姿重排",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "未说明",
+ "mp": 8,
+ "proj": "https://tlb-miss.github.io/vlmpose",
+ "metrics": "Open6DOR V2 6-DoF重排（成功率%，GPT-5.2）：位置轨道Overall 94.4、旋转轨道Overall 56.6、6-DoF轨道Overall 46.4（表1，p.8）\nOpen6DOR V2机器人操作：位置 73.5、旋转 35.4、6-DoF Overall 14.1（表2，p.11）\nSIMPLER（WidowX，成功率%）：Spoon on Towel 58.3、Carrot on Plate 45.8、Stack Block 37.5、Eggplant in Basket 66.7（表3，p.11）\n注：6-DoF轨道位置项（91.0）低于SoFar（94.7）；机器人操作6-DoF轨道位置项56.5低于SoFar 62.3；SIMPLER放胡萝卜成功率45.8低于SoFar 70.8（表1–表3，p.8–11）。\n数据处理：RGB-D设定下用相机内参将输入提升为点云并以现成模型获取物体掩码，再渲染多视角图像供VLM推理（p.7）。"
+}

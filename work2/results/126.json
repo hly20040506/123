@@ -1,0 +1,10 @@
+{
+ "idx": 126,
+ "dom": "医学与生物三维视觉\n基于物理重复采集的真实MRI去噪",
+ "proc": "有",
+ "proc_p": 39,
+ "gpu": "NVIDIA V100（文中算力与显存需求按V100给出）",
+ "mp": 11,
+ "url": "https://github.com/Deep-MI/YADO",
+ "metrics": "T1w去噪（SSIM%，gYADO-ReN2N，OASIS-3训练）：OAS3 89.77、CHDI 94.59、Kirby (95.63)、HCP-E 90.91、HCP-YA 94.59、RS 94.59，PVS CNR 2.85；HCP-A训练：HCP-E 88.74、HCP-YA 86.98、RS 91.69，PVS CNR 2.29；总排名1.46（全表最优）（表1，p.11）\nT2w/FLAIR去噪（gYADO-pN2N，RS训练）：T2w RS 89.65、HCP-E 90.38、HCP-YA 89.24，PVS CNR 3.12；FLAIR RS 89.60，WMH CNR 3.40，WMH分割F1 64.23；总排名3.55（表2，p.13）\n注：T1w上OAS3最高为gYADO-pN2N（90.03），Kirby最高为uYADO-ReN2N（95.99）；FLAIR外部数据still/nodd上引导版本仅(69.94)/(62.75)，低于无引导版本的84.89/73.84（表1–表2，p.11–13）。\n数据处理：FreeSurfer中做T1w/T2w配准（mri_robust_register、bbregister，SynthStrip脑掩膜），三次插值重采样到目标图像原生空间；ReN重加噪预处理生成随机重噪声样本（p.9、p.39）。"
+}

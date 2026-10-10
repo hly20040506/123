@@ -1,0 +1,9 @@
+{
+ "idx": 125,
+ "dom": "医学与生物三维视觉\n潜在漂移建模的脑MRI疾病进展生成预测",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "未说明",
+ "mp": 10,
+ "metrics": "ADNI+AIBL纵向3D脑MRI：FID(i3d) 13.92、FID(cls.) 12.77、Diff-SSIM 0.8204、Pix-SSIM 0.9483、NCC 0.9880、AD诊断F1 87.51、Precision 88.26、Recall 86.78、Acc 88.33（表1，p.10）\n量化方式消融（FSQ）：rFID 13.77、Diff-SSIM 0.8224、Acc 88.24、F1 87.41（表3，p.13）\n注：FID(i3d) 13.92高于CycleGAN的12.13，FID(cls.) 12.77高于CycleGAN的7.03，Pix-SSIM 0.9483低于CycleGAN的0.9612，这几项非最优（表1，p.10）。\n数据处理：所有3D MRI体积下采样到93×112×96，并利用纵向随访构建3,981对当前-未来扫描（p.10）。"
+}

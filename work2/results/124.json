@@ -1,0 +1,10 @@
+{
+ "idx": 124,
+ "dom": "医学与生物三维视觉\n邻层引导块采样的自监督医学影像去噪",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "NVIDIA RTX 5090（单机，AMD Ryzen 9 9950X）",
+ "mp": 9,
+ "url": "https://github.com/cv-cho/NGPS",
+ "metrics": "AAPM-Mayo（四分之一剂量CT）：PSNR 36.68、SSIM 0.8986、FSIM 0.9470、HFEN 0.2056、GMSD 0.0362（表2，p.9）\nLIDC-IDRI（模拟超低剂量CT）：PSNR 31.03、SSIM 0.8102、FSIM 0.9168、HFEN 0.4161、GMSD 0.0788（表2，p.9）\nLIDC-IDRI层厚敏感性：1.25 mm 31.08/0.8103、2.5 mm 30.92/0.7994，PSNR下降0.16 dB（表5，p.13）\nIXI-T1（Rician噪声5%/7%/9%）：正文仅以图3给出趋势，完整数值在补充材料表S1（p.10）\n注：LIDC-IDRI上GMSD 0.0788高于NS-N2N的0.0777（越低越好），该项非最优；表2的LIDC PSNR 31.03与表3/表5中1.25 mm的31.08不完全一致（表2–表5，p.9–13）。\n数据处理：AAPM-Mayo在正弦图注入泊松噪声模拟25%剂量；LIDC-IDRI用Radon变换模拟超低剂量；IXI-T1添加合成Rician噪声（表1，p.8）。"
+}

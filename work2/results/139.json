@@ -1,0 +1,9 @@
+{
+ "idx": 139,
+ "dom": "机器人操作与具身智能\n跨物体语义对应的零样本操作迁移",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "未说明",
+ "mp": 10,
+ "metrics": "PartNet-SE3自分割：Acc 76.18、mIoU 62.47（表1，p.10）\nPartNet-Coseg跨实例共分割：Acc 73.75、mIoU 63.32（表1，p.10）\n真实机器人零样本操作成功率：Water Plant 90%、Block Pouring 70%、Mug Hanging 80%（p.13）\n注：Water Plant上与NovaPlan持平（均为90%），未超过基线（p.13）。\n数据处理：从PartNet按同类实例配对并统一部件标签构建PartNet-Coseg；训练时对无标注形状施加合成SE(3)变换做自监督（p.6、p.9）。"
+}
