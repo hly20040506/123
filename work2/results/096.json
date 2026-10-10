@@ -1,0 +1,10 @@
+{
+ "idx": 96,
+ "dom": "视觉基础模型与理论\n校准谐波叠加的多维数据隐式神经表示（INR）",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "2× NVIDIA RTX A6000",
+ "mp": 10,
+ "url": "https://github.com/chorl0229/CHOIR",
+ "metrics": "NeRF Blender新视角合成（PSNR↑）：Chair 35.317、Drums 26.430、Ficus 27.650、Hotdog 37.454、Lego 28.299、Materials 29.793、Mic 35.613、Ship 27.555；SSIM 0.926–0.987（表1，p.10）\n数据缺失补全（PSNR/SSIM/LPIPS）：HSI WDC 随机缺失OR=0.10 46.475/0.996/0.004、OR=0.30 51.359/0.999/0.002、管状缺失OR=0.10 28.142/0.832/0.196；HSI Urban 44.412/49.317/23.493；MSI Flowers 随机0.10 41.316/0.992/0.014（表2，p.11）\n混合退化：HSI WDC Scene1 31.242/0.884/0.118；HSI Pavia Scene1 30.401/0.904/0.048（表3，p.13）\n图像拟合（RGB House）：38.153 dB/0.970/0.015（图3，p.10）\n注：HSI Urban管状缺失OR=0.10时PSNR 23.493仅略高于CRNL（23.423）（表2，p.11）。\n数据处理：NeRF Blender每场景从训练集随机抽取25张并下采样到200×200；高光谱数据裁剪/下采样（Pavia 200×200×80、WDC 256×256×191等）（p.9、p.12）。"
+}

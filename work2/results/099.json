@@ -1,0 +1,10 @@
+{
+ "idx": 99,
+ "dom": "三维重建与新视角合成\n学习光谱与偏振线索的单模态到多模态新视角合成",
+ "proc": "未说明",
+ "proc_p": null,
+ "gpu": "NVIDIA RTX 6000 Ada（单卡，预训练）",
+ "mp": 12,
+ "proj": "https://medialab.dei.unipd.it/paper_data/SPoILeR/",
+ "metrics": "仅用RGB帧微调后在5个微调场景上的平均PSNR↑：RGB 30.07、Mono 25.78（SSIM 0.88）、NIR 26.55（SSIM 0.87）、偏振Pol 24.25、多光谱MS 25.45（MMS-FW仅RGB时RGB为29.53）（表1，p.12）\n多光谱：本文25.45 dB vs MMS-FW用MST++估计MS训练 21.99 dB（表2，p.13）\n偏振：AoP平均角误差MAngE↓ 30.05°、DoP平均绝对误差MAbsE↓ 0.045（MMS-FW+PolarAnything为44.13°/0.089）（表3，p.13）\n消融：去掉Lm2l后Mono降至21.04、NIR降至22.91（表4，p.14）"
+}

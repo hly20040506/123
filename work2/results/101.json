@@ -1,0 +1,10 @@
+{
+ "idx": 101,
+ "dom": "三维重建与新视角合成\n基于真实世界视频的可扩展自监督新视角合成",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "未说明",
+ "mp": 12,
+ "proj": "https://compvis.github.io/rayder",
+ "metrics": "RE10K零样本NVS（RayDer-L，500k步）：仅SpatialVid训练 PSNR↑ 29.38、LPIPS↓ 0.135、SSIM↑ 0.899；Static Mix+SpatialVid 29.42/0.136/0.901；仅Static Mix 28.68/0.158/0.888（表3，p.12）\n开放集NVS（RayDer-L-576²，PSNR）：LLFF 1视图 17.11、3视图 21.38；DTU 16.01/17.92；CO3D 21.10；M360（大视角）15.85等（表4，p.13）\nDL3DV稠密视图：RayDer-B 24.51/0.142/0.758（无位姿监督）（表5，p.14）；RE10K（SpatialVid训练）RayDer-B 28.35/0.151/0.879（表6，p.14）\n消融完整配置（SV-HQ训练）：NVS PSNR 27.78/30.23（无/有状态）、相机估计R@10° 88.7、t@0.1 42.4（表1，p.5）\n注：在DTU等实验室数据集上不及有监督方法，作者归因于位姿估计不可靠（p.13）。\n数据处理：训练片段以约0.5秒间隔采样帧；用pHash/dHash感知哈希检测训练-测试近重复帧（汉明距离<8位）并去除泄漏（p.9）。"
+}

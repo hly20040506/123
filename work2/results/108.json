@@ -1,0 +1,10 @@
+{
+ "idx": 108,
+ "dom": "医学与生物三维视觉\n差分视觉语义提示的LLM胸部CT报告生成",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "4× NVIDIA H20（训练）",
+ "mp": 10,
+ "url": "https://github.com/ArielTYH/DiffVP",
+ "metrics": "RadGenome-ChestCT：BLEU-1 58.16、BLEU-2 48.74、BLEU-3 40.93、BLEU-4 34.28、ROUGE-L 32.32、METEOR 47.40（表1，p.10）\nCTRG-Chest-548K：BLEU-1 50.37、BLEU-4 37.57、ROUGE-L 45.00、METEOR 50.44（表1，p.10）\n临床有效性（RadGenome-ChestCT）：F1 0.421、Recall 0.496、Precision 0.366（表2，p.11）\n注：ROUGE-L在两个数据集上均非最优（RadGenome上Reg2RG 36.65；CTRG上R2GenGPT 50.93），CE精确率亦低于Reg2RG（0.423）（表1–表2）。\n数据处理：依据报告“无异常”筛选构建正常参考CT池（RadGenome-ChestCT训练1,787例、评测124例，CTRG同理）（p.10）。"
+}

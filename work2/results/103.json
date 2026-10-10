@@ -1,0 +1,9 @@
+{
+ "idx": 103,
+ "dom": "视频生成与理解\n视频生成模型作为动态HDR光照估计器（铬球视频修复）",
+ "proc": "有",
+ "proc_p": 5,
+ "gpu": "8× NVIDIA H100（训练）",
+ "mp": 11,
+ "metrics": "Editable Indoor：MSE↓ 0.10、SI-MSE↓ 0.03、AER↓ 4.77、LS↓ 0.03；EnvMapNet：AED↓ 41.63、AS↓ 16.30（表1，p.11）\n10个视频子集对比DiffusionLight：本文 MSE 0.09、SI-MSE 0.03、AER 4.68、AED 42.53、AS 15.96（DiffusionLight 0.10/0.05/4.58/40.07/16.76）（表1，p.11）\n注：EnvMapNet上AED（41.63）不及DiffusionLightTurbo（37.74）；子集上AER与AED亦略逊于DiffusionLight（表1，p.11）。\n数据处理：基于PanoVid全景视频构建V-LITESet，对LDR全景分别用线性、γ=2.2与filmic三种逆色调映射生成HDR候选，再映射回LDR并用VLM评估物理合理性以过滤；最终含8K+对480×832视频（p.5）。"
+}

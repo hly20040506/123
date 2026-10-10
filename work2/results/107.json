@@ -1,0 +1,10 @@
+{
+ "idx": 107,
+ "dom": "医学与生物三维视觉\n潜空间模拟疾病轨迹以指导治疗决策的医学世界模型",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "未说明",
+ "mp": 11,
+ "proj": "https://dingtianxingjian.github.io/clarity-project-page/",
+ "metrics": "治疗方案推荐（Prec./Rec./F1/Jaccard，%）：MU-Glioma-Post 61.3/53.5/57.1/39.9；UCSF-ALPTDG（零样本）52.6/48.0/50.2/33.5；ISPY-2乳腺癌 56.2/51.8/53.9/36.8（表1，p.11）\n盲评专家评估（40例）：等效/非劣 60.0%、CLARITY更优 35.0%、医生方案更优 5.0%（表3，p.13）\n生存评估：C-index 79.4%（软对比损失组合）（表4，p.14）；MRI-CORE编码器 C-index 0.794、Brier 0.162（表5，p.15）\n注：UCSF-ALPTDG上召回率48.0低于Huatuo-Vision（51.5）；正文所述患者级划分为训练75%、验证15%、测试15%，合计105%，比例存在矛盾（表1，p.11；p.10）。\n数据处理：MU-Glioma-Post（203名患者、654次MRI随访）按患者级划分以避免时间泄漏（p.10）。"
+}

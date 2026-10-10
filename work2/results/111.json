@@ -1,0 +1,10 @@
+{
+ "idx": 111,
+ "dom": "医学与生物三维视觉\n等变且对称感知的胎儿MRI头部位姿估计",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "未说明",
+ "mp": 10,
+ "url": "https://github.com/MedicalVisionGroup/E3-Pose",
+ "metrics": "在Research-Fetal上训练（旋转误差°/平均绝对距离AAD mm，均值±标准差）：Research-Fetal测试 5.1±2.6/3.0±1.7；dHCP 7.4±3.6/3.7±1.8；Clinical-Young 9.1±4.7/3.0±1.4；Navigators 9.4±7.5/6.3±4.0（表1，p.10）\n在dHCP上训练：Clinical-Young 12.1±6.8/3.9±1.9；Navigators 13.9±13.2/7.9±5.6（表2，p.12）\n注：Research-Fetal测试集上免训练方法Fetal-Align旋转误差5.0°略优于本文5.1°；dHCP测试集上FireANTs（0.4°）更优（表1，p.10）。\n数据处理：训练时做空间（刚体变换、缩放、翻转）与强度（偏置场、gamma、高斯噪声、低分辨率等）增强，并模拟前一切片造成的自旋历史伪影；推理时按预测脑掩码质心裁剪（留40%边距）（p.6、p.8）。"
+}
