@@ -5,6 +5,9 @@
  "proc_p": 11,
  "gpu": "RTX 3090",
  "mp": 10,
- "note_code": "摘要称代码可用但未给出链接",
- "metrics": "NTU RGB+D 60（全观测训练，10%–100%观测比例曲线面积AUC↑(%)）：X-Sub 73.99，X-View 81.86（表1，p.10）\nNTU RGB+D 120：X-Sub 64.66，X-Set 67.40（正文对应表1，p.12）\nNW-UCLA：AUC↑(%) 86.34（表2，p.11）\n数据处理：所有骨架序列均匀采样至64帧（p.11）"
+ "note_code": "正文仅称代码可用，链接来自PDF超链接",
+ "metrics": "NTU RGB+D 60（全观测训练，10%–100%观测比例曲线面积AUC↑(%)）：X-Sub 73.99，X-View 81.86（表1，p.10）\nNTU RGB+D 120：X-Sub 64.66，X-Set 67.40（正文对应表1，p.12）\nNW-UCLA：AUC↑(%) 86.34（表2，p.11）\n数据处理：所有骨架序列均匀采样至64帧（p.11）",
+ "url": "https://github.com/zhengcyyy/DART",
+ "repo_state": "code",
+ "code_src": "paper"
 }

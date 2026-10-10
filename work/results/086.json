@@ -6,5 +6,8 @@
  "gpu": "RTX 4090",
  "mp": 9,
  "proj": "https://hipolicy.github.io",
- "metrics": "RoboTwin 1.0/2.0（每任务100回合；剔除简单任务后选取精细任务；成功率↑(%)）：精细任务平均 DP+HiPolicy 45（DP 22），DP3+HiPolicy 53（DP3 28）；其他任务平均 DP+HiPolicy 79（DP 59），DP3+HiPolicy 70（DP3 59）（表1，p.9）\nRoboTwin 2.0 加速实验（5任务，含熵引导执行）：DP+HiPolicy 平均SR↑ 41%，执行步数↓ 100（DP 24%/133）（表3，p.12）\n真实Franka 8任务（每任务10次）：DP+HiPolicy 平均成功率↑ 85%（DP 60%），平均执行步数↓ 111/113（表6，p.14）\n数据处理：剔除基线已能完成的简单任务及演示步数<100、精度要求低的任务（p.9）"
+ "metrics": "RoboTwin 1.0/2.0（每任务100回合；剔除简单任务后选取精细任务；成功率↑(%)）：精细任务平均 DP+HiPolicy 45（DP 22），DP3+HiPolicy 53（DP3 28）；其他任务平均 DP+HiPolicy 79（DP 59），DP3+HiPolicy 70（DP3 59）（表1，p.9）\nRoboTwin 2.0 加速实验（5任务，含熵引导执行）：DP+HiPolicy 平均SR↑ 41%，执行步数↓ 100（DP 24%/133）（表3，p.12）\n真实Franka 8任务（每任务10次）：DP+HiPolicy 平均成功率↑ 85%（DP 60%），平均执行步数↓ 111/113（表6，p.14）\n数据处理：剔除基线已能完成的简单任务及演示步数<100、精度要求低的任务（p.9）",
+ "url": "https://github.com/HiPolicy/HiPolicy",
+ "code_src": "project",
+ "repo_state": "readme"
 }

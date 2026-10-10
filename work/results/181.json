@@ -7,5 +7,7 @@
  "mp": 13,
  "url": "https://github.com/naver/anny",
  "note_code": "mpfb2为引用的第三方工具",
- "metrics": "多人HMR（Multi-HMR+Anny，单位mm）：3DPW PA-MPJPE↓ 41.8，MPJPE↓ 71.5，PVE↓ 83.2；EMDB PA-MPJPE↓ 48.5，MPJPE↓ 71.5，PVE↓ 83.4；Hi4D PA-MPJPE↓ 48.7，MPJPE↓ 66.6，Pair-PA-MPJPE↓ 80.0；CMU-Toddler MPJPE↓ 102.1，Pair-PA-MPJPE↓ 263.8（表3，p.13；3DPW MPJPE不及AiOS 68.8）\nAGORA（重划分验证集，Anny-One预训练+微调，Anny）：全部 PVE↓ 72.8，PA-PVE↓ 48.2；儿童 PVE↓ 69.3，PA-PVE↓ 41.5（表2，p.12）\n3DPW / EHF（HMR2.0+Anny，BEDLAM训练）：3DPW MPJPE↓ 86.5，PA-MPJPE↓ 49.4；EHF PVE↓ 65.5，PA-PVE↓ 49.7（表1，p.12）\n数据处理：生成78万张合成真实感人像（Anny-One）；AGORA以3DPEOPLE扫描图像重新划分验证集（p.2，p.13）"
+ "metrics": "多人HMR（Multi-HMR+Anny，单位mm）：3DPW PA-MPJPE↓ 41.8，MPJPE↓ 71.5，PVE↓ 83.2；EMDB PA-MPJPE↓ 48.5，MPJPE↓ 71.5，PVE↓ 83.4；Hi4D PA-MPJPE↓ 48.7，MPJPE↓ 66.6，Pair-PA-MPJPE↓ 80.0；CMU-Toddler MPJPE↓ 102.1，Pair-PA-MPJPE↓ 263.8（表3，p.13；3DPW MPJPE不及AiOS 68.8）\nAGORA（重划分验证集，Anny-One预训练+微调，Anny）：全部 PVE↓ 72.8，PA-PVE↓ 48.2；儿童 PVE↓ 69.3，PA-PVE↓ 41.5（表2，p.12）\n3DPW / EHF（HMR2.0+Anny，BEDLAM训练）：3DPW MPJPE↓ 86.5，PA-MPJPE↓ 49.4；EHF PVE↓ 65.5，PA-PVE↓ 49.7（表1，p.12）\n数据处理：生成78万张合成真实感人像（Anny-One）；AGORA以3DPEOPLE扫描图像重新划分验证集（p.2，p.13）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

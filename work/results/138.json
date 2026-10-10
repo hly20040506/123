@@ -7,5 +7,7 @@
  "mp": 11,
  "proj": "https://feifeifeiliu.github.io/MOCO",
  "note_code": "文中称代码将发布于项目页（将来时）",
- "metrics": "自建多模态基准（AMASS文本动作+BEAT2语音）：Text2Motion FID+↓ 0.862，R1↑ 24.6，M2T↑ 0.649，M2M↑ 0.639；Speech2Gesture FID-A↓ 3.83，BC↑ 2.72，L1div↑ 8.62（表2，p.11）\n注：FID-A、BC、L1div不及部分基线（Weighted Sum FID-A 2.17；SynTalker BC 2.95、L1div 9.12）\n数据处理：BEAT2仅选ID<10说话人（10.15小时），测试音频用VAD切分并组合构建基准（p.10）"
+ "metrics": "自建多模态基准（AMASS文本动作+BEAT2语音）：Text2Motion FID+↓ 0.862，R1↑ 24.6，M2T↑ 0.649，M2M↑ 0.639；Speech2Gesture FID-A↓ 3.83，BC↑ 2.72，L1div↑ 8.62（表2，p.11）\n注：FID-A、BC、L1div不及部分基线（Weighted Sum FID-A 2.17；SynTalker BC 2.95、L1div 9.12）\n数据处理：BEAT2仅选ID<10说话人（10.15小时），测试音频用VAD切分并组合构建基准（p.10）",
+ "soon": true,
+ "soon_text": "文中称代码将发布，项目页Code按钮暂未启用"
 }

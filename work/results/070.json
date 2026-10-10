@@ -6,5 +6,8 @@
  "gpu": "RTX 6000",
  "mp": 13,
  "proj": "https://badertim.github.io/plentiful-carla-camera-rigs/",
- "metrics": "基准论文（CARLA合成，14种相机装配、115场景、6,900样本、724,500张图像）；作者提出的RigCD度量与跨装配性能下降的Spearman相关ρ↑：受控装配 BEVDet 0.866，BEVFusion 0.914，PETR 0.982，Fast-BEV 0.052；多样装配（测试）0.718/0.734/0.804/0.097（表3，p.13）\n联合标定RigCD（多样装配）：BEVDet ρ 0.71，BEVFusion 0.68，Fast-BEV 0.59，PETR 0.74（p.14正文）\n数据处理：按自车速度分箱下采样剪枝近静止场景，随机采样场景描述生成数据划分（p.5）"
+ "metrics": "基准论文（CARLA合成，14种相机装配、115场景、6,900样本、724,500张图像）；作者提出的RigCD度量与跨装配性能下降的Spearman相关ρ↑：受控装配 BEVDet 0.866，BEVFusion 0.914，PETR 0.982，Fast-BEV 0.052；多样装配（测试）0.718/0.734/0.804/0.097（表3，p.13）\n联合标定RigCD（多样装配）：BEVDet ρ 0.71，BEVFusion 0.68，Fast-BEV 0.59，PETR 0.74（p.14正文）\n数据处理：按自车速度分箱下采样剪枝近静止场景，随机采样场景描述生成数据划分（p.5）",
+ "url": "https://github.com/BaderTim/plentiful-carla-camera-rigs",
+ "code_src": "project",
+ "repo_state": "code"
 }

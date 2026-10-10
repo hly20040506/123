@@ -5,5 +5,8 @@
  "proc_p": 9,
  "gpu": "L40",
  "mp": 12,
- "metrics": "Bench2Drive（终身学习协议，5个能力任务依次训练；DeLL）：Avg DS↑(%) 74.69，Avg SR↑(%) 50.73，Avg Multi-Ab SR↑(%) 52.08，遗忘率FR↓(%) 33.97，BT↑ 79.63（表2，p.12）\nBench2Drive（全数据训练，闭环CARLA）：DS↑(%) 86.86，SR↑(%) 68.63，Multi-Ability均值↑(%) 68.90（表3，p.12）"
+ "metrics": "Bench2Drive（终身学习协议，5个能力任务依次训练；DeLL）：Avg DS↑(%) 74.69，Avg SR↑(%) 50.73，Avg Multi-Ab SR↑(%) 52.08，遗忘率FR↓(%) 33.97，BT↑ 79.63（表2，p.12）\nBench2Drive（全数据训练，闭环CARLA）：DS↑(%) 86.86，SR↑(%) 68.63，Multi-Ability均值↑(%) 68.90（表3，p.12）",
+ "url": "https://github.com/Mooncakebro/DeLL",
+ "code_src": "search",
+ "repo_state": "code"
 }

@@ -5,6 +5,10 @@
  "proc_p": 9,
  "gpu": "未说明",
  "mp": 12,
- "note_code": "摘要标注代码为yyyybq/MindBlock（未给完整URL）；Genesis链接为引用的仿真器",
- "metrics": "MindBlock基准（合成积木场景，8视角渲染；3DGS-Eval由生成多视图重建评估）；作者模型 MindBlock-Semantic：正向拼装 CLIP-S↑ 0.90，PSNR↑(dB) 20.4，SSIM↑ 0.91，Depth Err↓ 55.8，CD↓ 5.9；逆向拆解 CLIP-S↑ 0.88，PSNR↑ 19.1，SSIM↑ 0.88，Depth Err↓ 60.2，CD↓ 6.8（表2，p.12）\n单步拼装（被测UMM最优Step1X-Edit）：CLIP-S↑ 0.86，PSNR↑ 15.20，CD↓ 9.10（表1，p.10）\n数据处理：仿真合成积木结构并渲染多视角图像、模板生成CoT推理轨迹（p.9）"
+ "note_code": "正文写“yyyybq/MindBlock”，完整链接来自PDF超链接；Genesis为引用的仿真器",
+ "metrics": "MindBlock基准（合成积木场景，8视角渲染；3DGS-Eval由生成多视图重建评估）；作者模型 MindBlock-Semantic：正向拼装 CLIP-S↑ 0.90，PSNR↑(dB) 20.4，SSIM↑ 0.91，Depth Err↓ 55.8，CD↓ 5.9；逆向拆解 CLIP-S↑ 0.88，PSNR↑ 19.1，SSIM↑ 0.88，Depth Err↓ 60.2，CD↓ 6.8（表2，p.12）\n单步拼装（被测UMM最优Step1X-Edit）：CLIP-S↑ 0.86，PSNR↑ 15.20，CD↓ 9.10（表1，p.10）\n数据处理：仿真合成积木结构并渲染多视角图像、模板生成CoT推理轨迹（p.9）",
+ "url": "https://github.com/yyyybq/MindBlock",
+ "hf": "https://huggingface.co/datasets/Jay28/MindBlock-Bench",
+ "repo_state": "code",
+ "code_src": "paper"
 }

@@ -7,5 +7,8 @@
  "mp": 10,
  "proj": "https://dairuliu.github.io/humantracker",
  "note_code": "文中称发布评测代码与配置，仅给出项目主页",
- "metrics": "数据集/基准论文（作者方法为HumanScore奖励模型）\n域内偏好测试：HumanScore 对齐率↑ 0.9291（MPJPE为0.8218）（表3，p.10）\n基准结果（第三方跟踪器）：域内 Humanoid-GPT Daily Succ↑ 97.3%，MPJPE↓ 0.057 rad，HumanScore↑ 71.0；Ground Succ 17.4%，HumanScore 34.6（表4，p.11）\n零样本 Humanoid-GPT Daily Succ 97.2%，HumanScore 72.0；SONIC Daily 93.6% / 52.5（表5，p.11）\n数据处理：动捕数据人工检查剔除漂浮、穿地、接触不连续片段（p.5）"
+ "metrics": "数据集/基准论文（作者方法为HumanScore奖励模型）\n域内偏好测试：HumanScore 对齐率↑ 0.9291（MPJPE为0.8218）（表3，p.10）\n基准结果（第三方跟踪器）：域内 Humanoid-GPT Daily Succ↑ 97.3%，MPJPE↓ 0.057 rad，HumanScore↑ 71.0；Ground Succ 17.4%，HumanScore 34.6（表4，p.11）\n零样本 Humanoid-GPT Daily Succ 97.2%，HumanScore 72.0；SONIC Daily 93.6% / 52.5（表5，p.11）\n数据处理：动捕数据人工检查剔除漂浮、穿地、接触不连续片段（p.5）",
+ "url": "https://github.com/GalaxyGeneralRobotics/HumanTracker",
+ "code_src": "project",
+ "repo_state": "code"
 }

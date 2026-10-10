@@ -5,5 +5,8 @@
  "proc_p": 10,
  "gpu": "未说明",
  "mp": 10,
- "metrics": "InterHuman测试集（95%置信区间）：全窗口生成 R-Precision Top-1/2/3↑ 0.529/0.690/0.764，FID↓ 4.436，MM Dist↓ 3.763，Diversity→ 8.089；流式生成 Top-3↑ 0.723，FID↓ 4.444（表1，p.10）\nInterX测试集（流式；转换为锚点-关系表示）：Top-3↑ 0.780，FID↓ 0.279，MM Dist↓ 3.405（表2，p.11）\n连续多段流式（自建64组序列）：单人↔交互过渡 PJ→ 0.077，AUJ↓ 1.070；交互↔交互过渡 PJ→ 0.071，AUJ↓ 2.925（表3，p.13）"
+ "metrics": "InterHuman测试集（95%置信区间）：全窗口生成 R-Precision Top-1/2/3↑ 0.529/0.690/0.764，FID↓ 4.436，MM Dist↓ 3.763，Diversity→ 8.089；流式生成 Top-3↑ 0.723，FID↓ 4.444（表1，p.10）\nInterX测试集（流式；转换为锚点-关系表示）：Top-3↑ 0.780，FID↓ 0.279，MM Dist↓ 3.405（表2，p.11）\n连续多段流式（自建64组序列）：单人↔交互过渡 PJ→ 0.077，AUJ↓ 1.070；交互↔交互过渡 PJ→ 0.071，AUJ↓ 2.925（表3，p.13）",
+ "url": "https://github.com/kk9six/arms",
+ "code_src": "search",
+ "repo_state": "code"
 }

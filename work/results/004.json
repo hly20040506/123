@@ -5,5 +5,8 @@
  "proc_p": 6,
  "gpu": "未说明",
  "mp": 9,
- "metrics": "Tanks and Temples（域外风格迁移；DL3DV训练，15种光照/风格变体）：stride=8 Subject一致性↑ 0.8913，Background一致性↑ 0.9060，CLIP Sim↑ 0.4717，COLMAP注册率↑ 0.9530；stride=16 对应 0.8461，0.8862，0.4707，0.9932（表1，p.9）\nDL3DV140（域内真实视频）：FID↓ 20.23，mIoU↑ 0.2992，Aesthetic↑ 0.5133，Imaging↑ 0.6283（表3，p.9）\nScanNet++（Video-from-3D，三维派生条件）：from Voxel PSNR↑(dB) 22.80，SSIM↑ 0.8153，LPIPS↓ 0.1572；from Mesh 21.41/0.8010/0.1807（表4，p.10）\n注：消融表6在DL3DV140上完整模型FID为71.67，与表3的20.23设置不同，原文未统一说明（表6，p.11）"
+ "metrics": "Tanks and Temples（域外风格迁移；DL3DV训练，15种光照/风格变体）：stride=8 Subject一致性↑ 0.8913，Background一致性↑ 0.9060，CLIP Sim↑ 0.4717，COLMAP注册率↑ 0.9530；stride=16 对应 0.8461，0.8862，0.4707，0.9932（表1，p.9）\nDL3DV140（域内真实视频）：FID↓ 20.23，mIoU↑ 0.2992，Aesthetic↑ 0.5133，Imaging↑ 0.6283（表3，p.9）\nScanNet++（Video-from-3D，三维派生条件）：from Voxel PSNR↑(dB) 22.80，SSIM↑ 0.8153，LPIPS↓ 0.1572；from Mesh 21.41/0.8010/0.1807（表4，p.10）\n注：消融表6在DL3DV140上完整模型FID为71.67，与表3的20.23设置不同，原文未统一说明（表6，p.11）",
+ "url": "https://github.com/d3ixi/ControlDINO",
+ "code_src": "search",
+ "repo_state": "code"
 }

@@ -6,5 +6,7 @@
  "gpu": "RTX 3080",
  "mp": 11,
  "url": "https://github.com/RedForestAI/WebEyeTrack",
- "metrics": "注视点误差 PoG（cm，作者模型BlazeGaze）：MPIIFaceGaze↓ 4.56，GazeCapture↓ 2.32，EyeDiap↓ 7.53（表1，p.11）\n注：各数据集最低误差分别为EFE 3.89、AFF-Net 2.30、CA-Net 6.30，作者模型以轻量为主（0.16M参数，0.15 GFLOPs）\n20分钟用户研究（正文，图5，p.13）：首末点测试误差 7.24→8.72 cm（WebGazer 7.79→11.62 cm）\n数据处理：注视标签归一化到屏幕中心为原点的[-0.5,0.5]²（p.8）"
+ "metrics": "注视点误差 PoG（cm，作者模型BlazeGaze）：MPIIFaceGaze↓ 4.56，GazeCapture↓ 2.32，EyeDiap↓ 7.53（表1，p.11）\n注：各数据集最低误差分别为EFE 3.89、AFF-Net 2.30、CA-Net 6.30，作者模型以轻量为主（0.16M参数，0.15 GFLOPs）\n20分钟用户研究（正文，图5，p.13）：首末点测试误差 7.24→8.72 cm（WebGazer 7.79→11.62 cm）\n数据处理：注视标签归一化到屏幕中心为原点的[-0.5,0.5]²（p.8）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

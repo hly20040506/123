@@ -6,5 +6,6 @@
  "gpu": "RTX A6000",
  "mp": 12,
  "proj": "https://smk11602.github.io/JointHOI/",
- "metrics": "ARCTIC：动作识别 Acc Top-1↑ 0.948，Top-3↑ 0.983，FID↓ 0.033，IV↓ 4.406 cm³，ID↓ 0.426 cm，CR→ 93.71%（GT 95.56%）（表2，p.12）\nGRAB：Acc Top-1↑ 0.663，Top-3↑ 0.847，FID↓ 0.031，IV↓ 3.419 cm³，ID↓ 0.525 cm，CR→ 93.00%（GT 95.02%）（表2，p.12）\n数据处理：自建测试划分（按物体-动作对均衡采样）；序列降采样至30fps并填充/截断至196（GRAB）/64（ARCTIC）帧（p.10）"
+ "metrics": "ARCTIC：动作识别 Acc Top-1↑ 0.948，Top-3↑ 0.983，FID↓ 0.033，IV↓ 4.406 cm³，ID↓ 0.426 cm，CR→ 93.71%（GT 95.56%）（表2，p.12）\nGRAB：Acc Top-1↑ 0.663，Top-3↑ 0.847，FID↓ 0.031，IV↓ 3.419 cm³，ID↓ 0.525 cm，CR→ 93.00%（GT 95.02%）（表2，p.12）\n数据处理：自建测试划分（按物体-动作对均衡采样）；序列降采样至30fps并填充/截断至196（GRAB）/64（ARCTIC）帧（p.10）",
+ "soon": true
 }

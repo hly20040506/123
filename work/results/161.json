@@ -5,5 +5,8 @@
  "gpu": "V100",
  "mp": 10,
  "note_code": "文中称代码将在录用后发布，未给出链接",
- "metrics": "BEAT2 单说话人（Speaker-2）：FGD↓ 0.383，BC→ 0.704（GT 0.703），Diversity→ 13.18（GT 11.97）（表1，p.10）\nBEAT2 全部说话人：FGD↓ 0.293，BC→ 0.616（GT 0.477），Diversity→ 7.27（GT 7.29）（表1，p.10）\n速度/加速度分布距离：VEL↓ 2.15e2，ACC↓ 2.33e2（表2b，p.12）"
+ "metrics": "BEAT2 单说话人（Speaker-2）：FGD↓ 0.383，BC→ 0.704（GT 0.703），Diversity→ 13.18（GT 11.97）（表1，p.10）\nBEAT2 全部说话人：FGD↓ 0.293，BC→ 0.616（GT 0.477），Diversity→ 7.27（GT 7.29）（表1，p.10）\n速度/加速度分布距离：VEL↓ 2.15e2，ACC↓ 2.33e2（表2b，p.12）",
+ "url": "https://github.com/Xiangyue-Zhang/StreamTalk",
+ "code_src": "search",
+ "repo_state": "code"
 }

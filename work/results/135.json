@@ -7,5 +7,8 @@
  "mp": 10,
  "proj": "https://autonomousrobots.nl/paper_websites/mobileocc",
  "note_code": "文中称代码与数据集发布于项目网站；OpenDriveLab仓库为引用的第三方代码",
- "metrics": "数据集/基准论文（作者方法为人体网格优化标注管线）\n3DPW（模拟LiDAR，单位mm）：Ouster-128 PVE↓ 50.5，MPJPE↓ 39.1，PA-MPJPE↓ 35.1；Ouster-64 57.2 / 43.9 / 38.5（表2，p.9）\nSLOPER4D（RGB+LiDAR）：PVE↓ 64.4，MPJPE↓ 55.8，PA-MPJPE↓ 43.5，MPERE↓ 0.060；HumanM3：MPJPE↓ 83.9，PA-MPJPE↓ 58.1（表3，p.10）\n标注质量（CODa）：静态语义体素 mIoU 71.2，行人体素 F1 92.5（表4–5，p.13）\n基准基线：FlashOcc(8f) IoU 57.71，mIoU 27.18（表6，p.15）\n数据处理：累积并过滤语义LiDAR点，降采样至5Hz，合并稀有类别为10类（p.2，p.13）"
+ "metrics": "数据集/基准论文（作者方法为人体网格优化标注管线）\n3DPW（模拟LiDAR，单位mm）：Ouster-128 PVE↓ 50.5，MPJPE↓ 39.1，PA-MPJPE↓ 35.1；Ouster-64 57.2 / 43.9 / 38.5（表2，p.9）\nSLOPER4D（RGB+LiDAR）：PVE↓ 64.4，MPJPE↓ 55.8，PA-MPJPE↓ 43.5，MPERE↓ 0.060；HumanM3：MPJPE↓ 83.9，PA-MPJPE↓ 58.1（表3，p.10）\n标注质量（CODa）：静态语义体素 mIoU 71.2，行人体素 F1 92.5（表4–5，p.13）\n基准基线：FlashOcc(8f) IoU 57.71，mIoU 27.18（表6，p.15）\n数据处理：累积并过滤语义LiDAR点，降采样至5Hz，合并稀有类别为10类（p.2，p.13）",
+ "url": "https://github.com/tud-amr/MobileOcc",
+ "code_src": "project",
+ "repo_state": "inaccessible"
 }

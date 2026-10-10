@@ -6,5 +6,7 @@
  "gpu": "RTX 4090（评测）；Jetson Orin（边缘部署）",
  "mp": 10,
  "url": "https://github.com/nesl/SWAN",
- "metrics": "nuScenes+MultiCorrupt合成退化（SWAN-PSC，层预算16；NDS↑/mAP↑）：LiDAR Beams-reduce 36.42/25.43，Camera Dark 65.08/57.43，Fog 64.95/57.20，Camera Motion-blur 64.72/57.34，LiDAR Motion-blur 61.40/55.18（表1，p.10）\nMM-Fi 15帧手势识别（加入合成高斯噪声；SWAN-C准确率↑(%)）：6层 30.9，10层 39.2，16层 43.2，20层 46.0（表2，p.14）\n数据处理：在合成退化数据上训练，真实数据需微调（p.13）"
+ "metrics": "nuScenes+MultiCorrupt合成退化（SWAN-PSC，层预算16；NDS↑/mAP↑）：LiDAR Beams-reduce 36.42/25.43，Camera Dark 65.08/57.43，Fog 64.95/57.20，Camera Motion-blur 64.72/57.34，LiDAR Motion-blur 61.40/55.18（表1，p.10）\nMM-Fi 15帧手势识别（加入合成高斯噪声；SWAN-C准确率↑(%)）：6层 30.9，10层 39.2，16层 43.2，20层 46.0（表2，p.14）\n数据处理：在合成退化数据上训练，真实数据需微调（p.13）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

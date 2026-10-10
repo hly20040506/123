@@ -2,7 +2,7 @@
  "idx": 176,
  "dom": "人体、头像与动物重建\n端到端多人检测、跟踪与人体网格恢复",
  "proc": "未说明",
- "gpu": "A100（训练）；RTX A4000（推理耗时测试）",
+ "gpu": "A100（训练）；RTX A4000（效率测试）",
  "mp": 11,
  "note_code": "未给出代码链接",
  "metrics": "PoseTrack21（含忽略区域修正）：MOTA↑ 73.6，IDF1↑ 80.6，IDP↑ 85.0，IDR↑ 75.1；原始评测 MOTA↑ 71.0，IDF1↑ 78.3（表1a，p.11）\nMuPoTS-3D：IDs↓ 0，MOTA↑ 95.9，IDF1↑ 97.4，HOTA↑ 71.3（表1b，p.11）\nBEDLAM：IDs↓ 37，MOTA↑ 99.18，IDF1↑ 99.37，HOTA↑ 95.90，MPJPE↓ 48.68 mm，PA-MPJPE↓ 31.24 mm，PVE↓ 56.33 mm（表2，p.12；HOTA不及MaQ 97.73，PA-MPJPE不及CoMotion 24.50）\nDyna3DPW 跟踪：MOTA↑ 99.8，IDF1↑ 99.9，HOTA↑ 79.1；3DPW 重建：PA-MPJPE↓ 38.3，MPJPE↓ 60.0，PVE↓ 70.1 mm（表3，p.14）"

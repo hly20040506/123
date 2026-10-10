@@ -5,5 +5,8 @@
  "gpu": "未说明",
  "mp": 11,
  "note_code": "未给出代码链接",
- "metrics": "平均测地误差 Geo.Err↓（×100）：SMAL 2.5；DT4D-H 类内 1.0 / 类间 3.4（表1，p.11；DT4D-H类内不及ULRSSM/DeepFAFM 0.9）\n近等距：FAUST 1.4，SCAPE 1.8，FAUST+SCAPE训练→SHREC'19 3.3（图3内嵌表，p.10）\n拓扑噪声 TOPKIDS：2.9（图6内嵌表，p.12）\n映射平滑度（SMAL）：共形畸变↓ 1.956，覆盖率↑ 71.2%，Dirichlet能量↓ 10.20，双射误差↓ 0.0175（表2，p.13）"
+ "metrics": "平均测地误差 Geo.Err↓（×100）：SMAL 2.5；DT4D-H 类内 1.0 / 类间 3.4（表1，p.11；DT4D-H类内不及ULRSSM/DeepFAFM 0.9）\n近等距：FAUST 1.4，SCAPE 1.8，FAUST+SCAPE训练→SHREC'19 3.3（图3内嵌表，p.10）\n拓扑噪声 TOPKIDS：2.9（图6内嵌表，p.12）\n映射平滑度（SMAL）：共形畸变↓ 1.956，覆盖率↑ 71.2%，Dirichlet能量↓ 10.20，双射误差↓ 0.0175（表2，p.13）",
+ "url": "https://github.com/YeTianwei/SGMatch",
+ "code_src": "search",
+ "repo_state": "code"
 }

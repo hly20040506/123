@@ -6,5 +6,7 @@
  "gpu": "未说明",
  "mp": 9,
  "url": "https://github.com/pokerme7777/VIEW2SPACE",
- "metrics": "VIEW2SPACE-v1（物理仿真生成多视角场景；Qwen3-VL-4B全参SFT，300K样本）：Grounded CoT 多选ACC↑(%) 64.93，计数MAE↓ 0.58/ACC↑ 54.99，定位mIoU↑(%) 69.34，F1↑ 70.92（表1，p.9）\n同表其他训练设置（分开列示）：Instruct-tuning 多选ACC 36.50；标准CoT 59.57；对照GPT-5 多选ACC 59.86（表1，p.9）\nMINDCUBE-Tiny（未在MINDCUBE上微调，合成→真实迁移）：Ours 4B Grounded-CoT Overall↑(%) 70.00，Rotation 71.50，Among 66.33，Around 74.75；2B版 59.92（表2，p.13）\n数据处理：仿真引擎构建资产库、场景布局与渲染并自动导出2D/3D框与遮挡率标注（p.4–5）"
+ "metrics": "VIEW2SPACE-v1（物理仿真生成多视角场景；Qwen3-VL-4B全参SFT，300K样本）：Grounded CoT 多选ACC↑(%) 64.93，计数MAE↓ 0.58/ACC↑ 54.99，定位mIoU↑(%) 69.34，F1↑ 70.92（表1，p.9）\n同表其他训练设置（分开列示）：Instruct-tuning 多选ACC 36.50；标准CoT 59.57；对照GPT-5 多选ACC 59.86（表1，p.9）\nMINDCUBE-Tiny（未在MINDCUBE上微调，合成→真实迁移）：Ours 4B Grounded-CoT Overall↑(%) 70.00，Rotation 71.50，Among 66.33，Around 74.75；2B版 59.92（表2，p.13）\n数据处理：仿真引擎构建资产库、场景布局与渲染并自动导出2D/3D框与遮挡率标注（p.4–5）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

@@ -6,5 +6,6 @@
  "gpu": "RTX 6000 Ada",
  "mp": 12,
  "note_code": "未给出代码链接",
- "metrics": "MonoPerfCap：PSNR↑(dB) 31.83，SSIM↑ 0.978，LPIPS↓(×100) 1.67（表1a，p.12）\nDNA-Rendering：PSNR↑ 29.90，SSIM↑ 0.971，LPIPS↓(×100) 2.19（表1b，p.12）\nNeuMan：PSNR↑ 29.75，SSIM↑ 0.974，LPIPS↓(×100) 1.94（表1c，p.12）\nSynWild 几何：CD↓(×1000) 2.46，NE↓ 0.091，F1@1cm↑ 0.397，F1@2cm↑ 0.681（表2，p.12）\n数据处理：预处理优化初始规范网格与身体位姿；法向与掩码使用预训练模型伪真值（p.6，p.8）"
+ "metrics": "MonoPerfCap：PSNR↑(dB) 31.83，SSIM↑ 0.978，LPIPS↓(×100) 1.67（表1a，p.12）\nDNA-Rendering：PSNR↑ 29.90，SSIM↑ 0.971，LPIPS↓(×100) 2.19（表1b，p.12）\nNeuMan：PSNR↑ 29.75，SSIM↑ 0.974，LPIPS↓(×100) 1.94（表1c，p.12）\nSynWild 几何：CD↓(×1000) 2.46，NE↓ 0.091，F1@1cm↑ 0.397，F1@2cm↑ 0.681（表2，p.12）\n数据处理：预处理优化初始规范网格与身体位姿；法向与掩码使用预训练模型伪真值（p.6，p.8）",
+ "soon": true
 }

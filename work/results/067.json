@@ -6,5 +6,8 @@
  "gpu": "未说明",
  "mp": 10,
  "hf": "https://huggingface.co/datasets/Gong-Grant/FSU-QA",
- "metrics": "FSU-Bench（基于nuScenes 850段前视视频，21K+ QA；仅输入历史视频与轨迹）：作者微调模型Qwen3-VL-8B-FI 总体Avg↑(%) 59.59；被测模型最优GPT-5 Avg↑ 48.66（表2，p.10；表头为旋转排版，分任务列名未能可靠提取）\n数据处理：前视视频切分为3s历史+12s未来窗口并过滤无效场景，自动标注后经三轮专家质检修订/删除654条QA（p.7，p.10）"
+ "metrics": "FSU-Bench（基于nuScenes 850段前视视频，21K+ QA；仅输入历史视频与轨迹）：作者微调模型Qwen3-VL-8B-FI 总体Avg↑(%) 59.59；被测模型最优GPT-5 Avg↑ 48.66（表2，p.10；表头为旋转排版，分任务列名未能可靠提取）\n数据处理：前视视频切分为3s历史+12s未来窗口并过滤无效场景，自动标注后经三轮专家质检修订/删除654条QA（p.7，p.10）",
+ "url": "https://github.com/Zhantao-Gong/FSU-QA",
+ "code_src": "search",
+ "repo_state": "inaccessible"
 }

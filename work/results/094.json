@@ -5,5 +5,8 @@
  "proc_p": 5,
  "gpu": "未说明",
  "mp": 11,
- "metrics": "ShareRobot风格基准 域内（VLA-R1-3B）：可供性IoU↑ 36.51，轨迹DFD↓ 106.20，HD↓ 97.90，RMSE↓ 71.12，Avg↓ 91.74（表2，p.11）\n域外：IoU↑ 33.96，DFD↓ 114.30，HD↓ 98.43，RMSE↓ 68.97，Avg↓ 93.90（表2，p.11）\n真实机器人4场景：可供性成功率↑ 62.5%，轨迹 75%；仿真（Piper/UR5）可供性 55%，轨迹 70%（表3，p.13）\n真实5场景×30次（对比Embodied-R1）：可供性 68.7%，轨迹 71.3%（表4，p.13）\n数据处理：以Qwen2.5-VL-72B教师模型为ShareRobot数据生成13K条CoT标注（VLA-CoT-13K）（p.5）"
+ "metrics": "ShareRobot风格基准 域内（VLA-R1-3B）：可供性IoU↑ 36.51，轨迹DFD↓ 106.20，HD↓ 97.90，RMSE↓ 71.12，Avg↓ 91.74（表2，p.11）\n域外：IoU↑ 33.96，DFD↓ 114.30，HD↓ 98.43，RMSE↓ 68.97，Avg↓ 93.90（表2，p.11）\n真实机器人4场景：可供性成功率↑ 62.5%，轨迹 75%；仿真（Piper/UR5）可供性 55%，轨迹 70%（表3，p.13）\n真实5场景×30次（对比Embodied-R1）：可供性 68.7%，轨迹 71.3%（表4，p.13）\n数据处理：以Qwen2.5-VL-72B教师模型为ShareRobot数据生成13K条CoT标注（VLA-CoT-13K）（p.5）",
+ "url": "https://github.com/GigaAI-research/VLA-R1",
+ "code_src": "search",
+ "repo_state": "code"
 }

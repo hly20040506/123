@@ -5,5 +5,8 @@
  "gpu": "A6000",
  "mp": 11,
  "proj": "https://wangzy01.github.io/UniMotion",
- "metrics": "HumanML3D 文本到动作（统一模型）：R@1/2/3↑ 0.557 / 0.749 / 0.841，FID↓ 0.194，MMDist↓ 2.715，DIV→ 9.583（表3，p.11；FID不及MoMask 0.045）\nHumanML3D 动作到文本：R@3↑ 0.857，BLEU@4↑ 20.7，ROUGE↑ 46.5，CIDEr↑ 39.3，BertScore↑ 41.2（表4，p.12）\nAMASS 动作预测：FID↓ 0.871，ADE↓ 3.172，FDE↓ 5.068；MotionFix 编辑：R@1↑ 63.81%，R@3↑ 84.94%，FID↓ 0.170（表5，p.13）\nHuman3.6M 视觉到动作：MPJPE↓ 75.0 mm，PA-MPJPE↓ 46.1 mm；动作引导图像编辑：FID↓ 18.92，CLIP↑ 0.31，Mot.Acc↑ 0.67（表7–8，p.14）"
+ "metrics": "HumanML3D 文本到动作（统一模型）：R@1/2/3↑ 0.557 / 0.749 / 0.841，FID↓ 0.194，MMDist↓ 2.715，DIV→ 9.583（表3，p.11；FID不及MoMask 0.045）\nHumanML3D 动作到文本：R@3↑ 0.857，BLEU@4↑ 20.7，ROUGE↑ 46.5，CIDEr↑ 39.3，BertScore↑ 41.2（表4，p.12）\nAMASS 动作预测：FID↓ 0.871，ADE↓ 3.172，FDE↓ 5.068；MotionFix 编辑：R@1↑ 63.81%，R@3↑ 84.94%，FID↓ 0.170（表5，p.13）\nHuman3.6M 视觉到动作：MPJPE↓ 75.0 mm，PA-MPJPE↓ 46.1 mm；动作引导图像编辑：FID↓ 18.92，CLIP↑ 0.31，Mot.Acc↑ 0.67（表7–8，p.14）",
+ "url": "https://github.com/wangzy01/UniMotion",
+ "code_src": "project",
+ "repo_state": "code"
 }

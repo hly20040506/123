@@ -6,5 +6,7 @@
  "gpu": "H800",
  "mp": 11,
  "url": "https://github.com/Snitro/Pointer-CAD-v2",
- "metrics": "OmniCAD-Plan（%，1.5B / 0.5B）：RMR@3↑ 91.25 / 87.29，顶点准确率↑ 92.76 / 90.10，边平均↑ 90.33 / 86.40，面平均↑ 89.18 / 84.85（表1，p.11）\nOmniCAD-Plan+（1.5B / 0.5B）：RMR@3↑ 90.97 / 83.33，顶点↑ 92.60 / 86.95，边平均↑ 90.13 / 81.84，面平均↑ 88.78 / 80.17（表2，p.11）\n传统指标（0.5B，OmniCAD-Plan）：Line F1↑ 96.75，Arc F1↑ 63.59，Circle F1↑ 98.48，Extrusion F1↑ 99.66，Mean CD↓ 3.15，Median CD↓ 0.19（表3，p.12）\n注：同一数据集上表4（p.12）中Ours-0.5B / 1.5B数值（RMR@3 87.77 / 90.89）与表1（87.29 / 91.25）不一致\n数据处理：用Qwen3为Recap-OmniCAD模型自动标注结构化设计规划，构建OmniCAD-Plan（p.3）"
+ "metrics": "OmniCAD-Plan（%，1.5B / 0.5B）：RMR@3↑ 91.25 / 87.29，顶点准确率↑ 92.76 / 90.10，边平均↑ 90.33 / 86.40，面平均↑ 89.18 / 84.85（表1，p.11）\nOmniCAD-Plan+（1.5B / 0.5B）：RMR@3↑ 90.97 / 83.33，顶点↑ 92.60 / 86.95，边平均↑ 90.13 / 81.84，面平均↑ 88.78 / 80.17（表2，p.11）\n传统指标（0.5B，OmniCAD-Plan）：Line F1↑ 96.75，Arc F1↑ 63.59，Circle F1↑ 98.48，Extrusion F1↑ 99.66，Mean CD↓ 3.15，Median CD↓ 0.19（表3，p.12）\n注：同一数据集上表4（p.12）中Ours-0.5B / 1.5B数值（RMR@3 87.77 / 90.89）与表1（87.29 / 91.25）不一致\n数据处理：用Qwen3为Recap-OmniCAD模型自动标注结构化设计规划，构建OmniCAD-Plan（p.3）",
+ "repo_state": "readme",
+ "code_src": "paper"
 }

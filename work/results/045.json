@@ -6,5 +6,9 @@
  "gpu": "未说明",
  "mp": 11,
  "hf": "https://huggingface.co/datasets/zlyzlyzly/CVSBench",
- "metrics": "基准论文（3,297组跨视角图像，40,679 QA）；被测模型最优：gpt-5-chat Overall Acc↑(%) 53.76，Grounding mIoU↑(%) 12.30；人类 Acc 89.52/mIoU 93.69（表2，p.11）\n作者训练分析（Qwen3-VL-4B，SFT+RL，Spatial Imagination CoT；CVUSA-subset G2S/S2G分属性准确率↑(%)）：Distance 89.8，Roof 62.0，Location 64.6，Vegetation 74.6（表4，p.12）\n数据处理：半自动标注流程（人工框选+自动生成QA）（p.3，p.5）"
+ "metrics": "基准论文（3,297组跨视角图像，40,679 QA）；被测模型最优：gpt-5-chat Overall Acc↑(%) 53.76，Grounding mIoU↑(%) 12.30；人类 Acc 89.52/mIoU 93.69（表2，p.11）\n作者训练分析（Qwen3-VL-4B，SFT+RL，Spatial Imagination CoT；CVUSA-subset G2S/S2G分属性准确率↑(%)）：Distance 89.8，Roof 62.0，Location 64.6，Vegetation 74.6（表4，p.12）\n数据处理：半自动标注流程（人工框选+自动生成QA）（p.3，p.5）",
+ "url": "https://github.com/earth-insights/CVSBench",
+ "code_src": "search",
+ "repo_state": "code",
+ "repo_note": "仓库为基准评测代码"
 }

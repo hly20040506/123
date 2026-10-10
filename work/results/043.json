@@ -5,5 +5,8 @@
  "proc_p": 9,
  "gpu": "A100 / A6000",
  "mp": 9,
- "metrics": "CV-Bench（Qwen2.5-VL-7B基座+LoRA；CoVT 3种视觉token：Seg+Depth+DINO）：Overall↑(%) 80.0，Count 66.2，Depth 86.8，Dist. 82.5（表2，p.9）\n其他视觉中心基准（同上3 token版本）：MME-RW↑ 63.7，BLINK↑ 56.0，RW-QA↑ 71.6，MMStar-P↑ 69.2，MMVP↑ 58.7，V*↑ 78.0，HR4K↑ 72.9，HR8K↑ 69.4（表3，p.10）\nLLaVA-v1.5-13B基座 CoVT(w/ Depth)：CV-Bench Depth↑ 71.0，BLINK Depth↑ 75.8（表4，p.11）\n数据处理：用分割/深度/DINO/边缘专家模型输出作为视觉token对齐监督，并按四阶段格式化训练数据（p.8–9）"
+ "metrics": "CV-Bench（Qwen2.5-VL-7B基座+LoRA；CoVT 3种视觉token：Seg+Depth+DINO）：Overall↑(%) 80.0，Count 66.2，Depth 86.8，Dist. 82.5（表2，p.9）\n其他视觉中心基准（同上3 token版本）：MME-RW↑ 63.7，BLINK↑ 56.0，RW-QA↑ 71.6，MMStar-P↑ 69.2，MMVP↑ 58.7，V*↑ 78.0，HR4K↑ 72.9，HR8K↑ 69.4（表3，p.10）\nLLaVA-v1.5-13B基座 CoVT(w/ Depth)：CV-Bench Depth↑ 71.0，BLINK Depth↑ 75.8（表4，p.11）\n数据处理：用分割/深度/DINO/边缘专家模型输出作为视觉token对齐监督，并按四阶段格式化训练数据（p.8–9）",
+ "url": "https://github.com/Wakals/CoVT",
+ "code_src": "search",
+ "repo_state": "code"
 }

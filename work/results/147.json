@@ -7,5 +7,7 @@
  "mp": 12,
  "url": "https://github.com/Erwin2233/LaCT-Motion",
  "note_code": "文中称代码将发布（将来时）",
- "metrics": "HumanML3D：R-Precision Top-1/2/3↑ 0.577 / 0.783 / 0.873，FID↓ 0.167，MM-Dist↓ 2.506，Diversity↑ 9.507（表1，p.12）\n数据处理：动作经z-score归一化后VQ离散化；构建66,515条带思维链标注的训练语料（p.6）"
+ "metrics": "HumanML3D：R-Precision Top-1/2/3↑ 0.577 / 0.783 / 0.873，FID↓ 0.167，MM-Dist↓ 2.506，Diversity↑ 9.507（表1，p.12）\n数据处理：动作经z-score归一化后VQ离散化；构建66,515条带思维链标注的训练语料（p.6）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

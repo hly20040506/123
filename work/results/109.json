@@ -5,6 +5,10 @@
  "proc_p": 6,
  "gpu": "未说明",
  "mp": 12,
- "note_code": "摘要称代码与基准发布于GitHub和HuggingFace，PDF正文未给出URL",
- "metrics": "数据集/基准论文（约2,000原始会话→856有效→682段视频，8,184 QA）；全集零样本被测模型（N=6300）：InternVL2-8B Acc↑ 0.3787，WAcc↑ 0.6537（表3，p.11）\nHard子集（N=376，64帧均匀采样；作者微调基线AGCoT-LoRA 7B）：Acc↑ 0.4069，WAcc↑ 0.6130，SA-WAcc↑ 0.7667，Non-SA-WAcc↑ 0.3214（表4，p.12）\n数据处理：按入选标准筛选会话，三层自动化管线整合姿态、食物检测、咬食事件、表情等12种信号生成可溯源标注（p.6）"
+ "note_code": "正文仅写GitHub/HuggingFace字样，链接来自PDF超链接",
+ "metrics": "数据集/基准论文（约2,000原始会话→856有效→682段视频，8,184 QA）；全集零样本被测模型（N=6300）：InternVL2-8B Acc↑ 0.3787，WAcc↑ 0.6537（表3，p.11）\nHard子集（N=376，64帧均匀采样；作者微调基线AGCoT-LoRA 7B）：Acc↑ 0.4069，WAcc↑ 0.6130，SA-WAcc↑ 0.7667，Non-SA-WAcc↑ 0.3214（表4，p.12）\n数据处理：按入选标准筛选会话，三层自动化管线整合姿态、食物检测、咬食事件、表情等12种信号生成可溯源标注（p.6）",
+ "url": "https://github.com/linlingw/EatVid-Bench",
+ "hf": "https://huggingface.co/datasets/linlingw/EatVid-Bench",
+ "repo_state": "code",
+ "code_src": "paper"
 }

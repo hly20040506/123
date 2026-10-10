@@ -6,5 +6,8 @@
  "gpu": "未说明",
  "mp": 13,
  "proj": "https://siplab.org/projects/EgoExoMoCap",
- "metrics": "Nymeria（单位cm）：三点跟踪（头+双腕）MPJPE↓ 5.72，Upper↓ 2.72，Lower↓ 10.05，MPJVE↓ 12.77，Jitter↓ 2.16；单点跟踪（仅头）MPJPE↓ 8.28，MPJVE↓ 17.23（表1，p.13）\nEgoHumans：三点 MPJPE↓ 7.62，MPJVE↓ 30.94；单点 MPJPE↓ 11.54；多观察者子集 三点 MPJPE↓ 7.11，单点 10.48（表2，p.13）\n数据处理：头/腕信号做空间归一化（腕坐标相对头）、头位置相对首帧时间归一化（p.6）"
+ "metrics": "Nymeria（单位cm）：三点跟踪（头+双腕）MPJPE↓ 5.72，Upper↓ 2.72，Lower↓ 10.05，MPJVE↓ 12.77，Jitter↓ 2.16；单点跟踪（仅头）MPJPE↓ 8.28，MPJVE↓ 17.23（表1，p.13）\nEgoHumans：三点 MPJPE↓ 7.62，MPJVE↓ 30.94；单点 MPJPE↓ 11.54；多观察者子集 三点 MPJPE↓ 7.11，单点 10.48（表2，p.13）\n数据处理：头/腕信号做空间归一化（腕坐标相对头）、头位置相对首帧时间归一化（p.6）",
+ "url": "https://github.com/eth-siplab/EgoExoMoCap",
+ "code_src": "project",
+ "repo_state": "code"
 }

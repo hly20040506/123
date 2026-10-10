@@ -6,5 +6,8 @@
  "gpu": "未说明",
  "mp": 10,
  "proj": "https://www.lyt0112.com/projects/ConTrack",
- "metrics": "GRAB/ARCTIC/DexterHand共13个参考片段（固定5000次更新预算；跨片段均值±标准差）：Progress↑ 0.899±0.195，物体位置误差↓(m) 0.026，物体旋转误差↓(rad) 0.272，手指关节误差↓(rad) 0.163，接触F1↑ 0.784，接触点误差↓(m) 0.018（表2，p.10）\n分数据集均值Progress↑：GRAB 0.996，ARCTIC 0.944，DexterHand 0.733（表3，p.11）\n数据处理：将数据集接触标注映射到机器人手各连杆作为连杆级接触目标（p.8）"
+ "metrics": "GRAB/ARCTIC/DexterHand共13个参考片段（固定5000次更新预算；跨片段均值±标准差）：Progress↑ 0.899±0.195，物体位置误差↓(m) 0.026，物体旋转误差↓(rad) 0.272，手指关节误差↓(rad) 0.163，接触F1↑ 0.784，接触点误差↓(m) 0.018（表2，p.10）\n分数据集均值Progress↑：GRAB 0.996，ARCTIC 0.944，DexterHand 0.733（表3，p.11）\n数据处理：将数据集接触标注映射到机器人手各连杆作为连杆级接触目标（p.8）",
+ "url": "https://github.com/EmptyBlueBox/ConTrack",
+ "code_src": "project",
+ "repo_state": "code"
 }

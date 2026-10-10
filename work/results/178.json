@@ -5,5 +5,7 @@
  "gpu": "RTX 3090",
  "mp": 9,
  "url": "https://github.com/maroo-sky/SOT",
- "metrics": "两部件装配（SE(3)-Assembly + SOT编码器）：2BY2 RMSE-R↓ 32.3640，RMSE-T↓ 0.3039，CD↓ 0.6200，PA↑ 0.5911；Breaking Bad(everyday) 49.2427 / 0.0684 / 0.0842 / 0.8662；ShapeNet 37.1323 / 0.0957 / 0.1100 / 0.8383（表1，p.9）\n（NSM + SOT）2BY2 RMSE-R↓ 29.1815，CD↓ 0.3490，PA↑ 0.6121；（2BY2NET + SOT）2BY2 RMSE-R↓ 22.4719，RMSE-T↓ 0.2857（表1，p.9）\nBreaking Bad 多部件（SE(3)-Assembly）：RMSE-R↓ 43.3528，RMSE-T↓ 0.0768，CD↓ 0.1435，PA↑ 0.7984（表2b，p.10）\nCMNet + SOT（Artifact）：RMSE-R↓ 34.16°，PA_CD↑ 68.89%（表2a，p.10）"
+ "metrics": "两部件装配（SE(3)-Assembly + SOT编码器）：2BY2 RMSE-R↓ 32.3640，RMSE-T↓ 0.3039，CD↓ 0.6200，PA↑ 0.5911；Breaking Bad(everyday) 49.2427 / 0.0684 / 0.0842 / 0.8662；ShapeNet 37.1323 / 0.0957 / 0.1100 / 0.8383（表1，p.9）\n（NSM + SOT）2BY2 RMSE-R↓ 29.1815，CD↓ 0.3490，PA↑ 0.6121；（2BY2NET + SOT）2BY2 RMSE-R↓ 22.4719，RMSE-T↓ 0.2857（表1，p.9）\nBreaking Bad 多部件（SE(3)-Assembly）：RMSE-R↓ 43.3528，RMSE-T↓ 0.0768，CD↓ 0.1435，PA↑ 0.7984（表2b，p.10）\nCMNet + SOT（Artifact）：RMSE-R↓ 34.16°，PA_CD↑ 68.89%（表2a，p.10）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

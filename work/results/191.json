@@ -7,5 +7,8 @@
  "mp": 12,
  "proj": "https://threedle.github.io/radmesh",
  "note_code": "deep-floyd/IF为引用的第三方模型",
- "metrics": "64组形状-提示对：CLIP↑ 31.416（×100），VQA↑ 72.930（×100），面片质量 FQ↑ 96.516（×100），平均面数 #F 16963.75（表1，p.12）\n数据处理：网格归一化到[-1,1]³包围盒；局部生长任务先做初始膨胀并首次重网格（p.9）"
+ "metrics": "64组形状-提示对：CLIP↑ 31.416（×100），VQA↑ 72.930（×100），面片质量 FQ↑ 96.516（×100），平均面数 #F 16963.75（表1，p.12）\n数据处理：网格归一化到[-1,1]³包围盒；局部生长任务先做初始膨胀并首次重网格（p.9）",
+ "url": "https://github.com/threedle/radmesh",
+ "code_src": "project",
+ "repo_state": "code"
 }

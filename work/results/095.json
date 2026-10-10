@@ -7,5 +7,8 @@
  "mp": 9,
  "proj": "http://hleephilip.github.io/ALM",
  "note_code": "FLUX、COYO为引用仓库，非本文代码",
- "metrics": "图像修复（各采样1,000对图像-掩码；ALM，免训练）：AFHQ LPIPS↓ 0.283，MSE↓ 0.143，M-SSIM↑ 0.351，MS-SSIM↑ 0.689，FSIM↑ 0.796；CelebA-HQ LPIPS↓ 0.251，M-SSIM↑ 0.417，FSIM↑ 0.813（表1，p.9）\nSDXL骨干（1K分辨率）：AFHQ LPIPS↓ 0.254，FSIM↑ 0.841；CelebA-HQ M-SSIM↑ 0.442（表2，p.10）\n宽幅图像生成（400张，KID×10³）：FID↓ 83.41，KID↓ 42.98（表4，p.12）\nHumanML3D动作补全（1,000序列×10次）：前半 FID↓ 0.311，中段 0.447，后半 0.236；R-prec↑ 0.396/0.395/0.410（表5，p.13）\nObjaverse网格纹理（250对，KID×10³）：FID↓ 155.46，KID↓ 74.41，CLIP-Sim↑ 0.292（表6，p.14）"
+ "metrics": "图像修复（各采样1,000对图像-掩码；ALM，免训练）：AFHQ LPIPS↓ 0.283，MSE↓ 0.143，M-SSIM↑ 0.351，MS-SSIM↑ 0.689，FSIM↑ 0.796；CelebA-HQ LPIPS↓ 0.251，M-SSIM↑ 0.417，FSIM↑ 0.813（表1，p.9）\nSDXL骨干（1K分辨率）：AFHQ LPIPS↓ 0.254，FSIM↑ 0.841；CelebA-HQ M-SSIM↑ 0.442（表2，p.10）\n宽幅图像生成（400张，KID×10³）：FID↓ 83.41，KID↓ 42.98（表4，p.12）\nHumanML3D动作补全（1,000序列×10次）：前半 FID↓ 0.311，中段 0.447，后半 0.236；R-prec↑ 0.396/0.395/0.410（表5，p.13）\nObjaverse网格纹理（250对，KID×10³）：FID↓ 155.46，KID↓ 74.41，CLIP-Sim↑ 0.292（表6，p.14）",
+ "url": "https://github.com/Hleephilip/ALM_public",
+ "code_src": "project",
+ "repo_state": "code"
 }

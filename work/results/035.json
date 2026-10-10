@@ -6,5 +6,7 @@
  "gpu": "未说明",
  "mp": 11,
  "url": "https://github.com/phai-lab/CrashTwin",
- "metrics": "基准论文（25K CARLA合成+12K真实碰撞序列）；作者重建流程（模拟碰撞，完整组件）：场景级ATE↓(m) SE(3) 5.48/Sim(3) 3.70，实例级ATE↓(m) SE(3) 2.63/Sim(3) 0.91（表3，p.12）\nCrashTwin后训练（Cosmos-Predict2-2B基座）：Ewarp↓ 0.0085，Jp↓ 0.6479，JE↓ 0.5534，SID↑ 0.7746（表4，p.13）\n排行榜（被测模型，非作者方法）：Cosmos-Predict2-14B Jp↓ 0.6828；Veo 3.1 Ewarp↓ 0.0097（表2，p.11）\n数据处理：CARLA物理仿真生成合成碰撞，真实碰撞视频人工标注参与者（p.10–11）"
+ "metrics": "基准论文（25K CARLA合成+12K真实碰撞序列）；作者重建流程（模拟碰撞，完整组件）：场景级ATE↓(m) SE(3) 5.48/Sim(3) 3.70，实例级ATE↓(m) SE(3) 2.63/Sim(3) 0.91（表3，p.12）\nCrashTwin后训练（Cosmos-Predict2-2B基座）：Ewarp↓ 0.0085，Jp↓ 0.6479，JE↓ 0.5534，SID↑ 0.7746（表4，p.13）\n排行榜（被测模型，非作者方法）：Cosmos-Predict2-14B Jp↓ 0.6828；Veo 3.1 Ewarp↓ 0.0097（表2，p.11）\n数据处理：CARLA物理仿真生成合成碰撞，真实碰撞视频人工标注参与者（p.10–11）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

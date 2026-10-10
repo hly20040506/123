@@ -6,5 +6,8 @@
  "gpu": "未说明",
  "mp": 9,
  "note_code": "文中称代码与基准见项目网站，PDF未给出URL",
- "metrics": "分析型论文（无单一新方法）；EmbSpatial-Bench/CV-Bench-3D一致样本vs反例准确率差（例：Molmo-7B 63.5 vs 34.9；Qwen3-VL-235B 73.3 vs 41.7）（表2，p.7）\n自建合成基准SpatialTunnel（Blender隧道场景解耦垂直位置与深度；平均正确率v↑，∆=vcons−vctr）：NVILA-Lite-2B+2M数据混合微调 v 0.812，∆ +0.127；RoboRefer-2B-SFT v 0.793，∆ +0.046；Qwen3-VL-235B v 0.908，∆ +0.068（表3，p.9）\n空间基准（作者数据混合微调，Molmo-7B+2M）：EmbSpatial Overall↑ 74.3，CV-2D Relation↑ 93.7，CV-3D Depth↑ 87.3（表4，p.11）\n数据处理：五个空间数据集均匀混合并下采样为80k/400k/800k/2M规模；合成数据渲染（p.6–7）"
+ "metrics": "分析型论文（无单一新方法）；EmbSpatial-Bench/CV-Bench-3D一致样本vs反例准确率差（例：Molmo-7B 63.5 vs 34.9；Qwen3-VL-235B 73.3 vs 41.7）（表2，p.7）\n自建合成基准SpatialTunnel（Blender隧道场景解耦垂直位置与深度；平均正确率v↑，∆=vcons−vctr）：NVILA-Lite-2B+2M数据混合微调 v 0.812，∆ +0.127；RoboRefer-2B-SFT v 0.793，∆ +0.046；Qwen3-VL-235B v 0.908，∆ +0.068（表3，p.9）\n空间基准（作者数据混合微调，Molmo-7B+2M）：EmbSpatial Overall↑ 74.3，CV-2D Relation↑ 93.7，CV-3D Depth↑ 87.3（表4，p.11）\n数据处理：五个空间数据集均匀混合并下采样为80k/400k/800k/2M规模；合成数据渲染（p.6–7）",
+ "url": "https://github.com/cheolhong0916/contrastive-probing",
+ "code_src": "search",
+ "repo_state": "code"
 }

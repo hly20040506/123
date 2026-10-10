@@ -7,5 +7,8 @@
  "mp": 9,
  "proj": "https://zhaorw02.github.io/GEM/",
  "note_code": "starVLA为引用框架仓库，非本文代码",
- "metrics": "空间理解（GEM-8B）：CV-Bench All↑ 86.6，VSI-Bench All↑ 70.6，MMSI-Bench↑ 35.3，EmbSpatial↑ 79.4（表1，p.9）\n放置与定位（GEM-8B）：RefSpatial All↑ 44.4，Where2Place All↑ 65.0，RoboSpatial↑ 66.9（表2，p.10）\nLIBERO（GEM-VLA）：Spatial 99.0，Object 98.8，Goal 97.1，Long 89.3，平均↑(%) 96.1（表3，p.11）\n注：表4“Default Setting (GEM)”（CV 81.1，VSI 63.0）在VSI-590K训练设置下，与表1数值不同（表4，p.13）\n数据处理：用SAM3从开源机器人数据生成约10万点/框标注，坐标归一化到[0,1000]（p.7）"
+ "metrics": "空间理解（GEM-8B）：CV-Bench All↑ 86.6，VSI-Bench All↑ 70.6，MMSI-Bench↑ 35.3，EmbSpatial↑ 79.4（表1，p.9）\n放置与定位（GEM-8B）：RefSpatial All↑ 44.4，Where2Place All↑ 65.0，RoboSpatial↑ 66.9（表2，p.10）\nLIBERO（GEM-VLA）：Spatial 99.0，Object 98.8，Goal 97.1，Long 89.3，平均↑(%) 96.1（表3，p.11）\n注：表4“Default Setting (GEM)”（CV 81.1，VSI 63.0）在VSI-590K训练设置下，与表1数值不同（表4，p.13）\n数据处理：用SAM3从开源机器人数据生成约10万点/框标注，坐标归一化到[0,1000]（p.7）",
+ "url": "https://github.com/zhaorw02/GEM",
+ "code_src": "project",
+ "repo_state": "code"
 }

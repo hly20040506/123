@@ -6,5 +6,6 @@
  "gpu": "未说明",
  "mp": 14,
  "proj": "https://motion-forecasting.github.io/",
- "metrics": "MammalMotion 全物种（Ours cond / uncond 分列，示例级取best-of-5）：高运动子集 ADE↓ 0.068 / 0.119，FDE↓ 0.103 / 0.275，PWT↑ 31.50% / 26.01%；综合 ADE↓ 0.028 / 0.046，FDE↓ 0.042 / 0.102，PWT↑ 63.48% / 60.01%（表2，p.14）\n分布级（cond）：高运动 FD(V)↓ 4.86（×10³），FVMD↓ 40.24（÷10³）；综合 FD(V)↓ 1.07，FVMD↓ 14.38（表1，p.14）\nPanthera 子集（cond）：高运动 ADE↓ .067，FDE↓ .097，PWT↑ 27.31%；综合 ADE↓ .028，FDE↓ .039，PWT↑ 61.67%（表4，p.15）\n数据处理：MammalNet 539小时过滤至约300小时，镜头检测与相机运动补偿（p.9–10）"
+ "metrics": "MammalMotion 全物种（Ours cond / uncond 分列，示例级取best-of-5）：高运动子集 ADE↓ 0.068 / 0.119，FDE↓ 0.103 / 0.275，PWT↑ 31.50% / 26.01%；综合 ADE↓ 0.028 / 0.046，FDE↓ 0.042 / 0.102，PWT↑ 63.48% / 60.01%（表2，p.14）\n分布级（cond）：高运动 FD(V)↓ 4.86（×10³），FVMD↓ 40.24（÷10³）；综合 FD(V)↓ 1.07，FVMD↓ 14.38（表1，p.14）\nPanthera 子集（cond）：高运动 ADE↓ .067，FDE↓ .097，PWT↑ 27.31%；综合 ADE↓ .028，FDE↓ .039，PWT↑ 61.67%（表4，p.15）\n数据处理：MammalNet 539小时过滤至约300小时，镜头检测与相机运动补偿（p.9–10）",
+ "soon": true
 }

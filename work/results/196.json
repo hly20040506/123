@@ -7,5 +7,7 @@
  "mp": 12,
  "url": "https://github.com/tanguymagne/SyntheticDoc",
  "proj": "https://igl.ethz.ch/projects/SyntheticDoc/",
- "metrics": "数据集论文（作者以轻量基线模型验证数据集）\nDocUNet 去扭曲（100万样本训练）：MS-SSIM↑ 0.558，LD↓ 5.98，AD↓ 0.252，CER↓ 0.161，ED↓ 628（表3，p.12）\n高分辨率变体（1024×1440输入）：MS-SSIM↑ 0.570，LD↓ 5.51，AD↓ 0.219，CER↓ 0.164，ED↓ 651（表5，p.14）\nDocUNet 去扭曲+光照校正：MS-SSIM↑ 0.584，PSNR↑ 12.68 dB，CER↓ 0.149，ED↓ 601（表4，p.14；CER/ED不及DocTr 0.126/491）\n数据处理：100万合成样本，纸张几何由物理仿真生成并用路径追踪渲染（p.1）"
+ "metrics": "数据集论文（作者以轻量基线模型验证数据集）\nDocUNet 去扭曲（100万样本训练）：MS-SSIM↑ 0.558，LD↓ 5.98，AD↓ 0.252，CER↓ 0.161，ED↓ 628（表3，p.12）\n高分辨率变体（1024×1440输入）：MS-SSIM↑ 0.570，LD↓ 5.51，AD↓ 0.219，CER↓ 0.164，ED↓ 651（表5，p.14）\nDocUNet 去扭曲+光照校正：MS-SSIM↑ 0.584，PSNR↑ 12.68 dB，CER↓ 0.149，ED↓ 601（表4，p.14；CER/ED不及DocTr 0.126/491）\n数据处理：100万合成样本，纸张几何由物理仿真生成并用路径追踪渲染（p.1）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

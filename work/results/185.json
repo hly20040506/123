@@ -5,5 +5,6 @@
  "gpu": "RTX 4090",
  "mp": 13,
  "proj": "https://xwb0117.github.io/Motionanymesh/",
- "metrics": "自建测试集（PartNet-Mobility + Objaverse + 生成式3D资产）：部件分割 mIoU↑ 0.86，部件数准确率↑ 0.92；关节类型错误↓ 0.08，轴误差↓ 0.12，枢轴误差↓ 0.10；仿真可执行率↑ 87%（表1，p.13）\n注：关节误差等需真值URDF的指标应仅在PartNet-Mobility上可算，原文表1未分数据集列出"
+ "metrics": "自建测试集（PartNet-Mobility + Objaverse + 生成式3D资产）：部件分割 mIoU↑ 0.86，部件数准确率↑ 0.92；关节类型错误↓ 0.08，轴误差↓ 0.12，枢轴误差↓ 0.10；仿真可执行率↑ 87%（表1，p.13）\n注：关节误差等需真值URDF的指标应仅在PartNet-Mobility上可算，原文表1未分数据集列出",
+ "soon": true
 }

@@ -5,5 +5,7 @@
  "gpu": "RTX 4090",
  "mp": 10,
  "url": "https://github.com/KaifengT/ArtPS",
- "metrics": "HOI4D（全部类别）：5°5cm↑ 61.0%，Rerr↓ 4.51°，Terr↓ 0.032 m（表1，p.10）；分类别5°5cm均值 Laptop 84.3%，StorageFurniture 52.9%，Safe 71.7%，TrashCan 35.2%\nPM-Videos（合成，平均Rerr / Terr）：Laptop 3.0° / 0.059 m，Eyeglasses 2.3° / 0.041 m，Dishwasher 2.6° / 0.086 m，Scissors 2.5° / 0.040 m，Drawer 2.3° / 0.081 m（表2，p.11；Terr多不及PPF-Tracker，如Laptop 0.049）\nHOI4D 形状重建 CD-L2↓：总体 0.016（表3，p.13）"
+ "metrics": "HOI4D（全部类别）：5°5cm↑ 61.0%，Rerr↓ 4.51°，Terr↓ 0.032 m（表1，p.10）；分类别5°5cm均值 Laptop 84.3%，StorageFurniture 52.9%，Safe 71.7%，TrashCan 35.2%\nPM-Videos（合成，平均Rerr / Terr）：Laptop 3.0° / 0.059 m，Eyeglasses 2.3° / 0.041 m，Dishwasher 2.6° / 0.086 m，Scissors 2.5° / 0.040 m，Drawer 2.3° / 0.081 m（表2，p.11；Terr多不及PPF-Tracker，如Laptop 0.049）\nHOI4D 形状重建 CD-L2↓：总体 0.016（表3，p.13）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

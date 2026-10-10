@@ -6,5 +6,7 @@
  "gpu": "RTX 3090",
  "mp": 10,
  "url": "https://github.com/The-kamisato-Sii/ChronoFlow-Policy",
- "metrics": "MetaWorld 7任务（3个种子，每200轮评估20回合取前5均值；成功率↑(%)）：CFP(Unet) 平均 72，CFP(DiT) 平均 70（表2，p.10）\nRoboTwin 2.0 7任务（每500轮评估100回合取前3均值；成功率↑(%)）：CFP(Unet) 平均 66，CFP(DiT) 平均 63（表3，p.10）\n真实机器人5任务（每任务50条示教；15次试验；分阶段成功率↑(%)）：CFP Breakfast I/II 93/80，Towel 87/87，Pour 87/80，Swap-Easy 93/93/93，Swap-Hard 94/94/61（表5，p.13）\n实验设置：ChronoFlow监督由TAPIP3D跟踪关键点轨迹生成（p.5）"
+ "metrics": "MetaWorld 7任务（3个种子，每200轮评估20回合取前5均值；成功率↑(%)）：CFP(Unet) 平均 72，CFP(DiT) 平均 70（表2，p.10）\nRoboTwin 2.0 7任务（每500轮评估100回合取前3均值；成功率↑(%)）：CFP(Unet) 平均 66，CFP(DiT) 平均 63（表3，p.10）\n真实机器人5任务（每任务50条示教；15次试验；分阶段成功率↑(%)）：CFP Breakfast I/II 93/80，Towel 87/87，Pour 87/80，Swap-Easy 93/93/93，Swap-Hard 94/94/61（表5，p.13）\n实验设置：ChronoFlow监督由TAPIP3D跟踪关键点轨迹生成（p.5）",
+ "repo_state": "readme",
+ "code_src": "paper"
 }

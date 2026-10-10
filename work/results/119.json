@@ -6,5 +6,8 @@
  "gpu": "未说明",
  "mp": 12,
  "note_code": "文中称数据与代码见项目主页，但未给出网址",
- "metrics": "MVOIK-4D 基准（HAT-4D完整模型）：生成质量 CLIP↑ 0.8275，LPIPS↓ 0.1433，FVD↓ 830.4060；交互质量 Deform↑ 3.4487，Relation↑ 2.5737（10分制）；记忆质量 Intra↓ 0.0005，Long↑ 0.0901（表1，p.12）\n注：完整模型CLIP与FVD不如自身“wo IKG”消融（0.8370/822.5620）\n数据处理：SAM-2分割交互物体，VideoPainter补全手部遮挡（p.9）"
+ "metrics": "MVOIK-4D 基准（HAT-4D完整模型）：生成质量 CLIP↑ 0.8275，LPIPS↓ 0.1433，FVD↓ 830.4060；交互质量 Deform↑ 3.4487，Relation↑ 2.5737（10分制）；记忆质量 Intra↓ 0.0005，Long↑ 0.0901（表1，p.12）\n注：完整模型CLIP与FVD不如自身“wo IKG”消融（0.8370/822.5620）\n数据处理：SAM-2分割交互物体，VideoPainter补全手部遮挡（p.9）",
+ "url": "https://github.com/Lijiaxin0111/HAT-4D-Lifting-Monocular-Video-for-4D-Multi-Object-Interactions-via-Human-Agent-Collaboration",
+ "code_src": "search",
+ "repo_state": "code"
 }

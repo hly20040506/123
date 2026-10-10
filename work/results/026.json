@@ -6,5 +6,7 @@
  "gpu": "RTX 3090",
  "mp": 10,
  "url": "https://github.com/qzm777/Night-RIDE-ECCV2026",
- "metrics": "KITTI Depth Completion（由视频合成长曝光模糊RGB与事件流）：RMSE↓ 888.20，MAE↓ 209.70，iRMSE↓ 2.00，REL↓ 0.010，δ1↑(%) 99.8（单位原文未标注）（表1，p.10）\nNYUv2（采样500点模拟稀疏LiDAR）：RMSE↓ 2.603，MAE↓ 1.039，iRMSE↓ 0.50，REL↓ 0.012，δ1↑(%) 99.5（表1，p.10）\n消融（数据集原文未明示，完整模型）：RMSE↓ 1.505，MAE↓ 0.502，δ1↑ 99.6（表3，p.14）\n数据处理：KITTI合成模糊图像与事件；NYUv2采样稀疏点；自采Night-RIDE数据对齐并裁剪为256×256（p.10）"
+ "metrics": "KITTI Depth Completion（由视频合成长曝光模糊RGB与事件流）：RMSE↓ 888.20，MAE↓ 209.70，iRMSE↓ 2.00，REL↓ 0.010，δ1↑(%) 99.8（单位原文未标注）（表1，p.10）\nNYUv2（采样500点模拟稀疏LiDAR）：RMSE↓ 2.603，MAE↓ 1.039，iRMSE↓ 0.50，REL↓ 0.012，δ1↑(%) 99.5（表1，p.10）\n消融（数据集原文未明示，完整模型）：RMSE↓ 1.505，MAE↓ 0.502，δ1↑ 99.6（表3，p.14）\n数据处理：KITTI合成模糊图像与事件；NYUv2采样稀疏点；自采Night-RIDE数据对齐并裁剪为256×256（p.10）",
+ "repo_state": "readme",
+ "code_src": "paper"
 }

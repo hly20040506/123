@@ -6,5 +6,7 @@
  "gpu": "未说明",
  "mp": 8,
  "url": "https://github.com/iiyamayuki/CRISP-Bench",
- "metrics": "基准论文（nuScenes+ScanNet++共1,162个主场景，3D标注投影+可见性/多样性过滤）；被测模型（非作者方法）：Gemini-2.5-Pro QA↑ 58.93，Con.↑ 57.28；Gemini-3-Flash SGC↑ 68.79；开源最佳Qwen3-VL-8B QA↑ 55.34，SGC↑ 62.35（表1，p.8）\n数据处理：可见性<0.8、2D框长边<40像素等样本剔除，并做场景图多样性过滤（p.5）"
+ "metrics": "基准论文（nuScenes+ScanNet++共1,162个主场景，3D标注投影+可见性/多样性过滤）；被测模型（非作者方法）：Gemini-2.5-Pro QA↑ 58.93，Con.↑ 57.28；Gemini-3-Flash SGC↑ 68.79；开源最佳Qwen3-VL-8B QA↑ 55.34，SGC↑ 62.35（表1，p.8）\n数据处理：可见性<0.8、2D框长边<40像素等样本剔除，并做场景图多样性过滤（p.5）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

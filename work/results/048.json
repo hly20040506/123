@@ -6,5 +6,8 @@
  "gpu": "未说明",
  "mp": 9,
  "proj": "https://frozendriveeccv.github.io/",
- "metrics": "nuScenes val生成保真度（UniAD评估合成图像）：3DOD mAP↑ 21.87，NDS↑ 35.32；BEV分割mIoU↑ Lanes 28.88/Drivable 64.27/Divider 23.58/Crossing 11.66；L2 Avg↓(m) 1.05；FVD↓ 136.8（表1，p.9）\nnuScenes夜间（SparseDrive+FrozenDrive合成数据增广）：mAP↑ 18.15，NDS↑ 24.95，在线建图mAP↑ 21.03，L2 Avg↓(m) 0.93（表2，p.11）\nnuScenes雨天：mAP↑ 35.15，NDS↑ 44.26，建图mAP↑ 31.39，L2 Avg↓(m) 0.58（表2，p.11）\n注：消融表3完整模型BEV分割（25.6/56.5/20.9/8.9）与表1数值不同，原文未说明设置差异（表3，p.14）"
+ "metrics": "nuScenes val生成保真度（UniAD评估合成图像）：3DOD mAP↑ 21.87，NDS↑ 35.32；BEV分割mIoU↑ Lanes 28.88/Drivable 64.27/Divider 23.58/Crossing 11.66；L2 Avg↓(m) 1.05；FVD↓ 136.8（表1，p.9）\nnuScenes夜间（SparseDrive+FrozenDrive合成数据增广）：mAP↑ 18.15，NDS↑ 24.95，在线建图mAP↑ 21.03，L2 Avg↓(m) 0.93（表2，p.11）\nnuScenes雨天：mAP↑ 35.15，NDS↑ 44.26，建图mAP↑ 31.39，L2 Avg↓(m) 0.58（表2，p.11）\n注：消融表3完整模型BEV分割（25.6/56.5/20.9/8.9）与表1数值不同，原文未说明设置差异（表3，p.14）",
+ "url": "https://github.com/daehyunwe/FrozenDrive",
+ "code_src": "project",
+ "repo_state": "code"
 }

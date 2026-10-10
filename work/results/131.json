@@ -5,5 +5,7 @@
  "gpu": "L40S",
  "mp": 9,
  "url": "https://github.com/XiruiTeng/LVDR_Official",
- "metrics": "EgoExo4D（技能评分）：Spearman ρ↑ 0.88，R-ℓ2(×100)↓ 1.69（表2，p.9）；分项 足球 0.94 / 0.81，篮球 0.88 / 2.08，攀岩 0.87 / 2.16（表3，p.11）\nJIGSAWS（手术技能）：ρ↑ 0.69，R-ℓ2(×100)↓ 9.93（表1，p.9）\nFitnessAQA：F1↑ OHP膝 0.747，OHP肘 0.818，深蹲前倾 0.813，深蹲内扣 0.920（表1，p.9）\nCataract-101：Acc↑ 0.71（表5，p.12）"
+ "metrics": "EgoExo4D（技能评分）：Spearman ρ↑ 0.88，R-ℓ2(×100)↓ 1.69（表2，p.9）；分项 足球 0.94 / 0.81，篮球 0.88 / 2.08，攀岩 0.87 / 2.16（表3，p.11）\nJIGSAWS（手术技能）：ρ↑ 0.69，R-ℓ2(×100)↓ 9.93（表1，p.9）\nFitnessAQA：F1↑ OHP膝 0.747，OHP肘 0.818，深蹲前倾 0.813，深蹲内扣 0.920（表1，p.9）\nCataract-101：Acc↑ 0.71（表5，p.12）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

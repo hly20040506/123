@@ -5,5 +5,7 @@
  "gpu": "未说明",
  "mp": 11,
  "note_code": "文中仅称见项目主页，未给出网址",
- "metrics": "FullBodyManipulation：FID↓ 0.109，Diversity→ 1.845（GT 1.756），R-Precision(Top3)↑ 0.826，PS↓ 0.065，Cprec↑ 0.74，C%（接近GT 70.68）52.96（表1，p.11）\nBEHAVE：FID↓ 0.424，Diversity→ 1.873（GT 1.896），R-Precision(Top3)↑ 0.606，PS↓ 0.141，C% 66.90（表1，p.11）"
+ "metrics": "FullBodyManipulation：FID↓ 0.109，Diversity→ 1.845（GT 1.756），R-Precision(Top3)↑ 0.826，PS↓ 0.065，Cprec↑ 0.74，C%（接近GT 70.68）52.96（表1，p.11）\nBEHAVE：FID↓ 0.424，Diversity→ 1.873（GT 1.896），R-Precision(Top3)↑ 0.606，PS↓ 0.141，C% 66.90（表1，p.11）",
+ "soon": true,
+ "soon_text": "项目页代码链接为模板占位符"
 }

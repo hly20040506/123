@@ -6,5 +6,8 @@
  "gpu": "H200",
  "mp": 11,
  "proj": "https://egosimulator.github.io",
- "metrics": "EgoDex（桌面场景，单片段61帧）：PSNR↑(dB) 25.056，SSIM↑ 0.896，LPIPS↓ 0.170，Depth-ERR↓ 8.888，Cam-ERR↓ 0.0013（表1，p.11）\nEgoVid（野外场景）：PSNR↑ 16.684，SSIM↑ 0.509，LPIPS↓ 0.421，Depth-ERR↓ 19.260，Cam-ERR↓ 0.0105（表1，p.11）\nEgoDex连续生成（121帧，两段+状态更新；20段任务）：PSNR↑ 19.165，SSIM↑ 0.835，Depth-ERR↓ 10.943（表2，p.11）\n跨具身（AgiBot，带手部预训练）：PSNR↑ 18.67，SSIM↑ 0.72，LPIPS↓ 0.28（表4，p.13）\n数据处理：网络第一视角视频经去重/离群过滤，HaMeR估计手部位姿、SAM3分割并重建三维静态场景（p.8–9）"
+ "metrics": "EgoDex（桌面场景，单片段61帧）：PSNR↑(dB) 25.056，SSIM↑ 0.896，LPIPS↓ 0.170，Depth-ERR↓ 8.888，Cam-ERR↓ 0.0013（表1，p.11）\nEgoVid（野外场景）：PSNR↑ 16.684，SSIM↑ 0.509，LPIPS↓ 0.421，Depth-ERR↓ 19.260，Cam-ERR↓ 0.0105（表1，p.11）\nEgoDex连续生成（121帧，两段+状态更新；20段任务）：PSNR↑ 19.165，SSIM↑ 0.835，Depth-ERR↓ 10.943（表2，p.11）\n跨具身（AgiBot，带手部预训练）：PSNR↑ 18.67，SSIM↑ 0.72，LPIPS↓ 0.28（表4，p.13）\n数据处理：网络第一视角视频经去重/离群过滤，HaMeR估计手部位姿、SAM3分割并重建三维静态场景（p.8–9）",
+ "url": "https://github.com/jinkun-hao/EgoSim",
+ "code_src": "project",
+ "repo_state": "code"
 }

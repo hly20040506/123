@@ -6,5 +6,7 @@
  "gpu": "H200",
  "mp": 10,
  "url": "https://github.com/mumucc01/MOJITO",
- "metrics": "NAVSIM-v1 navtest（相机+LiDAR，无锚点，127M参数）：PDMS↑ 88.9，NC↑ 98.6，DAC↑ 96.9，EP↑ 83.5（表1，p.10）\nNAVSIM-v2 navtest（Stage-1，非反应式）：EPDMS↑ 88.4（表3，p.11）\nNAVSIM-v2 navhard（两阶段；仅相机，因Stage II无LiDAR）：EPDMS↑ 29.0（表4，p.11）\n数据处理：LiDAR点云三维裁剪、柱体划分并每柱采样64点；图像按Transfuser预处理（p.7，p.9）"
+ "metrics": "NAVSIM-v1 navtest（相机+LiDAR，无锚点，127M参数）：PDMS↑ 88.9，NC↑ 98.6，DAC↑ 96.9，EP↑ 83.5（表1，p.10）\nNAVSIM-v2 navtest（Stage-1，非反应式）：EPDMS↑ 88.4（表3，p.11）\nNAVSIM-v2 navhard（两阶段；仅相机，因Stage II无LiDAR）：EPDMS↑ 29.0（表4，p.11）\n数据处理：LiDAR点云三维裁剪、柱体划分并每柱采样64点；图像按Transfuser预处理（p.7，p.9）",
+ "repo_state": "code",
+ "code_src": "paper"
 }

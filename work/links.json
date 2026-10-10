@@ -1,0 +1,1975 @@
+{
+"1": {
+"ref": 16,
+"links": {
+"github.com/xjtbinghan/Ada_VNNs": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"2": {
+"ref": 16,
+"links": {
+"github.com/The-kamisato-Sii/ChronoFlow-Policy": [
+[
+"a",
+2
+],
+[
+"t",
+2
+]
+]
+}
+},
+"3": {
+"ref": 15,
+"links": {
+"github.com/Junhaocai27/CMDS-AD": [
+[
+"a",
+1
+]
+]
+}
+},
+"4": {
+"ref": 15,
+"links": {
+"github.com/krea-ai/flux-krea": [
+[
+"a",
+17
+],
+[
+"t",
+17
+]
+]
+}
+},
+"5": {
+"ref": 15,
+"links": {}
+},
+"6": {
+"ref": 16,
+"links": {}
+},
+"7": {
+"ref": 16,
+"links": {
+"github.com/AImageLab-zip/IOS-Report": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"github.com/AImageLab-zip/Yggdrasil": [
+[
+"a",
+3
+],
+[
+"t",
+3
+]
+]
+}
+},
+"8": {
+"ref": 15,
+"links": {}
+},
+"9": {
+"ref": 16,
+"links": {
+"github.com/bharat-b7/RVH_Mesh_Registration": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+],
+"github.com/RenderKit/embree": [
+[
+"a",
+17
+],
+[
+"t",
+17
+]
+],
+"github.com/zju3dv/EasyMocap": [
+[
+"a",
+18
+],
+[
+"t",
+18
+]
+]
+}
+},
+"10": {
+"ref": 15,
+"links": {}
+},
+"11": {
+"ref": 15,
+"links": {}
+},
+"12": {
+"ref": 15,
+"links": {}
+},
+"13": {
+"ref": 15,
+"links": {
+"github.com/wufan-cse/IC-World": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"github.com/ModelTC/lightx2v": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"14": {
+"ref": 15,
+"links": {}
+},
+"15": {
+"ref": 15,
+"links": {
+"github.com/MetaIoT-WHU/RadarCalib": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"github.com/ceres-solver/ceres-solver": [
+[
+"a",
+15
+]
+]
+}
+},
+"16": {
+"ref": 16,
+"links": {}
+},
+"17": {
+"ref": 16,
+"links": {
+"github.com/mumucc01/MOJITO": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"18": {
+"ref": 15,
+"links": {}
+},
+"19": {
+"ref": 15,
+"links": {}
+},
+"20": {
+"ref": 16,
+"links": {}
+},
+"21": {
+"ref": 16,
+"links": {
+"github.com/VisualAIKHU/PersonaDrive": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"github.com/OpenDriveLab/OpenScene": [
+[
+"a",
+18
+],
+[
+"t",
+18
+]
+]
+}
+},
+"22": {
+"ref": 16,
+"links": {}
+},
+"23": {
+"ref": 16,
+"links": {}
+},
+"24": {
+"ref": 15,
+"links": {
+"github.com/ucla-mobility/QuantV2X": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"25": {
+"ref": 16,
+"links": {}
+},
+"26": {
+"ref": 15,
+"links": {
+"github.com/qzm777/Night-RIDE-": [
+[
+"t",
+1
+]
+],
+"github.com/qzm777/Night-RIDE-ECCV2026": [
+[
+"a",
+1
+]
+]
+}
+},
+"27": {
+"ref": 15,
+"links": {
+"github.com/inyoungoh-cde/SFD-Net": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"28": {
+"ref": 15,
+"links": {
+"huggingface.co/datasets/shuinb": [
+[
+"t",
+1
+]
+],
+"huggingface.co/datasets/shuinb/SP-TransientBench": [
+[
+"a",
+1
+]
+]
+}
+},
+"29": {
+"ref": 16,
+"links": {}
+},
+"30": {
+"ref": 15,
+"links": {
+"github.com/nesl/SWAN": [
+[
+"a",
+3
+],
+[
+"t",
+3
+]
+]
+}
+},
+"31": {
+"ref": 15,
+"links": {
+"github.com/mlfoundations/open_clip": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"32": {
+"ref": 15,
+"links": {}
+},
+"33": {
+"ref": 14,
+"links": {}
+},
+"34": {
+"ref": 16,
+"links": {}
+},
+"35": {
+"ref": 15,
+"links": {
+"github.com/phai-lab/CrashTwin": [
+[
+"t",
+1
+]
+]
+}
+},
+"36": {
+"ref": 17,
+"links": {
+"github.com/Allenxinn/AgentVLN": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"37": {
+"ref": 16,
+"links": {}
+},
+"38": {
+"ref": 16,
+"links": {}
+},
+"39": {
+"ref": 15,
+"links": {}
+},
+"40": {
+"ref": 16,
+"links": {}
+},
+"41": {
+"ref": 15,
+"links": {}
+},
+"42": {
+"ref": 15,
+"links": {
+"github.com/Tony1882880/GeoLaV": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"43": {
+"ref": 15,
+"links": {}
+},
+"44": {
+"ref": 15,
+"links": {}
+},
+"45": {
+"ref": 16,
+"links": {
+"huggingface.co/datasets/zlyzlyzly": [
+[
+"t",
+1
+]
+],
+"huggingface.co/datasets/zlyzlyzly/CVSBench": [
+[
+"a",
+1
+]
+]
+}
+},
+"46": {
+"ref": 15,
+"links": {}
+},
+"47": {
+"ref": 15,
+"links": {
+"github.com/iiyamayuki/CRISP-Bench": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"48": {
+"ref": 15,
+"links": {}
+},
+"49": {
+"ref": 15,
+"links": {
+"github.com/qsong2001/mvap-g": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"50": {
+"ref": 15,
+"links": {}
+},
+"51": {
+"ref": 16,
+"links": {
+"github.com/minecraft-zzz/KineBench": [
+[
+"a",
+2
+],
+[
+"t",
+2
+]
+],
+"huggingface.co/datasets/Zorkzak/KineBenchDatasets": [
+[
+"a",
+2
+]
+]
+}
+},
+"52": {
+"ref": 15,
+"links": {}
+},
+"53": {
+"ref": 15,
+"links": {
+"huggingface.co/datasets/yulingxi": [
+[
+"t",
+1
+]
+],
+"huggingface.co/datasets/yulingxi/Metric-Bench": [
+[
+"a",
+1
+]
+]
+}
+},
+"54": {
+"ref": 16,
+"links": {
+"github.com/Genesis-Embodied-AI/Genesis": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+],
+"huggingface.co/datasets/Jay28/MindBlock-Bench": [
+[
+"a",
+1
+]
+],
+"github.com/yyyybq/MindBlock": [
+[
+"a",
+1
+]
+]
+}
+},
+"55": {
+"ref": 16,
+"links": {}
+},
+"56": {
+"ref": 16,
+"links": {
+"github.com/PKU-YuanGroup/Open-Sora-Dataset": [
+[
+"a",
+17
+]
+]
+}
+},
+"57": {
+"ref": 15,
+"links": {
+"github.com/AIDC-AI/Ovis": [
+[
+"a",
+15
+],
+[
+"t",
+15
+]
+]
+}
+},
+"58": {
+"ref": 16,
+"links": {}
+},
+"59": {
+"ref": 16,
+"links": {}
+},
+"60": {
+"ref": 16,
+"links": {}
+},
+"61": {
+"ref": 16,
+"links": {
+"huggingface.co/datasets/Eustia1": [
+[
+"t",
+1
+]
+],
+"huggingface.co/Eustia1/OmniCoT-R1": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"github.com/Chenfei-Liao/OmniCoT": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"huggingface.co/datasets/Eustia1/OmniCoT": [
+[
+"a",
+1
+]
+]
+}
+},
+"62": {
+"ref": 15,
+"links": {
+"github.com/VINHYU/OpenSpatial": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"huggingface.co/datasets/JoyAI-Image-OpenSpatial": [
+[
+"t",
+1
+]
+],
+"huggingface.co/datasets/jdopensource/JoyAI-Image-OpenSpatial": [
+[
+"a",
+1
+]
+]
+}
+},
+"63": {
+"ref": 16,
+"links": {
+"huggingface.co/datasets/RyanWW/PercepTaxBench": [
+[
+"a",
+1
+]
+],
+"github.com/XingruiWang/PercepTaxBench": [
+[
+"a",
+1
+]
+]
+}
+},
+"64": {
+"ref": 15,
+"links": {}
+},
+"65": {
+"ref": 16,
+"links": {
+"github.com/DominoAI-Lab/SiPhy-ECCV-": [
+[
+"t",
+1
+]
+],
+"github.com/DominoAI-Lab/SiPhy-ECCV-2026": [
+[
+"a",
+1
+]
+]
+}
+},
+"66": {
+"ref": 15,
+"links": {}
+},
+"67": {
+"ref": 15,
+"links": {
+"huggingface.co/datasets/Gong-Grant": [
+[
+"t",
+1
+]
+],
+"huggingface.co/datasets/Gong-Grant/FSU-QA": [
+[
+"a",
+1
+]
+]
+}
+},
+"68": {
+"ref": 15,
+"links": {
+"github.com/OpenDriveLab/AgiBot-World": [
+[
+"a",
+16
+]
+]
+}
+},
+"69": {
+"ref": 16,
+"links": {}
+},
+"70": {
+"ref": 16,
+"links": {
+"github.com/open-mmlab/mmdetection3d": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+],
+"github.com/NVlabs/alpasim": [
+[
+"a",
+17
+],
+[
+"t",
+17
+]
+],
+"huggingface.co/datasets/nvidia": [
+[
+"t",
+17
+]
+],
+"huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles": [
+[
+"a",
+17
+]
+]
+}
+},
+"71": {
+"ref": 15,
+"links": {
+"github.com/scott-yjyang/FactoSR": [
+[
+"a",
+2
+],
+[
+"t",
+2
+]
+],
+"huggingface.co/datasets/lmms-": [
+[
+"t",
+16
+]
+],
+"huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data": [
+[
+"a",
+16
+]
+]
+}
+},
+"72": {
+"ref": 15,
+"links": {}
+},
+"73": {
+"ref": 16,
+"links": {}
+},
+"74": {
+"ref": 15,
+"links": {
+"github.com/pokerme7777/VIEW2SPACE": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"75": {
+"ref": 16,
+"links": {
+"github.com/Yangr116/VST": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"huggingface.co/datasets/remyxai/vqasynth_spacellava": [
+[
+"a",
+18
+]
+]
+}
+},
+"76": {
+"ref": 15,
+"links": {
+"github.com/LOTEAT/vvdetection3d": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"77": {
+"ref": 16,
+"links": {}
+},
+"78": {
+"ref": 16,
+"links": {}
+},
+"79": {
+"ref": 16,
+"links": {
+"github.com/BeingBeyond/BeTTER": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"80": {
+"ref": 16,
+"links": {}
+},
+"81": {
+"ref": 16,
+"links": {
+"github.com/XieZilongAI/DiNBV-Grasp": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"82": {
+"ref": 15,
+"links": {}
+},
+"83": {
+"ref": 16,
+"links": {
+"github.com/InternRobotics/REAL": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"84": {
+"ref": 15,
+"links": {
+"github.com/starVLA/starVLA": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"85": {
+"ref": 15,
+"links": {
+"github.com/isaac-sim/IsaacSim": [
+[
+"a",
+17
+],
+[
+"t",
+17
+]
+]
+}
+},
+"86": {
+"ref": 16,
+"links": {}
+},
+"87": {
+"ref": 15,
+"links": {}
+},
+"88": {
+"ref": 16,
+"links": {
+"github.com/Arlo0o/OmniNWM": [
+[
+"t",
+1
+]
+]
+}
+},
+"89": {
+"ref": 15,
+"links": {}
+},
+"90": {
+"ref": 21,
+"links": {}
+},
+"91": {
+"ref": 15,
+"links": {}
+},
+"92": {
+"ref": 15,
+"links": {}
+},
+"93": {
+"ref": 16,
+"links": {
+"github.com/spear-sim/spear": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"github.com/wjakob/nanobind": [
+[
+"a",
+17
+]
+]
+}
+},
+"94": {
+"ref": 16,
+"links": {}
+},
+"95": {
+"ref": 15,
+"links": {
+"github.com/kakaobrain/coyo-dataset": [
+[
+"a",
+15
+],
+[
+"t",
+15
+]
+],
+"github.com/black-forest-labs/flux": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"96": {
+"ref": 16,
+"links": {}
+},
+"97": {
+"ref": 16,
+"links": {}
+},
+"98": {
+"ref": 16,
+"links": {}
+},
+"99": {
+"ref": 15,
+"links": {}
+},
+"100": {
+"ref": 15,
+"links": {}
+},
+"101": {
+"ref": 15,
+"links": {}
+},
+"102": {
+"ref": 16,
+"links": {}
+},
+"103": {
+"ref": 16,
+"links": {
+"github.com/deepinsight/insightface": [
+[
+"a",
+16
+]
+]
+}
+},
+"104": {
+"ref": 15,
+"links": {}
+},
+"105": {
+"ref": 15,
+"links": {
+"github.com/snakers4/silero-": [
+[
+"t",
+18
+]
+],
+"github.com/snakers4/silero-vad": [
+[
+"a",
+18
+]
+]
+}
+},
+"106": {
+"ref": 15,
+"links": {
+"github.com/zhengcyyy/DART": [
+[
+"a",
+1
+]
+]
+}
+},
+"107": {
+"ref": 15,
+"links": {}
+},
+"108": {
+"ref": 15,
+"links": {
+"github.com/uzh-rpg/event-based_vision_resources": [
+[
+"a",
+15
+]
+]
+}
+},
+"109": {
+"ref": 16,
+"links": {
+"github.com/linlingw/EatVid-Bench": [
+[
+"a",
+1
+]
+],
+"huggingface.co/datasets/linlingw/EatVid-Bench": [
+[
+"a",
+1
+]
+]
+}
+},
+"110": {
+"ref": 16,
+"links": {
+"github.com/ptrvilya/echo": [
+[
+"a",
+3
+],
+[
+"t",
+3
+]
+],
+"github.com/eth-ait/aitviewer": [
+[
+"a",
+18
+],
+[
+"t",
+18
+]
+]
+}
+},
+"111": {
+"ref": 15,
+"links": {}
+},
+"112": {
+"ref": 16,
+"links": {}
+},
+"113": {
+"ref": 16,
+"links": {
+"github.com/yehiahmad/EgoTraj": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"114": {
+"ref": 16,
+"links": {}
+},
+"115": {
+"ref": 16,
+"links": {}
+},
+"116": {
+"ref": 13,
+"links": {}
+},
+"117": {
+"ref": 15,
+"links": {}
+},
+"118": {
+"ref": 15,
+"links": {}
+},
+"119": {
+"ref": 16,
+"links": {}
+},
+"120": {
+"ref": 15,
+"links": {}
+},
+"121": {
+"ref": 16,
+"links": {}
+},
+"122": {
+"ref": 15,
+"links": {}
+},
+"123": {
+"ref": 16,
+"links": {}
+},
+"124": {
+"ref": 15,
+"links": {}
+},
+"125": {
+"ref": 16,
+"links": {}
+},
+"126": {
+"ref": 15,
+"links": {
+"huggingface.co/datasets/ohicarip": [
+[
+"t",
+2
+]
+],
+"huggingface.co/datasets/ohicarip/interpet4d": [
+[
+"a",
+2
+]
+]
+}
+},
+"127": {
+"ref": 15,
+"links": {
+"github.com/HumanMLLM/IRG-MotionLLM": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"128": {
+"ref": 16,
+"links": {}
+},
+"129": {
+"ref": 16,
+"links": {}
+},
+"130": {
+"ref": 16,
+"links": {}
+},
+"131": {
+"ref": 16,
+"links": {
+"github.com/XiruiTeng/LVDR_Official.git": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"132": {
+"ref": 15,
+"links": {}
+},
+"133": {
+"ref": 15,
+"links": {}
+},
+"134": {
+"ref": 15,
+"links": {}
+},
+"135": {
+"ref": 16,
+"links": {
+"github.com/OpenDriveLab/OpenScene": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"136": {
+"ref": 16,
+"links": {}
+},
+"137": {
+"ref": 16,
+"links": {}
+},
+"138": {
+"ref": 15,
+"links": {}
+},
+"139": {
+"ref": 16,
+"links": {
+"github.com/oceanflowlab/AtomicDance": [
+[
+"t",
+1
+]
+]
+}
+},
+"140": {
+"ref": 16,
+"links": {}
+},
+"141": {
+"ref": 16,
+"links": {
+"github.com/open-mmlab/mmpose": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"142": {
+"ref": 15,
+"links": {}
+},
+"143": {
+"ref": 15,
+"links": {
+"github.com/yaa1haa1/PartialVisGraph": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"144": {
+"ref": 15,
+"links": {}
+},
+"145": {
+"ref": 16,
+"links": {}
+},
+"146": {
+"ref": 16,
+"links": {
+"github.com/Genesis-Embodied-AI/Genesis": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+],
+"github.com/maximeraafat/BlenderNeRF": [
+[
+"a",
+18
+],
+[
+"t",
+18
+]
+]
+}
+},
+"147": {
+"ref": 16,
+"links": {
+"github.com/Erwin2233/LaCT-Motion": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"148": {
+"ref": 16,
+"links": {}
+},
+"149": {
+"ref": 16,
+"links": {}
+},
+"150": {
+"ref": 15,
+"links": {
+"huggingface.co/blog/wxDai": [
+[
+"t",
+16
+]
+],
+"github.com/Stability-": [
+[
+"t",
+18
+]
+],
+"huggingface.co/blog/wxDai/motionlcm-v2": [
+[
+"a",
+16
+]
+],
+"github.com/Stability-AI/sd3.5": [
+[
+"a",
+18
+]
+]
+}
+},
+"151": {
+"ref": 15,
+"links": {}
+},
+"152": {
+"ref": 16,
+"links": {}
+},
+"153": {
+"ref": 16,
+"links": {}
+},
+"154": {
+"ref": 16,
+"links": {}
+},
+"155": {
+"ref": 15,
+"links": {}
+},
+"156": {
+"ref": 15,
+"links": {}
+},
+"157": {
+"ref": 15,
+"links": {
+"github.com/jsbroks/coco-annotator": [
+[
+"a",
+15
+],
+[
+"t",
+15
+]
+],
+"github.com/open-": [
+[
+"t",
+15
+]
+],
+"github.com/open-mmlab/mmaction2": [
+[
+"a",
+15
+]
+],
+"github.com/ultralytics/ultralytics": [
+[
+"a",
+16
+]
+]
+}
+},
+"158": {
+"ref": 16,
+"links": {
+"github.com/realcrane/EPNet": [
+[
+"t",
+1
+]
+]
+}
+},
+"159": {
+"ref": 16,
+"links": {}
+},
+"160": {
+"ref": 15,
+"links": {}
+},
+"161": {
+"ref": 15,
+"links": {}
+},
+"162": {
+"ref": 16,
+"links": {}
+},
+"163": {
+"ref": 15,
+"links": {
+"github.com/SeongJong-Yoo/STREAM": [
+[
+"t",
+1
+]
+]
+}
+},
+"164": {
+"ref": 15,
+"links": {
+"github.com/mseitzer/pytorch-fid": [
+[
+"a",
+17
+],
+[
+"t",
+17
+]
+]
+}
+},
+"165": {
+"ref": 16,
+"links": {}
+},
+"166": {
+"ref": 15,
+"links": {
+"github.com/black-forest-labs/flux": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"167": {
+"ref": 16,
+"links": {}
+},
+"168": {
+"ref": 16,
+"links": {
+"github.com/open-mmlab/mmengine": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+],
+"github.com/facebookresearch/fairmotion": [
+[
+"a",
+17
+],
+[
+"t",
+17
+]
+],
+"github.com/fyyakaxyy/AnimationGPT": [
+[
+"a",
+18
+],
+[
+"t",
+18
+]
+],
+"github.com/ZeyuLing/VersatileMotion": [
+[
+"a",
+2
+]
+]
+}
+},
+"169": {
+"ref": 15,
+"links": {
+"github.com/RedForestAI/WebEyeTrack": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"170": {
+"ref": 15,
+"links": {}
+},
+"171": {
+"ref": 16,
+"links": {}
+},
+"172": {
+"ref": 16,
+"links": {
+"github.com/tb2-sy/AIMold": [
+[
+"a",
+2
+],
+[
+"t",
+2
+]
+]
+}
+},
+"173": {
+"ref": 15,
+"links": {}
+},
+"174": {
+"ref": 15,
+"links": {}
+},
+"175": {
+"ref": 15,
+"links": {
+"github.com/KaifengT/ArtPS": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"176": {
+"ref": 16,
+"links": {}
+},
+"177": {
+"ref": 15,
+"links": {
+"github.com/zju3dv/EasyMocap": [
+[
+"a",
+15
+]
+]
+}
+},
+"178": {
+"ref": 16,
+"links": {
+"github.com/maroo-sky/SOT": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"179": {
+"ref": 16,
+"links": {
+"github.com/DCVL-3D/EgoGVAE_release": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"180": {
+"ref": 16,
+"links": {
+"github.com/arjun-majumdar/from-phase-to-phenomenon/tree/main": [
+[
+"a",
+1
+]
+]
+}
+},
+"181": {
+"ref": 16,
+"links": {
+"github.com/naver/anny": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+],
+"github.com/makehumancommunity/mpfb2": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"182": {
+"ref": 15,
+"links": {}
+},
+"183": {
+"ref": 16,
+"links": {}
+},
+"184": {
+"ref": 16,
+"links": {}
+},
+"185": {
+"ref": 16,
+"links": {}
+},
+"186": {
+"ref": 15,
+"links": {
+"github.com/naver/multi-hmr2": [
+[
+"t",
+1
+]
+],
+"github.com/facebookresearch/detectron2": [
+[
+"a",
+18
+],
+[
+"t",
+18
+]
+]
+}
+},
+"187": {
+"ref": 15,
+"links": {}
+},
+"188": {
+"ref": 15,
+"links": {}
+},
+"189": {
+"ref": 16,
+"links": {
+"github.com/Snitro/Pointer-CAD-v2": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"190": {
+"ref": 15,
+"links": {
+"github.com/Wentap123/PWM-ArtGen": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"191": {
+"ref": 16,
+"links": {
+"github.com/deep-floyd/IF": [
+[
+"a",
+19
+],
+[
+"t",
+19
+]
+]
+}
+},
+"192": {
+"ref": 16,
+"links": {}
+},
+"193": {
+"ref": 16,
+"links": {}
+},
+"194": {
+"ref": 16,
+"links": {}
+},
+"195": {
+"ref": 16,
+"links": {
+"github.com/treedys/tps": [
+[
+"a",
+16
+],
+[
+"t",
+16
+]
+]
+}
+},
+"196": {
+"ref": 16,
+"links": {
+"github.com/tanguymagne/SyntheticDoc": [
+[
+"t",
+1
+],
+[
+"t",
+15
+]
+],
+"huggingface.co/black-": [
+[
+"t",
+16
+]
+],
+"huggingface.co/black-forest-labs/FLUX.2-klein-9B": [
+[
+"a",
+16
+]
+]
+}
+},
+"197": {
+"ref": 16,
+"links": {}
+},
+"198": {
+"ref": 15,
+"links": {
+"github.com/Embrace-Arch/VoxAnchor": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"199": {
+"ref": 16,
+"links": {
+"github.com/Haonan-Wang-aurora/4D-VGGT": [
+[
+"a",
+1
+],
+[
+"t",
+1
+]
+]
+}
+},
+"200": {
+"ref": 15,
+"links": {}
+}
+}

@@ -5,5 +5,7 @@
  "gpu": "A800",
  "mp": 11,
  "url": "https://github.com/Arlo0o/OmniNWM",
- "metrics": "nuScenes val视频生成（224×400，17帧）：FID↓ 5.45，FVD↓ 23.63（表2，p.11）\n相机控制（使用归一化射线图）：RotErr↓(rad) 0.16，TransErr↓(m) 1.18（表3，p.11）\nnuScenes-Occupancy语义占据：IoU↑ 33.3，mIoU↑ 19.8（表4，p.12）\n全景深度：AbsRel↓ 0.23，δ<1.25↑ 0.81（表5，p.13）\nnuPlan零样本：FID↓ 9.51，FVD↓ 79.24，RotErr↓ 0.28，TransErr↓ 1.65（表7，p.14）\n闭环规划（150个nuScenes场景）：OmniNWM-VLA 场景通过率SPR↑ 87.3%（图8，p.13）"
+ "metrics": "nuScenes val视频生成（224×400，17帧）：FID↓ 5.45，FVD↓ 23.63（表2，p.11）\n相机控制（使用归一化射线图）：RotErr↓(rad) 0.16，TransErr↓(m) 1.18（表3，p.11）\nnuScenes-Occupancy语义占据：IoU↑ 33.3，mIoU↑ 19.8（表4，p.12）\n全景深度：AbsRel↓ 0.23，δ<1.25↑ 0.81（表5，p.13）\nnuPlan零样本：FID↓ 9.51，FVD↓ 79.24，RotErr↓ 0.28，TransErr↓ 1.65（表7，p.14）\n闭环规划（150个nuScenes场景）：OmniNWM-VLA 场景通过率SPR↑ 87.3%（图8，p.13）",
+ "repo_state": "readme",
+ "code_src": "paper"
 }

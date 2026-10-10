@@ -7,5 +7,8 @@
  "mp": 12,
  "proj": "https://vcai.mpi-inf.mpg.de/projects/SOMA/",
  "note_code": "文中称数据与代码可获取，但未给出代码仓库；treedys/tps为引用的人体扫描仪工具",
- "metrics": "未见动作序列（自采动捕标记数据）：全局跟踪 MPME↓ 13.43 mm，MedPME↓ 11.51 mm，P90↓ 19.20 mm；动态区域误差 DRE >15/>20/>25 mm↓ 25.51 / 46.99 / 64.52；穿插率 Int.↓ S→M 0.85%，M→B 0.93%；体积变化 ΔVol↓ S→M 1.37%，M→B 10.35%（表2，p.12）\n注：MPME略逊LBS（13.11 mm），M→B体积误差不及HIT（1.95%）\n数据处理：对标记观测做时间平滑与一致性过滤以应对自遮挡（p.7）"
+ "metrics": "未见动作序列（自采动捕标记数据）：全局跟踪 MPME↓ 13.43 mm，MedPME↓ 11.51 mm，P90↓ 19.20 mm；动态区域误差 DRE >15/>20/>25 mm↓ 25.51 / 46.99 / 64.52；穿插率 Int.↓ S→M 0.85%，M→B 0.93%；体积变化 ΔVol↓ S→M 1.37%，M→B 10.35%（表2，p.12）\n注：MPME略逊LBS（13.11 mm），M→B体积误差不及HIT（1.95%）\n数据处理：对标记观测做时间平滑与一致性过滤以应对自遮挡（p.7）",
+ "url": "https://github.com/edualvarado/SOMA",
+ "code_src": "project",
+ "repo_state": "code"
 }

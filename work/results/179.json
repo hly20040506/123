@@ -6,5 +6,7 @@
  "gpu": "RTX 3090 Ti",
  "mp": 9,
  "url": "https://github.com/DCVL-3D/EgoGVAE_release",
- "metrics": "AMASS（单位mm）：MPJPE↓ 106.7，PA-MPJPE↓ 89.9，Ground↓ 21.6，T_head↓ 5.5，Jitter↓ 3.08，Foot sliding↓ 8.2（表1，p.9）\nRICH（AMASS训练跨数据集）：MPJPE↓ 179.9，PA-MPJPE↓ 165.9，Ground↓ 59.0，T_head↓ 5.4，Jitter↓ 3.87，Foot sliding↓ 11.9（表2，p.9；Jitter/Foot sliding不及EgoEgo/EgoPoser）\nEgoBody（真实设备）：MPJPE↓ 162.9，PA-MPJPE↓ 140.4，Jitter↓ 1.42（表3，p.12；Jitter略逊EgoEgo 1.40）\nAMASS 256帧长序列：MPJPE↓ 95.8，PA-MPJPE↓ 73.9（表8，p.15）\n数据处理：按[31]流程合成头显设备位姿标注；训练随机截取128帧窗口；长序列评测剔除短于256帧的序列（p.9，p.14）"
+ "metrics": "AMASS（单位mm）：MPJPE↓ 106.7，PA-MPJPE↓ 89.9，Ground↓ 21.6，T_head↓ 5.5，Jitter↓ 3.08，Foot sliding↓ 8.2（表1，p.9）\nRICH（AMASS训练跨数据集）：MPJPE↓ 179.9，PA-MPJPE↓ 165.9，Ground↓ 59.0，T_head↓ 5.4，Jitter↓ 3.87，Foot sliding↓ 11.9（表2，p.9；Jitter/Foot sliding不及EgoEgo/EgoPoser）\nEgoBody（真实设备）：MPJPE↓ 162.9，PA-MPJPE↓ 140.4，Jitter↓ 1.42（表3，p.12；Jitter略逊EgoEgo 1.40）\nAMASS 256帧长序列：MPJPE↓ 95.8，PA-MPJPE↓ 73.9（表8，p.15）\n数据处理：按[31]流程合成头显设备位姿标注；训练随机截取128帧窗口；长序列评测剔除短于256帧的序列（p.9，p.14）",
+ "repo_state": "code",
+ "code_src": "paper"
 }
