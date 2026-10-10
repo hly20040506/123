@@ -4,5 +4,7 @@
  "proc": "未说明",
  "gpu": "未说明",
  "mp": 13,
- "metrics": "Cambridge Landmarks（SP+LG+S3Esti，UP1PfAC，位置cm/旋转°/焦距误差）：GreatCourt 57.7/0.13/0.009、KingsCollege 35.6/0.28/0.012、OldHospital 52.3/0.38/0.013、ShopFacade 10.6/0.26/0.008、StMarysChurch 22.6/0.31/0.014（表2，p.13）\nAachen（SP+LG，召回%）：UP2PfORI 白天 48.4/71.2/98.2、夜间 62.3/80.1/97.4，ferr 0.009（表4，p.14）\n注：相较已知焦距的标定方法（如UP2P白天71.8/90.0/99.3），本文未知焦距求解器位置误差更大、召回更低；SIFT设置下Aachen夜间0.25m/2°召回18.3（UP1PfAC）低于P4Pf的19.4（表2–表4，p.13–14）。"
+ "metrics": "Cambridge Landmarks（SP+LG+S3Esti，UP1PfAC，位置cm/旋转°/焦距误差）：GreatCourt 57.7/0.13/0.009、KingsCollege 35.6/0.28/0.012、OldHospital 52.3/0.38/0.013、ShopFacade 10.6/0.26/0.008、StMarysChurch 22.6/0.31/0.014（表2，p.13）\nAachen（SP+LG，召回%）：UP2PfORI 白天 48.4/71.2/98.2、夜间 62.3/80.1/97.4，ferr 0.009（表4，p.14）\n注：相较已知焦距的标定方法（如UP2P白天71.8/90.0/99.3），本文未知焦距求解器位置误差更大、召回更低；SIFT设置下Aachen夜间0.25m/2°召回18.3（UP1PfAC）低于P4Pf的19.4（表2–表4，p.13–14）。",
+ "url": "https://github.com/marcusvaltonen/eccv2026",
+ "repo_state": "code"
 }
