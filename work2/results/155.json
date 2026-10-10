@@ -1,0 +1,8 @@
+{
+ "idx": 155,
+ "dom": "视觉定位与相机标定\n门控引导列空间搜索的光束法平差",
+ "proc": "未说明",
+ "gpu": "NVIDIA A100-SXM4（40GB，单卡）",
+ "mp": 12,
+ "metrics": "PhoneSweep iPhone13Mini：RRA@5/15/30 85.79/86.55/87.82、RTA@5/15/30 77.24/86.32/89.68、AUC@30 79.97、AFE 158.01（表1，p.12）\nPhoneSweep Nexus5X：RRA 86.32/91.09/95.98、RTA 81.12/94.79/98.41、AUC@30 83.78、AFE 0.89（表1，p.12）\nBAL（平均r/平均Δ）：ladybug 0.0172/1.8089、trafalgar 0.0046/2.3400、dubrovnik 0.0053/2.2919（表2，p.12）\n注：iPhone13Mini上AFE 158.01劣于Normal-LM的115.56；BAL的ladybug与dubrovnik上r/Δ略逊于Normal-LM和PoBA；无门控时iPhone13Mini AUC@30（79.98）略高于完整门控（79.97）（表1–表3，p.12–14）。"
+}

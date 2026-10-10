@@ -1,0 +1,9 @@
+{
+ "idx": 154,
+ "dom": "视频生成与理解\n相机位姿监督增强的视频多模态大模型",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "NVIDIA H200（64块）",
+ "mp": 9,
+ "metrics": "VSI-Bench：平均73.7（Abs.Dist 60.1、Rel.Dir 89.5、Route Plan 52.6、Appr.Order 85.0）（表1，p.9）\nVSTI-Bench：平均68.9、相机运动方向87.7（表2，p.9）\n分布外基准：SparBench 35.9、MMSIBench 28.0、MindCube 38.4、MVBench 53.5、EgoSchema 52.5、Perception Test 58.4（表3，p.9）\n相机位姿估计（ATE/RPE trans/RPE rot）：ScanNet 0.078/0.023/0.880、TUM-dynamic 0.046/0.020/0.580、Sintel 0.239/0.081/2.440（表5，p.11）\n注：VSTI-Bench的Cam-Obj Rel.Dist 73.2低于GeoThinker的75.2；位姿估计虽ScanNet ATE优于流式方法，但RPE trans/rot（0.023/0.880）劣于CUT3R（0.022/0.590），TUM与Sintel的ATE（0.046/0.239）劣于CUT3R（0.045/0.215），且明显劣于离线方法π3（表2、表5，p.9–11）。\n数据处理：对Cambrian-S-3M子采样视频经场景切分检测与Qwen3-VL质量过滤后用VIPE生成伪位姿标注；训练采用交错训练与随机抖动帧采样（p.3、p.10）。"
+}

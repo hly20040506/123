@@ -1,0 +1,10 @@
+{
+ "idx": 149,
+ "dom": "自动驾驶感知\n语言条件跨视角对齐的自动驾驶绝对目标定位",
+ "proc": "有",
+ "proc_p": 5,
+ "gpu": "NVIDIA GeForce RTX 4090（24 GB）",
+ "mp": 10,
+ "proj": "https://ai-scream-project-page.vercel.app/",
+ "metrics": "GRiN-Drive：RMSE 4.72±0.14 m、AED 3.95±0.09 m、mIoU 11.89±0.69%（表1，p.10）\nDRAMATiST：RMSE 5.00±0.05 m、AED 4.03±0.02 m、mIoU 6.16±0.37%（表1，p.10）\n注：DRAMATiST上mIoU 6.16低于人类的6.50；表1中GRiN-Drive mIoU标准差为±0.69，表2同一完整模型为±0.59，不一致（表1–表2，p.10–13）。\n数据处理：用文本条件图生图模型由前视图合成俯视AiS视图，并对两视图做语义分割；指令先经Qwen3-Embedding-0.6B预处理；另基于DRAMA数据构建DRAMATiST基准（p.5、p.8）。"
+}

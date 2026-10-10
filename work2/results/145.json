@@ -1,0 +1,10 @@
+{
+ "idx": 145,
+ "dom": "人体姿态、动作与交互\n形态自适应的视频关节运动迁移（高斯表示）",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "NVIDIA RTX 4090（单卡）",
+ "mp": 10,
+ "proj": "https://xodus777.github.io/MorphGS/",
+ "metrics": "Mixamo-Humanoids：PMD 1.91（×10³）、FVMD 8.82（×10⁻³）（表1，p.10）\nDT4D-Quadrupeds：PMD 1.33、FVMD 8.81；DT4D-Others：PMD 1.95、FVMD 12.83（表1，p.10）\n真实视频FVMD：人体场景平均12.74、动物场景平均12.49（表2，p.12）\n数据处理：真实视频优先使用数据集提供的物体掩码，否则用SAM3提取掩码并将各帧裁剪到掩码区域；另用扩散新视角合成模块生成伪多视角（p.9–10）。"
+}

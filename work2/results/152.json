@@ -1,0 +1,8 @@
+{
+ "idx": 152,
+ "dom": "三维重建与新视角合成\n多视角匹配与单目先验结合的光束法平差（SfM/VSLAM）",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 11,
+ "metrics": "TUM-RGBD fr1 ATE（cm）：标定 平均2.5、未标定 平均3.0（表1，p.11）\nETH3D-SLAM ATE：平均1.2 cm（表2，p.12）\nETH3D-MVS mAA@30：本文BA 98.5、COLMAP-BA 98.8（表3，p.13）\nTanks and Temples mAA@30（全部视图）：COLMAP-BA 78.5、本文BA 74.1（表4，p.14）\nCo3Dv2 RRA@15/RTA@15/mAA 96.6/92.8/88.2；Re10K mAA 85.2（表5，p.14）\n注：ETH3D-SLAM上cables1 1.5、plant1 0.4、sofa1 1.7、table3 1.9劣于ViPE（1.3/0.3/1.5/1.2），与正文称所有序列SOTA不符；Re10K上85.2低于VGGT-BA的93.5；7-Scenes Acc均值0.021劣于π3的0.016；TUM标定版room 5.1劣于GlORIE-SLAM的4.2（表1–表6，p.11–14）。"
+}

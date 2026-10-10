@@ -1,0 +1,10 @@
+{
+ "idx": 164,
+ "dom": "视觉定位与相机标定\n从含噪视图图学习全局相机位姿的SfM",
+ "proc": "有",
+ "proc_p": 5,
+ "gpu": "未说明",
+ "mp": 9,
+ "proj": "https://vgpa-sfm.github.io",
+ "metrics": "MegaDepth（平均旋转误差°/平移误差，部分场景）：0060 0.10/0.026、0076 0.09/0.037、0048 0.10/0.011、0099 0.56/0.229（表1，p.9）\n1DSfM（旋转°/平移）：Alamo 1.35/0.322、Ellis Island 0.28/0.081、Notre Dame 0.52/0.105、NYC Library 0.34/0.095、Yorkminster 0.43/0.044（表2，p.10）\nStrecha：旋转误差0.004–0.010°、平移0.0003–0.0010（表4，p.11）\n验证集消融（AUC@30）：旋转0.849、平移0.402、位姿0.389（表8，p.13）\n注：多个场景劣于GLOMAP，如1DSfM的Piazza del Popolo 5.37° vs 0.80°、Vienna Cathedral 7.90° vs 2.00°、MegaDepth 0265 5.30° vs RESfM 1.25°；BlendedMVS scene0/1旋转误差（0.149/0.342）劣于COLMAP（0.006/0.007）；注册图像数一般少于GLOMAP（表1–表4，p.9–11）。\n数据处理：标准SfM预处理：特征检测匹配、RANSAC估计成对本质矩阵并分解得到相对位姿构建视图图，提取点轨迹（p.5）。"
+}

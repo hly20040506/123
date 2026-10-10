@@ -1,0 +1,10 @@
+{
+ "idx": 158,
+ "dom": "视频生成与理解\n深度感知双分支扩散模型的相机控制视频生成",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "NVIDIA H100（8块）",
+ "mp": 10,
+ "proj": "https://soyouthinkyoucantell.github.io/dualcamctrl-page",
+ "metrics": "I2V RealEstate10K：FVD 80.38、FID 49.85、CLIPSIM 0.2998、FC 0.9677、MS 0.9886、RE 1.25、TE 0.23（表1，p.10）\nI2V DL3DV：FVD 92.2、FID 53.89、CLIPSIM 0.2047、RE 0.88、TE 1.39（表1，p.10）\nT2V RealEstate10K：FVD 408.1、CLIPSIM 0.3154、RE 1.23、TE 0.25；DL3DV：FVD 427.4、RE 0.83、TE 1.53（表2，p.11）\n注：I2V RealEstate10K上CLIPSIM 0.2998低于Seva的0.3059；T2V DL3DV上MS 0.9807低于AC3D的0.9869（表1–表2，p.10–11）。\n数据处理：深度分支以伪标签深度图作为监督，并加入抗噪鲁棒训练策略（p.9–10）。"
+}

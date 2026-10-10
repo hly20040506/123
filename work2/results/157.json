@@ -1,0 +1,9 @@
+{
+ "idx": 157,
+ "dom": "视觉定位与相机标定\n使无检测器匹配器可跟踪的多视角特征轨迹",
+ "proc": "有",
+ "proc_p": 11,
+ "gpu": "未说明",
+ "mp": 11,
+ "metrics": "多视角位姿估计（AUC@5°，DeT-JamMA）：IMC Reichstag 84.0、Sacre Coeur 77.0、St-Peters 61.0；MegaDepth 0015 72.4、0022 46.3（表1，p.11）\n增量SLAM（AUC@5°，DeT-JamMA）：Reichstag 68.7、Sacre Coeur 88.0、St-Peters 69.6、0015 65.5、0022 44.9（表2，p.12）\n两视图MegaDepth（DeT-JamMA）：Pose AUC@5/10/20 61.4/75.1/84.9（表3，p.13）\n注：多视角位姿中Sacre Coeur 77.0、MegaDepth 0022 46.3低于SIFT+LG（81.8/48.2）；DeT-EDM明显落后稀疏基线；两视图下DeT-JamMA的AUC低于原JamMa（64.1/77.4/86.5）（表1、表3，p.11–13）。\n数据处理：为每张图像选取重叠度0.3–0.7中最高的下一张图像，构建有视角重叠的5帧序列（p.11）。"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 143,
+ "dom": "深度估计与立体匹配\n高斯置信传播网络的深度补全",
+ "proc": "未说明",
+ "gpu": "未说明",
+ "mp": 11,
+ "url": "https://github.com/kakaxi314/GBPN",
+ "metrics": "KITTI测试集：RMSE 681.61 mm、MAE 192.16 mm、iRMSE 1.79、iMAE 0.82（表1，p.11）\nNYUv2：RMSE 0.085 m、REL 0.011、δ1.02 89.3%、δ1.05 95.9%（表1，p.11）\nVOID（RMSE/MAE m）：1500点 0.649/0.218、500点 0.692/0.282、150点 0.830/0.377（表3，p.15）\n注：KITTI上RMSE 681.61高于DMD3C的678.12，MAE 192.16高于ImprovingDC的187.95，iMAE 0.82高于LRRU/TPVD等的0.81，这几项非最优（表1，p.11）。"
+}

@@ -1,0 +1,10 @@
+{
+ "idx": 146,
+ "dom": "三维仿真与物理建模\n置信度引导VLM的单图物理属性推断与动态生成",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "NVIDIA RTX 4090（单卡）",
+ "mp": 10,
+ "proj": "https://mengsiwei.github.io/MAGIC/",
+ "metrics": "8个场景（对比视频生成模型）：CLIP相似度平均0.251、美学分平均30.69（表1，p.10）\n6个场景（对比物理感知方法）：CLIP相似度平均0.252（表2，p.10）\nImage-Motion-FID 94.69（表3，p.11）\n人类评测：物理合理性3.00、文本一致性3.07（表4，p.11）\n物理参数推断精度（第3轮）：Swing ficus 90.63%、Rolling basketball 90.00%、Driving car 93.75%（表5，p.11）；材质/边界条件精度90.0%/90.0%（表6，p.14）\n注：美学分平均30.69低于CogVideoX*的31.86；Sand wolf的CLIP 0.200低于OpenSora2.0的0.264；Swing carnation的CLIP 0.256低于PhysDreamer的0.272（表1–表2，p.10）。\n数据处理：按光流幅值对探测视频做运动感知抽帧，并用TRELLIS将输入图像重建为3D高斯表示作为MPM粒子（p.7、p.9）。"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 156,
+ "dom": "三维重建与新视角合成\n多视角视频的稠密动态场景重建与相机位姿估计",
+ "proc": "未说明",
+ "gpu": "NVIDIA RTX 4090（单卡，用于测试；Fast3R/FastVGGT在A100-40GB上评测）",
+ "mp": 12,
+ "url": "https://github.com/ljjTYJR/Multiple-view-Dynamic-Reconstruction",
+ "metrics": "MultiCamVideo：ATE 0.005、RTE 0.001、RRE 0.011（表1，p.12）\nMultiCamRobolab（ATE/RTE/RRE）：RoboDog重叠 0.011/0.003/0.157、RoboDog非重叠 0.020/0.003/0.163、RoboArm 0.005/0.001/0.059、DynamicHuman 0.013/0.009/0.257；峰值显存20.04 GB（表2，p.12）\nMultiCamRobolab-3相机：ATE 0.020、RTE 0.011、RRE 0.326（表3，p.13）\n深度（Abs.Rel/δ1.25）：RoboDog重叠 0.011/0.989、RoboArm 0.059/0.947、DynamicHuman 0.030/0.971（表4，p.14）\n注：RoboArm上RRE 0.059劣于加动态掩码的GLOMAP（0.054）；DynamicHuman上RRE 0.257劣于GLOMAP+NetVLAD（0.244），δ1.25 0.971低于FastVGGT的0.987（表2、表4，p.12–14）。"
+}
