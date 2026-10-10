@@ -1,0 +1,8 @@
+{
+ "idx": 72,
+ "dom": "自动驾驶规划\n统一时序扩散的感知-规划联合端到端驾驶",
+ "proc": "未说明",
+ "gpu": "L40",
+ "mp": 11,
+ "metrics": "NAVSIM v1 navtest（仅相机，ResNet-34）：PDMS↑ 90.2，NC↑ 98.9，DAC↑ 97.2，EP↑ 84.1，TTC↑ 96.6（表1，p.11）\nNAVSIM v2：EPDMS↑ 90.1（表2，p.11）\nBench2Drive在线排行榜（B2D 200K训练）：DS↑ 87.3，SR↑(%) 70.0（表3，p.12）\nnuScenes val感知/预测：检测mAP↑ 0.424，NDS↑ 0.537，地图mAP↑ 0.596，AMOTA↑ 0.419，minADE↓ 0.58（表4，p.12）\n注：消融表5/6完整模型NC为99.0，与表1的98.9略有出入（表5，p.13）"
+}

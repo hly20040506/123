@@ -1,0 +1,10 @@
+{
+ "idx": 90,
+ "dom": "机器人操作与具身智能\n几何感知4D世界模型学习机械臂操作",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "未说明",
+ "mp": 12,
+ "proj": "https://gem-4d.github.io/",
+ "metrics": "Droid真实域（400个未见样本，深度由DA3估计、跟踪由CoTracker3估计；20次生成均值）：FVD↓ 31.82，SSIM↑ 82.05，PSNR↑(dB) 21.11，AbsRel↓ 20.13，δ1↑ 78.19，Chamfer↓ 0.2001，δavg↑ 71.23（表1，p.12）\nRLBench仿真域（780个未见样本）：FVD↓ 27.94，PSNR↑ 23.36，AbsRel↓ 14.11，δ1↑ 74.13，Chamfer↓ 0.0702（表1，p.12）\n任务成功率↑(%)：Droid人工评估 AUTOLab 75，CLVR 83，RAIL 87；RLBench 7任务 63–82（表2，p.12）\n数据处理：真实数据以DA3伪深度与CoTracker3伪跟踪作为监督/评测参考（p.10）"
+}

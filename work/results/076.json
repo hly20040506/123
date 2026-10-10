@@ -1,0 +1,10 @@
+{
+ "idx": 76,
+ "dom": "三维目标检测\n空地（无人机-车辆）协同感知大规模仿真数据集",
+ "proc": "有",
+ "proc_p": 1,
+ "gpu": "未说明",
+ "mp": 13,
+ "url": "https://github.com/LOTEAT/vvdetection3d",
+ "metrics": "VVSim测试集（约61k帧仿真数据，255k LiDAR帧+3.5M图像；作者方法VVFormer）：mAP↑ 0.6490，NDS↑ 0.5268，mATE↓ 0.2168，mASE↓ 0.0954，mAOE↓ 0.6647，mAVE↓ 3.2290（表1，p.13）\n数据处理：仿真平台合成车辆与无人机同步多模态数据并自动生成2D/3D框与状态标注（p.1，p.3）"
+}

@@ -1,0 +1,10 @@
+{
+ "idx": 83,
+ "dom": "机器人操作与具身智能\n可探索可交流的开放世界移动操作视觉智能体",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "未说明",
+ "mp": 12,
+ "url": "https://github.com/InternRobotics/REAL",
+ "metrics": "REAL-Bench（241任务，四类任务；成功率↑(%)）：Ours-8B-SFT+RL FDP 58.3，FODP 33.9，FDO 41.7，SUL 56.9（表1，p.12）\nSFT-only 2 epoch（不同训练设置）：FDP 65.3，FODP 28.6，FDO 43.8，SUL 50.8（表1，p.12）\n真实机器人（Ark LIFT2双臂移动机器人）：Overall SR↑ 78.3%，SPL↑ 63.1%，平均询问次数 0.72（FDO 80.0%，FODP 100.0%，SUL 55.0%）（表2，p.15）\n数据处理：自动化任务生成与过滤流程，LLM生成指令、gemini-3-pro标注历史状态并改写模糊指令（p.9–10）"
+}

@@ -1,0 +1,9 @@
+{
+ "idx": 73,
+ "dom": "视觉基础模型与理论\n视频生成模型作为通用视觉感知学习器",
+ "proc": "有",
+ "proc_p": 3,
+ "gpu": "TPU v6e（非GPU，原文未报告GPU）",
+ "mp": 12,
+ "metrics": "作者模型GenCeption（WAN 2.1骨干；除指代分割外仅用合成数据训练）；专家版（Specialist）：法向mAE↓ Sintel 29.7，Hi4D 10.99；深度AbsRel↓ Sintel 0.130，KITTI 0.048，ETH3D 0.037，Goliath 0.008；相机位姿(Sintel) ATE↓ 0.050，RPE-T↓ 0.018，RPE-R↓ 0.464；前景分割MSE↓ V.Mat 0.0027，P.Mat 0.0009；指代分割J&F↑ Ref-DAVIS 76.4，MEVIS 70.0；EMDB三维人体MPJPE↓ 71.8（表1，p.12）\n通用版（Generalist，单模型多任务）：深度AbsRel↓ Sintel 0.156，KITTI 0.048，ETH3D 0.044；J&F↑ Ref-DAVIS 75.8，MEVIS 69.0（表1，p.12）\n深度消融（WAN 2.1-L 14B，4数据集8.08K视频）：平均AbsRel↓ 0.071，δ1↑(%) 93.8（表2，p.13）"
+}

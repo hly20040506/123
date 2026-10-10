@@ -1,0 +1,10 @@
+{
+ "idx": 79,
+ "dom": "机器人操作与具身智能\nVLA模型具身推理错觉诊断基准",
+ "proc": "有",
+ "proc_p": 5,
+ "gpu": "未说明",
+ "mp": 7,
+ "url": "https://github.com/BeingBeyond/BeTTER",
+ "metrics": "诊断型基准（被测VLA，非作者新方法）：指令重组目标选择成功率（随机50%）GR00T-N1.6 空间100.0/语义5.0，π0.5 65.0/35.0（表1，p.7）\n子目标组合泛化（成功率↑%；已见A→B/新组合B→C）：π0.5 60.0/5.0，GR00T-N1.6 75.0/15.0，Being-H0.5 65.0/0.0（表2，p.8）\n作者VLA预训练配方消融：VLA+VLM预训练 LIBERO Avg↑(%) 97.2，CALVIN ABC→D Avg.Len↑ 4.09（表4，p.12）\nInternVL-3.5约束消融：2B+VLM+VLA数据 EmbSp 57.47/RefSp 29.50，单224px输入RefSp降至7.50（表3，p.11）\n数据处理：可动态组合资产与任务的仿真基准，并由日志状态构建VQA标注（p.4–5）"
+}

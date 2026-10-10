@@ -1,0 +1,10 @@
+{
+ "idx": 97,
+ "dom": "人体姿态、动作与交互\n开放词汇三维/二维可供性定位与自动化数据生成",
+ "proc": "有",
+ "proc_p": 2,
+ "gpu": "未说明",
+ "mp": 10,
+ "proj": "https://junha-l.github.io/affogato/",
+ "metrics": "LASO测试集（3D开放词汇可供性定位；Espresso-3D+Affogato-750K预训练）：Seen aIoU↑ 21.9，AUC↑ 85.9，SIM↑ 63.7，MAE↓ 0.116；Unseen aIoU↑ 20.8，AUC↑ 82.9，SIM↑ 61.4，MAE↓ 0.122（表2，p.10）\nAffogato-750K测试集（Espresso-3D）：All→All aIoU↑ 13.6，AUC↑ 79.0；Daily-used→Furnitures aIoU↑ 18.2；Furnitures→Daily-used aIoU↑ 4.6（表3，p.12）\nAGD20K（2D，全监督；Espresso-2D+预训练）：KLD↓ 0.974，SIM↑ 51.9，NSS↑ 1.645；零样本Seen KLD↓ 1.426，SIM↑ 40.2（表4，p.13）\n数据处理：Gemma3生成查询、Molmo定位、MobileSAM分割，多视角聚合为3D热图（15万Objaverse物体，75万标注），测试集5K人工核验（p.2）"
+}

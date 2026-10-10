@@ -1,0 +1,10 @@
+{
+ "idx": 71,
+ "dom": "三维场景图与空间理解\n分解4D属性奖励强化VLM空间理解",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "未说明",
+ "mp": 11,
+ "url": "https://github.com/scott-yjyang/FactoSR",
+ "metrics": "All-Angles-Bench（FactoSR-8B-RL，Qwen3-VL-8B基座）：Avg↑(%) 55.4，Pose 44.3，Rel-Dist 61.1（表1，p.11）\nVSI-Bench：Avg↑(%) 61.5，Room-Size 63.7，Route 46.9（表1，p.11）\n13项3D/4D与通用基准：3/4D-Avg↑ 62.0；BLINK 66.0，CV-3D 91.7，ERQA 47.3，MMSI 30.7，MMStar 69.1（表2，p.11）\nSFT阶段模型（不同训练设置）：VSI Avg 58.5，3/4D-Avg 60.3（表1/表2，p.11）\n数据处理：构建含空间理解、三维检测与通用任务的验证数据集用于规则奖励RL（p.7）"
+}
