@@ -1,0 +1,10 @@
+{
+ "idx": 126,
+ "dom": "人体姿态、动作与交互\n人-宠物交互4D多模态数据集与宠物动作生成",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "H100",
+ "mp": 11,
+ "hf": "https://huggingface.co/datasets/ohicarip/interpet4d",
+ "metrics": "InterPet4D（作者方法 IPMG w/ MAA）：FIDk↓ 11.21，FIDs↓ 12.96，手部 RP rec. Top-1/Top-3↑ 0.46 / 0.63，身体 RP rec. Top-1/Top-3↑ 0.43 / 0.59，Divk↑ 5.93，Divs↑ 6.01（表3，p.11）\n用户研究（7分制）：自然度 6.58，响应性 6.55，总体 6.63（表6，p.14）\n数据处理：Mask R-CNN+DeepSORT定位并人工剔除失败样本，人体遮挡区域狗关键点过滤，RTS平滑；原始数据降采样至30fps（p.6–7，p.10）"
+}

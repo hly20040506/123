@@ -1,0 +1,10 @@
+{
+ "idx": 127,
+ "dom": "人体姿态、动作与交互\n文本到动作生成（交错式生成-评估-修正推理大模型）",
+ "proc": "有",
+ "proc_p": 8,
+ "gpu": "未说明",
+ "mp": 13,
+ "url": "https://github.com/HumanMLLM/IRG-MotionLLM",
+ "metrics": "HumanML3D（Stage-3，GRPO 900步）：R-Precision Top-1/2/3↑ 0.535 / 0.725 / 0.820，FID↓ 0.242，MM-Dist↓ 2.785，Diversity↑ 9.900（表4，p.13）\nHumanML3D（Stage-3扩大数据，2600步）：Top-1/2/3↑ 0.564 / 0.754 / 0.841，FID↓ 0.208，MM-Dist↓ 2.628（表5，p.13）\nKIT-ML（Stage-3）：Top-1/2/3↑ 0.445 / 0.681 / 0.781，FID↓ 0.432，MM-Dist↓ 2.740，Diversity↑ 11.115（表4，p.13）\n注：Stage-2 FID更低（HumanML3D 0.111，KIT-ML 0.389），各阶段分列\n数据处理：自动数据引擎为HumanML3D/KIT-ML合成交错推理标注与负样本（p.8–9）"
+}

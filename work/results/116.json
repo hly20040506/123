@@ -1,0 +1,10 @@
+{
+ "idx": 116,
+ "dom": "人体姿态、动作与交互\n力觉增强第一视角手物接触理解数据集",
+ "proc": "有",
+ "proc_p": 7,
+ "gpu": "未说明",
+ "mp": 8,
+ "proj": "https://www.cs.umd.edu/~edessale/feel",
+ "metrics": "数据集论文；接触检测（验证集，准确率%）：HOI4D BC↑ 82.2，BSC↑ 81.3；VISOR BC↑ 87.3，BSC↑ 79.7；FEEL BC↑ 95.6，BSC↑ 88.9（表2，p.8）\n接触物体分割 IoU↑：HOI4D 0.751，VISOR 0.399，FEEL 0.625（表3，p.9）\n动作识别 Top-1（%，冻结，EgoVideo-B+FEEL预训练）：EPIC-Kitchens 动词 62.00 / 名词 30.11，SSV2 54.34，Ego-Exo4D 27.75，Meccano 38.23（表4，p.10）\n数据处理：力传感器Hampel滤波、高斯平滑、基线扣除与归一化，生成接触伪标签（p.7–8）"
+}

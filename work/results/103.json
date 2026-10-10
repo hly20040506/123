@@ -1,0 +1,10 @@
+{
+ "idx": 103,
+ "dom": "人体姿态、动作与交互\n基于裁剪的视线估计（约束旋转优化）",
+ "proc": "有",
+ "proc_p": 10,
+ "gpu": "RTX A6000（时延测试）",
+ "mp": 10,
+ "note_code": "文中GitHub链接为引用的insightface，非本文代码",
+ "metrics": "跨数据集评测（角度误差↓(°)；CROp+多任务，检测器预处理Det）：XGaze训练→MPII 7.76，→EVE 8.98，→ED 12.70；EVE训练→MPII 8.51，→XGaze 36.01，→ED 18.47；MPII训练→XGaze 29.56，→EVE 11.44（表1，p.10）\n同数据集评测（Det）：MPII 4.98，XGaze 5.55，EVE Val 4.69，EVE Test 4.99（表2，p.12）\n合成XGaze（大离轴角）：MPII训练 30.74，EVE训练 34.34（表7，p.14）\n实验设置：分别用标注（GT）与人脸检测器（Det）两种预处理；合成数据由XGaze多视角重建生成（p.10，p.14）"
+}

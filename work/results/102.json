@@ -1,0 +1,8 @@
+{
+ "idx": 102,
+ "dom": "人体姿态、动作与交互\n可控模态分解的单动作扩散合成",
+ "proc": "未说明",
+ "gpu": "Quadro RTX 6000",
+ "mp": 12,
+ "metrics": "Mixamo基准（20条动作，单实例学习）：Coverage↑(%) 97.94，GloDiv↑ 1.32，LocDiv↑ 1.10，IntDiv↑ 0.12，IntDiff↓ 0.18，Smo↑ −7.15，HM↑ 0.78（表1，p.12）\n注：卷积核消融表3中所选11×11配置为Cov 97.83/GloDiv 1.37/LocDiv 1.21，与表1数值不一致，原文未说明（表3，p.13）\n另用Truebone数据集（定性展示为主）"
+}

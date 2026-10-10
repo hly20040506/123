@@ -1,0 +1,9 @@
+{
+ "idx": 101,
+ "dom": "人体姿态、动作与交互\n原型聚类建模风格内多样性的风格化动作生成",
+ "proc": "未说明",
+ "gpu": "A6000",
+ "mp": 10,
+ "proj": "https://1233chen.github.io/ClusterStyle/",
+ "metrics": "风格化动作生成（HumanML3D内容+100STYLE风格）：FID↓ 1.137，FSR↓ 0.113，MM Dist↓ 3.610，R-Precision Top-3↑ 0.708，Diversity→ 8.719，SRA↑(%) 78.101（表1，p.10）\n动作风格迁移：FSR↓ 0.078，FID↓ 0.768，SRA↑(%) 73.849（表2，p.12）"
+}

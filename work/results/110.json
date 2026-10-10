@@ -1,0 +1,11 @@
+{
+ "idx": 110,
+ "dom": "人体姿态、动作与交互\n第一视角人-物交互三元扩散建模",
+ "proc": "有",
+ "proc_p": 11,
+ "gpu": "RTX 5090",
+ "mp": 12,
+ "url": "https://github.com/ptrvilya/echo",
+ "proj": "https://virtualhumans.mpi-inf.mpg.de/echo/",
+ "metrics": "BEHAVE（3次运行均值；单位原文表中未标注）：人体MPJPE↓ 6.8，MPJVE↓ 7.5，FC↑ 0.94；物体Ev2v↓ 33.5，Ec↓ 20.1，旋转差↓ 92.9；交互AccI↑ 93.1（表1，p.12）\nOMOMO：MPJPE↓ 6.0，MPJVE↓ 6.1，Ev2v↓ 26.5，Ec↓ 15.2，旋转差↓ 86.5，AccI↑ 96.9（表1，p.12）\nAMASS动作生成：MPJPE↓ 7.4，MPJVE↓ 8.6，FC↑ 1.0（表2，p.13）\n数据处理：BEHAVE由SMPL+H转换为SMPL-X，所有序列下采样至30fps，并用AMASS（替换物体条件）扩充训练（p.9，p.11）"
+}

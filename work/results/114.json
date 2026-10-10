@@ -1,0 +1,10 @@
+{
+ "idx": 114,
+ "dom": "人体姿态、动作与交互\n实时听说双态对话三维头像生成",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "RTX 3090",
+ "mp": 10,
+ "proj": "https://vpx-ecnu.github.io/EmbodiedHead-Website/",
+ "metrics": "EmbodiedHead 说话测试集（Stage2完整模型）：LVE↓ 5.71，FDD↓ 1.58，MOD↓ 3.04，BA↑ 0.46，SID↑ 2.64，PSNR↑(dB) 18.28，SSIM↑ 0.617，LPIPS↓ 0.184（表1上，p.10）\nDualTalk 公开测试集（听说交互）：LVE↓ 7.18，FDD↓ 1.74，MOD↓ 2.57，BA↑ 0.39，SID↑ 2.67（表1下，p.10）\n数据处理：自TFHP筛选并合并TalkVid/VFHQ/RealTalk片段共27.2小时，用GAGAvatar跟踪提取FLAME参数（p.9）"
+}

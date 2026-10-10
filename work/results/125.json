@@ -1,0 +1,10 @@
+{
+ "idx": 125,
+ "dom": "人体姿态、动作与交互\n文本驱动双人交互动作自回归生成（块因果扩散）",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "A100",
+ "mp": 10,
+ "note_code": "未给出代码链接",
+ "metrics": "InterHuman：R-Precision Top-1/2/3↑ 0.529 / 0.678 / 0.757，FID↓ 4.492，MM Dist↓ 3.765，Diversity→ 8.065（真实 7.948），MModality↑ 3.044（表1，p.10）\nInter-X：R-Precision Top-1/2/3↑ 0.523 / 0.721 / 0.820，FID↓ 0.215，MM Dist↓ 3.154，Diversity→ 9.490（真实 9.734），MModality↑ 2.391（表2，p.10）\n长时生成（InterHuman，Latent Rollout）：FID↓ 25.104，R-Top1↑ 0.352，B/NB Ratio↓ 1.66（表3，p.11）\n数据处理：动作序列切段并填充至固定长度300/156帧，训练时随机交换两人顺序（p.8–9）"
+}

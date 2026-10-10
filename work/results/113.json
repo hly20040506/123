@@ -1,0 +1,10 @@
+{
+ "idx": 113,
+ "dom": "人体姿态、动作与交互\n第一视角行人轨迹预测数据集与基准",
+ "proc": "有",
+ "proc_p": 6,
+ "gpu": "未说明",
+ "mp": 11,
+ "url": "https://github.com/yehiahmad/EgoTraj",
+ "metrics": "数据集/基准论文（作者未提出新模型，表中为基准方法）\nEgoTraj 测试集（随机参与者划分，单位m）：最佳单模态基线 EgoCast ADE↓ 0.16，FDE↓ 0.28，L1head↓ 0.78；CXA-Transformer（仅轨迹）ADE↓ 0.19，FDE↓ 0.29，L1head↓ 0.69（表2，p.11）\n多模态 CXA-Transformer（Y+P+S+G）：ADE↓ 0.12，FDE↓ 0.23，L1head↓ 0.58（表3，p.12）\n泛化划分（Y+P+S+G）：路点留出 ADE↓ 0.14，FDE↓ 0.25；不熟悉参与者 ADE↓ 0.14，FDE↓ 0.26（表4，p.13）\n数据处理：EgoBlur人脸/车牌模糊，遥测信号重采样至30Hz对齐视频（p.6）"
+}

@@ -1,0 +1,8 @@
+{
+ "idx": 120,
+ "dom": "人体姿态、动作与交互\n流行音乐驱动的分层编舞生成",
+ "proc": "未说明",
+ "gpu": "A6000",
+ "mp": 14,
+ "metrics": "EvalPop（作者自采专业编舞评测集）：FIDk↓ 45.32，FIDg↓ 18.20，Phrase Div.↑ 6.44，Beat align.↑ 0.366，Energy align.(Phrase)↑ 0.642，Energy align.(Global)↑ 0.558，Text stylization↑ 0.85（表2，p.14）"
+}

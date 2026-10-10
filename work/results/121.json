@@ -1,0 +1,10 @@
+{
+ "idx": 121,
+ "dom": "人体姿态、动作与交互\n可泛化手物交互动作生成（潜空间流匹配）",
+ "proc": "有",
+ "proc_p": 9,
+ "gpu": "H100",
+ "mp": 12,
+ "proj": "https://zerchen.github.io/projects/hoflow.html",
+ "metrics": "GRAB（GraspXL预训练版）：IVr↓ 5.31，IDr↓ 0.61，CRr↑ 11.38，IVU↓ 0.07，Phy↑ 98.25%，SD↑ 0.31（表3，p.12）\nOakInk（预训练版）：IVr↓ 4.10，IDr↓ 0.45，CRr↑ 8.85，IVU↓ 0.09，Phy↑ 89.76%，SD↑ 0.33（表4，p.12）\nDexYCB（预训练版）：IV↓ 6.37，ID↓ 1.20，CRr↑ 13.83，IVU↓ 0.10，Phy↑ 95.41%，SD↑ 0.20（表5，p.13）\n（IV为cm³、ID为cm）\n数据处理：GRAB序列自首次接触帧起截取并填充/截断至160帧，DexYCB填充至96帧；GraspXL合成数据预训练（p.9）"
+}
